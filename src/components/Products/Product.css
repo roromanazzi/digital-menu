@@ -29,4 +29,5 @@
 
 .product_price {
   text-wrap: nowrap;
+  width: fit-content;
 }

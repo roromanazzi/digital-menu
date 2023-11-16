@@ -1,5 +1,6 @@
 import Product from "./Product";
 import "./Sections.css";
+import doradoImage from "../../img/dorado.png";
 
 const Sections = ({ sections }) => {
   let sectionClassName = "section_container";
@@ -17,7 +18,7 @@ const Sections = ({ sections }) => {
             }
           >
             {section.type === "common" && (
-              <img src="/src/img/dorado.png" className="side_img" />
+              <img src={doradoImage} className="side_img" />
             )}
             <div className="section_info">
               <h3 className="section_title">{section.title}</h3>

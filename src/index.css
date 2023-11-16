@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;700&family=Forum&family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400&family=Quattrocento:wght@400;700&display=swap");
+
+:root {
+  --main-color: #f6b964;
+  --main-font-family: "Quattrocento Sans", sans-serif;
+  --secondary-font-family: "Forum", serif;
+  --decorative-font-family: "Cinzel", serif;
+  --main-color-transparent: #f6b9645e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

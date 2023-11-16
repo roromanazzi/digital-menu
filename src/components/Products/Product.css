@@ -1,0 +1,32 @@
+.product_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 4px;
+
+  border-bottom: 0.5px solid var(--main-color-transparent);
+  padding-bottom: 4px;
+
+  font-family: var(--main-font-family);
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.product_info {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.product_title {
+}
+
+.product_description {
+  font-family: var(--secondary-font-family);
+  text-transform: none;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.product_price {
+  text-wrap: nowrap;
+}

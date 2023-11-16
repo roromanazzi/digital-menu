@@ -1,0 +1,55 @@
+.side_img {
+  margin: 0 20px;
+  width: 60px;
+  /* height: 100%; */
+}
+
+.section_container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 20px 0 0;
+  padding: 20px 0;
+}
+
+.section_container_special {
+  display: flex;
+  justify-content: center;
+  background-image: url("../../img/fondo-dorado.png");
+  background-position: center;
+  background-size: cover;
+  /* background-color: var(--main-color); */
+  backdrop-filter: opacity(20px);
+  border-radius: 15px;
+  box-shadow: 0 2px 4px 1px #d3d3d3;
+}
+
+.section_info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
+  width: 90%;
+  padding: 20px 0 20px 40px;
+}
+
+.section_title {
+  font-family: var(--main-font-family);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+
+  padding-bottom: 8px;
+}
+
+@media (max-width: 450px) {
+  .section_info {
+    width: 90%;
+    padding: 20px 0px 20px 0;
+  }
+  .side_img {
+    width: 60px;
+    /* height: 100%; */
+    margin: 0 20px 0 8px;
+  }
+}

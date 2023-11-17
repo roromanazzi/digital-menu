@@ -439,6 +439,421 @@ const categories = [
     ],
   },
   {
+    id: 2,
+    title: "Almuerzo frente al mar",
+    type: "gold",
+    sections: [
+      {
+        id: 301,
+        title: "Entrantes",
+        type: "common",
+        products: [
+          {
+            id: 3001,
+            title: "Rabas",
+            description: "Con salsa tártara.",
+            price: 4500,
+          },
+          {
+            id: 3002,
+            title: "Papas españolas",
+            description: "Con salsa de quesos y sweet chilli.",
+            price: 3900,
+          },
+          {
+            id: 3003,
+            title: "Degustación de mar",
+            description:
+              "Langostinos, berberechos, vieiras, claamaretes acompañados de salsa golf, palmitos, manzana y apio.",
+            price: 5100,
+          },
+        ],
+      },
+      {
+        id: 302,
+        title: "Nuestras carnes premium",
+        description: `Le Belle es el encuentro entre nuestros clientes y la Carne Premium de Argus Meats. \n
+        Nuestra cocina de excelencia realza los sabores de los seleccionados cortes de carne con claidad de exportación y nuestro salón se convierte en el eslabón final de una cadena que busca acercar a nuestros comensales a una experiencia gastronómica completa. \n`,
+        type: "special",
+        products: [
+          {
+            id: 3201,
+            title:
+              "Ojo de bife | Bife angosto | Vacío | Asado | Colita de cuadril",
+            description:
+              "Elegí el corte que prefieras y acompañalo con una guarnición.",
+          },
+          {
+            id: 3202,
+            title: "Guarniciones",
+            description:
+              "Papas españolas | Ensalada de rúcula, cherry y parmesano | Ensalada de lechuga, zanahoria y cebolla | Papas salteadas con chaucha y huevo poché",
+          },
+        ],
+      },
+      {
+        id: 303,
+        title: "Principales",
+        type: "common",
+        products: [
+          {
+            id: 3000,
+            title: "Sinfonía de mar",
+            description:
+              "Pesca del día, risotto de zanahoria y crema de espárragos.",
+            price: 6100,
+          },
+          {
+            id: 3001,
+            title: "Pechuga grillé",
+            description: "Con guarnición.",
+            price: 5600,
+          },
+          {
+            id: 3002,
+            title: "Sandwich de lomo palier",
+            description:
+              "En pan de viena, con cebolla crispy, salsa tártara, morrones, provoleta y mozzarella.",
+            price: 5600,
+          },
+          {
+            id: 3003,
+            title: "Sandwich vegan",
+            description:
+              "Coleslaw, berenjena, cebolla, zucchini y morrón, acompañado de papas rejilla.",
+            price: 4800,
+          },
+          {
+            id: 3004,
+            title: "Wok de vegetales",
+            description:
+              "Zucchini, zanahoria, morrón, berenjena, cebolla, champignones, fideos de arroz, salsa de soja y brotes de soja.",
+            price: 5100,
+          },
+          {
+            id: 3005,
+            title: "Ensalada Le Belle",
+            description:
+              "Quinoa, atún, huevo duro, hojas verdes, aceitunas negras y fontina.",
+            price: 4800,
+          },
+          {
+            id: 3006,
+            title: "Burguer",
+            description: "Con papas.",
+            price: 4500,
+          },
+        ],
+      },
+      {
+        id: 303,
+        title: "Pastas",
+        type: "common",
+        products: [
+          {
+            id: 3201,
+            title: "Agnolottis",
+            description: "De jamón y queso.",
+            price: 5800,
+          },
+          {
+            id: 3202,
+            title: "Sorrentinos",
+            description: "De espinaca y ricotta | De carne braseada",
+            price: 5800,
+          },
+          {
+            id: 3203,
+            title: "Ñoquis",
+            description: "Con salsa.",
+            price: 5800,
+          },
+          {
+            id: 3003,
+            title: "Salsas",
+            description: "Filetto | Bolognesa | Mixta | Crema",
+          },
+        ],
+      },
+      {
+        id: 304,
+        title: "Sugerencia del chef",
+        type: "special",
+        description:
+          "Nuestro talentoso equipo transforma ingredientes frescos en increíbles platos.",
+        products: [
+          {
+            id: 3201,
+            title: "Consultá por la especialidad del día",
+            description: "Incluye una bebida sin alcohol.",
+            price: 7000,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Postres",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Triffle de chocolate",
+            description:
+              "Chocolate blanco, chocolate con leche y chocolate semiamargo, con baño espejo de chocolate y almendras.",
+            price: 3800,
+          },
+          {
+            id: 3502,
+            title: "Nube de limón",
+            description:
+              "Base de chocolate con crema de champagne y mousse de limón.",
+            price: 3800,
+          },
+          {
+            id: 3503,
+            title: "Petit Pistache",
+            description:
+              "Mousse de coco, palette de frambuesa y biscuit de pistacho con macarons de coco.",
+            price: 4500,
+          },
+          {
+            id: 3504,
+            title: "Aromas de hibiscus",
+            description:
+              "Mousse de yogur con palete de naranja e hibiscus y mashmallow con diplomata.",
+            price: 4000,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    title: "Cena de Autor",
+    type: "gold",
+    sections: [
+      {
+        id: 4000,
+        title: "Entrantes | Tapeos",
+        products: [
+          {
+            id: 4100,
+            title: "Rabas",
+            description: "Con salsa tártara.",
+            price: 6300,
+          },
+          {
+            id: 4101,
+            title: "Papas españolas",
+            description: "Con salsa de quesos y sweet chilli.",
+            price: 4300,
+          },
+          {
+            id: 4102,
+            title: "Mariscos ahumados",
+            description:
+              "Calamares, callos de vieiras, mejillones, langostinos y espejo de hinojo.",
+            price: 6900,
+          },
+          {
+            id: 4103,
+            title: "Provoleta sweetbreads",
+            description:
+              "Mollejas a la provoleta, escabeche de tomates y morrones asados.",
+            price: 6300,
+          },
+          {
+            id: 4104,
+            title: "Chicken fingers",
+            description: "Con dip de cheddar.",
+            price: 5000,
+          },
+          {
+            id: 4105,
+            title: "Mozzarellitas",
+            description: "Con dip de tomate.",
+            price: 5000,
+          },
+          {
+            id: 4106,
+            title: "Croquetas de espinaca",
+            description: "Con dip de quesos.",
+            price: 5000,
+          },
+          {
+            id: 4107,
+            title: "Tacos crujientes",
+            description: "Carne | Vegetales.",
+            price: 6000,
+          },
+        ],
+      },
+      {
+        id: 4001,
+        title: "Principales",
+        type: "special",
+        products: [
+          {
+            id: 4200,
+            title: "Costillita braseada al pimiento",
+            description:
+              "Asado, papa, fondue de cabutia, salsa de pimientos y tomate asado.",
+            price: 9000,
+          },
+          {
+            id: 4202,
+            title: "Vacío al malbec con matambre relleno",
+            description:
+              "Vacío al malbec, matambre relleno y papas noisette encebolladas.",
+            price: 9000,
+          },
+          {
+            id: 4203,
+            title: "Pechuga rellena",
+            description: "De espinaca y parmesano con finito de papas.",
+            price: 7500,
+          },
+          {
+            id: 4204,
+            title: "Beef cowboy sweet",
+            description:
+              "Beef cowboy, cremoso de boniatos, emulsión de zanahoria, espárragos y cebolla crispy.",
+            price: 9800,
+          },
+          {
+            id: 4205,
+            title: "Entraña",
+            description: "Papas pay, vegetales asados y huevo a la plancha.",
+            price: 9900,
+          },
+          {
+            id: 4206,
+            title: "Petit de lomo y langostinos",
+            description:
+              "Medallón de lomo, langostinos en crema de hinojo y papas fondant.",
+            price: 10900,
+          },
+          {
+            id: 4207,
+            title: "Salmón con aires de lima y chardonnay",
+            description:
+              "Salmón rosado ahumado,  nido de espinaca, parmesano, papa écrasé, aire de lima y chardonnay.",
+            price: 12500,
+          },
+          {
+            id: 4208,
+            title: "Risotto de mar y tierra",
+            description:
+              "Arroz carnaroli, salmón rosado, ostras, berberechos y alcauciles.",
+            price: 7500,
+          },
+          {
+            id: 4209,
+            title: "Risotto veggie",
+            description: "Arroz carnaroli, espinaca, arvejas y brócoli.",
+            price: 6800,
+          },
+          {
+            id: 4208,
+            title: "Ensalada Le Belle",
+            description:
+              "Espinacas, espárragos, tomates secos, castañas de cajú, cherries y champignones.",
+            price: 6500,
+          },
+        ],
+      },
+      {
+        id: 4003,
+        title: "Pastas",
+        products: [
+          {
+            id: 4301,
+            title: "Agnolottis",
+            description: "De jamón y queso.",
+            price: 6800,
+          },
+          {
+            id: 4302,
+            title: "Sorrentinos",
+            description: "De jamón y queso | De carne braseada",
+            price: 6800,
+          },
+          {
+            id: 4303,
+            title: "Ñoquis",
+            description: "Con salsa",
+            price: 6800,
+          },
+          {
+            id: 4304,
+            title: "Con salsa",
+            description: "Filetto | Bolognesa | Mixta | Crema",
+          },
+        ],
+      },
+      {
+        id: 4004,
+        title: "Postres",
+        products: [
+          {
+            id: 4401,
+            title: "Nube de limón",
+            description:
+              "Base de chocolate con crema de champagne y mousse de limón con gel de menta.",
+            price: 4400,
+          },
+          {
+            id: 4402,
+            title: "Creme brulée con aroma de lavanda",
+            description:
+              "Creme brulée de lavanda con salsa de arándanoz, macarons de lavanda y crema chantilly.",
+            price: 4900,
+          },
+          {
+            id: 4403,
+            title: "Sensaciones del bosque",
+            description:
+              "Lingote de chocolate blanco, frambuesa, salsa de frutos rojos y crema chantilly.",
+            price: 4400,
+          },
+          {
+            id: 4404,
+            title: "Trilogía de chocolate",
+            description:
+              "Grelot con marquise (opción bañados en ron), crema de chocolate blanco y helado de chocolate.",
+            price: 5800,
+          },
+          {
+            id: 4405,
+            title: "Volcán de chocolate blanco",
+            description: "Con corazón de pistachos.",
+            price: 6000,
+          },
+          {
+            id: 4406,
+            title: "Massini con reducción de maracuyá y naranjas",
+            description:
+              "Relleno de chantilly y merengue, cubierto de sambayón flambeado.",
+            price: 5500,
+          },
+          {
+            id: 4407,
+            title: "Copa de helado",
+            description: "Limón | Americana | Chocolate | Frutos rojos",
+            price: 4000,
+          },
+          {
+            id: 4408,
+            title: "Copa le belle",
+            description: "Recomendación del patissier",
+            price: 6000,
+          },
+        ],
+      },
+    ],
+  },
+  ,
+  {
     id: 4,
     title: "Bebidas",
     type: "gold",

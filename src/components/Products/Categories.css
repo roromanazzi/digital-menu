@@ -4,14 +4,19 @@
   width: 80%;
 
   transition: all 0.4s ease-in-out;
+  padding-bottom: 16px;
 }
 
 .category_title {
   font-family: var(--main-font-family);
   text-transform: uppercase;
+  text-align: center;
   font-size: 24px;
 
-  padding-bottom: 16px;
+  padding: 16px 0;
+  margin: 8px 0;
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 @media (max-width: 450px) {

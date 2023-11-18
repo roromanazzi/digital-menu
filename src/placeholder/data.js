@@ -2,6 +2,7 @@ const categories = [
   {
     id: 1,
     title: "Cafetería de especialidad",
+    description: "Miércoles a Domingos | 8 a 19 hs",
     type: "pink",
     sections: [
       {
@@ -441,6 +442,7 @@ const categories = [
   {
     id: 2,
     title: "Almuerzo frente al mar",
+    description: "Miércoles a Domingos | 12 a 15 hs",
     type: "gold",
     sections: [
       {
@@ -630,6 +632,7 @@ const categories = [
   {
     id: 3,
     title: "Cena de Autor",
+    description: "Miércoles a Sábados | 20 a 02 am",
     type: "gold",
     sections: [
       {
@@ -1239,6 +1242,264 @@ const categories = [
             title: "Porrón",
             description: "Corona",
             price: 1700,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Vinos",
+    type: "gold",
+    sections: [
+      {
+        id: 601,
+        title: "Tintos",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Dante Robino | Malbec",
+            description: "Dante Robino",
+            price: 6900,
+          },
+          {
+            id: 6002,
+            title: "Dante Robino | Bonarda",
+            description: "Dante Robino",
+            price: 6900,
+          },
+          {
+            id: 6003,
+            title: "Lote negro | Malbec - Cabernet Franc",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6004,
+            title: "Altura | Malbec",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6005,
+            title: "Altura | Cabernet franc",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6005,
+            title: "Select | Malbec",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6006,
+            title: "Alma mora | Malbec",
+            description: "Finca las moras",
+            price: 6900,
+          },
+          {
+            id: 6006,
+            title: "Alma mora | Cabernet sauvignon",
+            description: "Finca las moras",
+            price: 6900,
+          },
+          {
+            id: 6007,
+            title: "Flores negras | Pinot noir",
+            description: "Santa Julia",
+            price: 6900,
+          },
+          {
+            id: 6008,
+            title: "Terrazas reserva | Malbec",
+            description: "Chandon",
+            price: 6900,
+          },
+          {
+            id: 6009,
+            title: "Terrazas reserva | Cabernet Franc",
+            description: "Chandon",
+            price: 6900,
+          },
+          {
+            id: 6010,
+            title: "Latitud 33° | Malbec",
+            description: "Chandon",
+            price: 6900,
+          },
+        ],
+      },
+      {
+        id: 602,
+        title: "Blancos",
+        type: "common",
+        products: [
+          {
+            id: 6101,
+            title: "Select | Sauvignon Blanc",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6102,
+            title: "Santa Julia | Chenin dulce natural",
+            description: "Santa Julia",
+            price: 6900,
+          },
+          {
+            id: 6103,
+            title: "Reserva | Chardonnay",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6104,
+            title: "Cosecha tardía | Blanco dulce",
+            description: "Norton",
+            price: 6900,
+          },
+          {
+            id: 6105,
+            title: "Alaris | Blanco dulce",
+            description: "Trapiche",
+            price: 6900,
+          },
+          {
+            id: 6106,
+            title: "Terrazas reserva | Chardonnay",
+            description: "Chandon",
+            price: 6900,
+          },
+          {
+            id: 6107,
+            title: "Latitud 33° | Sauvignon Blanc",
+            description: "Chandon",
+            price: 6900,
+          },
+          {
+            id: 6108,
+            title: "Altos del plata | Chardonnay",
+            description: "Chandon",
+            price: 6900,
+          },
+        ],
+      },
+      {
+        id: 603,
+        title: "Rosados",
+        type: "common",
+        products: [
+          {
+            id: 6201,
+            title: "Familia gascón | Rosé",
+            description: "Escorihuela Gascón",
+            price: 6900,
+          },
+          {
+            id: 6202,
+            title: "Cosecha tardía | Rosado",
+            description: "Norton",
+            price: 6900,
+          },
+        ],
+      },
+      {
+        id: 604,
+        title: "Orgánicos",
+        type: "special",
+        products: [
+          {
+            id: 6301,
+            title: "La vaquita | Clarete natural",
+            description: "Santa Julia",
+            price: 6900,
+          },
+          {
+            id: 6302,
+            title: "El burro | Malbec natural",
+            description: "Santa Julia",
+            price: 6900,
+          },
+          {
+            id: 6303,
+            title: "La oveja | Blanco natural",
+            description: "Santa Julia",
+            price: 6900,
+          },
+          {
+            id: 6304,
+            title: "El zorrito naranjo | Chardonnay",
+            description: "Santa Julia",
+            price: 6900,
+          },
+        ],
+      },
+      {
+        id: 605,
+        title: "Champagne y espumantes",
+        type: "common",
+        products: [
+          {
+            id: 6401,
+            title: "Montchenot | Extra Brut",
+            price: 6900,
+          },
+          {
+            id: 6402,
+            title: "Trumpeter | Extra Brut",
+            price: 6900,
+          },
+          {
+            id: 6403,
+            title: "Trumpeter | Extra Brut Rosé",
+            price: 6900,
+          },
+          {
+            id: 6404,
+            title: "Cosecha especial | Extra Brut",
+            price: 6900,
+          },
+          {
+            id: 6405,
+            title: "Chandon | Extra Brut",
+            price: 6900,
+          },
+          {
+            id: 6406,
+            title: "Chandon | Delice",
+            price: 6900,
+          },
+          {
+            id: 6407,
+            title: "Chandon | Aperitif",
+            price: 6900,
+          },
+          {
+            id: 6408,
+            title: "Barón B | Brut Nature",
+            price: 6900,
+          },
+          {
+            id: 6409,
+            title: "Barón B | Extra Brut",
+            price: 6900,
+          },
+          {
+            id: 6409,
+            title: "Barón B | Rosé",
+            price: 6900,
+          },
+          {
+            id: 6409,
+            title: "Moët | Imperial",
+            price: 6900,
+          },
+          {
+            id: 6409,
+            title: "Veuve Clicquot",
+            price: 6900,
           },
         ],
       },

@@ -3,6 +3,8 @@ import Categories from "./components/Products/Categories";
 import Header from "./components/UI/Header";
 import categories from "./placeholder/data";
 
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 function App() {
   return (
     <>

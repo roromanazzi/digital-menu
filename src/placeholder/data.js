@@ -1505,6 +1505,98 @@ const categories = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "Próximos Eventos",
+    type: "gold",
+    sections: [
+      {
+        id: 701,
+        title: "Miércoles de Mujeres",
+        description:
+          "Para cada momento del día, tenemos pensado cómo agasajar a las mujeres que nos acompañan desde el primer día y a aquellas que se quieren sumar a la experiencia Le Belle",
+        type: "special",
+        products: [
+          {
+            id: 7001,
+            title: "Early birds",
+            description:
+              "Te esperamos en nuestra cafetería de especialidad para empezar el día de la mejor manera: frente al mar. ¡De 8 a 9 am la infusión la invitamos nosotros!",
+            // price: 6900,
+          },
+          {
+            id: 7002,
+            title: "Almorzá frente al mar",
+            description:
+              "Almuerzos ejecutivos pensados para aquellas mujeres que no paran: mamás, estudiantes, empresarias, trabajadoras... todas se encuentran en nuestro Complejo Gastronómico.",
+            price: 7000,
+          },
+          {
+            id: 7003,
+            title: "Break saludable",
+            description:
+              "¡Cortamos la tarde con una merienda saludable! Recargá energías para continuar con tu día con todas las pilas.",
+            price: 4000,
+          },
+          {
+            id: 7004,
+            title: "Las noches son de Ellas",
+            description:
+              "¡Un menú fijo pensado exclusivamente para vos! Las mesas de mujeres acceden a 2x1 en el valor del menú. No te pierdas el Happy Hour, Dj en vivo y la visita de la astróloga.",
+            price: 13000,
+          },
+        ],
+      },
+      {
+        id: 602,
+        title: "Jueves de ellos",
+        description:
+          "¡No nos olvidamos de ellos! Los jueves aprovechá las promociones bancarias. Además, accedé a un 10% de Descuento en mesas de Hombres",
+        type: "special",
+        products: [
+          {
+            id: 6101,
+            title: "Banco Galicia",
+            description: "20% de Descuento",
+          },
+          {
+            id: 6102,
+            title: "Banco Francés",
+            description: "30% de Descuento",
+          },
+        ],
+      },
+      {
+        id: 604,
+        title: "Fiesta Ochentosa",
+        description:
+          "Preparen sus mejores outfits y vengan listos para bailar toda la noche ¡Se viene la fiesta Retro!",
+        type: "special",
+        products: [
+          {
+            id: 6201,
+            title: "Fecha",
+            description: "No sabemos",
+          },
+          {
+            id: 6202,
+            title: "Menú",
+            description: "Tampoco sabemos",
+          },
+          {
+            id: 6202,
+            title: "Espacio",
+            description: "Eso sí lo sabemos: Éter",
+          },
+          {
+            id: 6202,
+            title: "Valor",
+            description: "¿Acaso creíste que íbamos a saberlo? ¡Claro que no!",
+          },
+        ],
+      },
+    ],
+  },
 ];
 
 export default categories;

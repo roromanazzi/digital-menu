@@ -1,10 +1,11 @@
+import { Link } from "react-router-dom";
 import "./Button.css";
 
-const Button = ({ variant, type, children }) => {
+const Button = ({ variant, path, children }) => {
   return (
-    <button className={variant} type={type}>
+    <Link to={`/${path}`} className={variant}>
       {children}
-    </button>
+    </Link>
   );
 };
 

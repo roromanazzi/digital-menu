@@ -2,6 +2,7 @@ const categories = [
   {
     id: 1,
     title: "Cafetería de especialidad",
+    path: "cafeteria-de-especialidad",
     description: "Miércoles a Domingos | 8 a 19 hs",
     type: "pink",
     sections: [
@@ -442,6 +443,7 @@ const categories = [
   {
     id: 2,
     title: "Almuerzo frente al mar",
+    path: "almuerzo-frente-al-mar",
     description: "Miércoles a Domingos | 12 a 15 hs",
     type: "gold",
     sections: [
@@ -632,6 +634,7 @@ const categories = [
   {
     id: 3,
     title: "Cena de Autor",
+    path: "cena-de-autor",
     description: "Miércoles a Sábados | 20 a 02 am",
     type: "gold",
     sections: [
@@ -859,6 +862,7 @@ const categories = [
   {
     id: 4,
     title: "Bebidas",
+    path: "bebidas",
     type: "gold",
     sections: [
       {
@@ -1250,6 +1254,7 @@ const categories = [
   {
     id: 5,
     title: "Vinos",
+    path: "vinos",
     type: "gold",
     sections: [
       {
@@ -1508,6 +1513,7 @@ const categories = [
   {
     id: 6,
     title: "Próximos Eventos",
+    path: "proximos-eventos",
     type: "gold",
     sections: [
       {

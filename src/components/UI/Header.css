@@ -2,7 +2,6 @@
   position: fixed;
   width: 100%;
   height: fit-content;
-  /* overflow-x: scroll; */
 
   display: flex;
   flex-direction: column;

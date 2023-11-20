@@ -37,17 +37,19 @@ const Welcome = () => {
   return (
     <div className="welcome_container">
       <h2 className="main_title">Se parte de esta experiencia</h2>
-      {content.map((info) => {
-        return (
-          <Card type="primary">
-            <Content
-              title={info.title}
-              subtitle={info.subtitle}
-              links={info.links}
-            />
-          </Card>
-        );
-      })}
+      <div className="cardsContainer">
+        {content.map((info) => {
+          return (
+            <Card type="primary">
+              <Content
+                title={info.title}
+                subtitle={info.subtitle}
+                links={info.links}
+              />
+            </Card>
+          );
+        })}
+      </div>
     </div>
   );
 };

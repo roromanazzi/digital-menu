@@ -1,14 +1,20 @@
 import { Link } from "react-router-dom";
 import "./Content.css";
 
-const Content = ({ title, subtitle, linkURL, buttonContent }) => {
+const Content = ({ title, subtitle, links }) => {
   return (
     <div className="container">
       <h3 className="title">{title}</h3>
       <p className="subtitle">{subtitle}</p>
-      <Link to={linkURL} className="link">
-        {buttonContent}
-      </Link>
+      <div className="links">
+        {links.map((link) => {
+          return (
+            <Link to={link.URL} className="link">
+              {link.content}
+            </Link>
+          );
+        })}
+      </div>
     </div>
   );
 };

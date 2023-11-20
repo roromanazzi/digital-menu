@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { CiInstagram } from "react-icons/ci";
+import { CiInstagram, CiFacebook } from "react-icons/ci";
 import "./Welcome.css";
 import Card from "./Card";
 import Content from "./Content";
@@ -10,15 +10,27 @@ const Welcome = () => {
       id: 1,
       title: "No te pierdas ninguna novedad",
       subtitle: "Seguinos en nuestras redes sociales",
-      linkURL: "https://www.instagram.com/lebelle.rest/",
-      buttonContent: <CiInstagram size={"18px"} />,
+      links: [
+        {
+          content: <CiInstagram size={"18px"} />,
+          URL: "https://www.instagram.com/lebelle.rest/",
+        },
+        {
+          content: <CiFacebook size={"18px"} />,
+          URL: "https://www.instagram.com/lebelle.rest/",
+        },
+      ],
     },
     {
       id: 2,
       title: "Tu opinión nos importa",
       subtitle: "Respondé la siguiente encuesta",
-      linkURL: "https://forms.gle/Tz6f7Jp5g2ufRTcU9",
-      buttonContent: "Encuesta de satisfacción",
+      links: [
+        {
+          content: "Encuesta de satisfacción",
+          URL: "https://forms.gle/Tz6f7Jp5g2ufRTcU9",
+        },
+      ],
     },
   ];
 
@@ -31,8 +43,7 @@ const Welcome = () => {
             <Content
               title={info.title}
               subtitle={info.subtitle}
-              linkURL={info.linkURL}
-              buttonContent={info.buttonContent}
+              links={info.links}
             />
           </Card>
         );

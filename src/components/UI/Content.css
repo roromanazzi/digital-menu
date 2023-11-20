@@ -26,6 +26,10 @@
   font-size: 12px;
 }
 
+.links {
+  display: flex;
+}
+
 .link {
   all: unset;
 

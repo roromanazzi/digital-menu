@@ -7,7 +7,9 @@ const Header = () => {
   return (
     <header className="header_container">
       <div className="restaurant_info_container">
-        <img src={logo} className="logo" alt="logo" />
+        <Button key={"main"} path={""}>
+          <img src={logo} className="logo" alt="logo" />
+        </Button>
       </div>
       <div className="nav_bar">
         {categories.map((category) => {

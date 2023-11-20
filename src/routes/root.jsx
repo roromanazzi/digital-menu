@@ -1,29 +1,49 @@
+import Category from "../components/Products/Categories";
+import Header from "../components/UI/Header";
 import "./App.css";
-import Categories from "./components/Products/Categories";
-import Header from "./components/UI/Header";
-import categories from "./placeholder/data";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
-function App() {
+function Root() {
   return (
     <>
-      <Router>
-        <Header />
-        <main className="main">
-          <Routes>
-            {categories.map((category) => (
-              <Route
-                key={category.title}
-                path={`/${category.path}`}
-                element={<Categories categories={categories} />}
-              />
-            ))}
-          </Routes>
-        </main>
-      </Router>
+      <Header />
+      <main className="main">
+        <Routes>
+          <Route
+            key={"cafeteria"}
+            path={"cafeteria-de-especialidad"}
+            element={<Category categoryName="cafeteria-de-especialidad" />}
+          />
+          <Route
+            key={"almuerzo"}
+            path={"almuerzo-frente-al-mar"}
+            element={<Category categoryName="almuerzo-frente-al-mar" />}
+          />
+          <Route
+            key={"cena"}
+            path={"cena-de-autor"}
+            element={<Category categoryName="cena-de-autor" />}
+          />
+          <Route
+            key={"bebidas"}
+            path={"bebidas"}
+            element={<Category categoryName="bebidas" />}
+          />
+          <Route
+            key={"vinos"}
+            path={"vinos"}
+            element={<Category categoryName="vinos" />}
+          />
+          <Route
+            key={"proximos-eventos"}
+            path={"proximos-eventos"}
+            element={<Category categoryName="proximos-eventos" />}
+          />
+        </Routes>
+      </main>
     </>
   );
 }
 
-export default App;
+export default Root;

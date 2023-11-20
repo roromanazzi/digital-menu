@@ -7,7 +7,11 @@ const Header = () => {
     <header className="header_container">
       {categories.map((category) => {
         return (
-          <Button variant="header_button" path={category.path}>
+          <Button
+            key={category.id}
+            variant="header_button"
+            path={category.pathName}
+          >
             {category.title}
           </Button>
         );

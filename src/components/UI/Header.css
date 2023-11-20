@@ -9,7 +9,7 @@
   box-shadow: 0 0 4px 0 gray;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .header_container {
     overflow-x: scroll;
   }

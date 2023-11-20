@@ -39,7 +39,7 @@
   border-bottom: 1px solid var(--main-color);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 768px) {
   .header_button {
     min-width: 120px;
   }

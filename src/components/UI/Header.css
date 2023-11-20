@@ -1,16 +1,42 @@
 .header_container {
   position: fixed;
   width: 100%;
+  height: fit-content;
   /* overflow-x: scroll; */
 
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
   box-shadow: 0 0 4px 0 gray;
 }
 
+.restaurant_info_container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+}
+
+.nav_bar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  margin: 8px 0 0 0;
+}
+
 @media (max-width: 768px) {
-  .header_container {
+  .logo {
+    width: 52px;
+    padding-bottom: 8px;
+  }
+
+  .nav_bar {
     overflow-x: scroll;
+    padding-bottom: 2px;
   }
 }

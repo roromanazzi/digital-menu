@@ -1,5 +1,6 @@
 import Category from "../components/Products/Categories";
 import Header from "../components/UI/Header";
+import Welcome from "../components/UI/Welcome";
 import "./App.css";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -10,6 +11,7 @@ function Root() {
       <Header />
       <main className="main">
         <Routes>
+          <Route key={"welcome"} path={"/"} element={<Welcome />} />
           <Route
             key={"cafeteria"}
             path={"cafeteria-de-especialidad"}

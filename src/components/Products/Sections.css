@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
 
-  background-image: url("../../img/fondo-dorado.png");
+  background-image: url("../../img/fondo-dorado.svg");
   background-position: center;
   background-size: contain;
   backdrop-filter: opacity(20px);
@@ -57,10 +57,5 @@
   .section_info {
     width: 90%;
     padding: 20px 0px 20px 0;
-  }
-  .side_img {
-    width: 60px;
-    /* height: 100%; */
-    margin: 0 20px 0 8px;
   }
 }

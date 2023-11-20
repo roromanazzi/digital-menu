@@ -41,6 +41,6 @@
 
 @media (max-width: 450px) {
   .header_button {
-    min-width: 80px;
+    min-width: 120px;
   }
 }

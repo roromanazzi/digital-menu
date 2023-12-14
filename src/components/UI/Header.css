@@ -40,4 +40,8 @@
     overflow-x: scroll;
     padding-bottom: 2px;
   }
+
+  .nav_bar::-webkit-scrollbar {
+    display: none;
+  }
 }

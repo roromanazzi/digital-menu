@@ -104,24 +104,24 @@ const categories = [
             id: 2012,
             title: "Té gunpowder",
           },
-          {
-            id: 2013,
-            title:
-              "Blend de té | Assam con especias de la india y bouquet de caléndula",
-            description:
-              "Canela, cardamomo, jengibre, clavo de olor, pimienta de Jamaica y caléndula.",
-          },
-          {
-            id: 2014,
-            title: "Blend de té | Verde gunpowder",
-            description:
-              "Bayas de enebro, coriandro, eucalipto, hinojo, petalos de aciano, alfa focus y menta.",
-          },
-          {
-            id: 2015,
-            title: "Blend de té | Assam aromatizado con bergamota.",
-            description: "Arándanos, rosa mosqueta, canela e hibiscus.",
-          },
+          // {
+          //   id: 2013,
+          //   title:
+          //     "Blend de té | Assam con especias de la india y bouquet de caléndula",
+          //   description:
+          //     "Canela, cardamomo, jengibre, clavo de olor, pimienta de Jamaica y caléndula.",
+          // },
+          // {
+          //   id: 2014,
+          //   title: "Blend de té | Verde gunpowder",
+          //   description:
+          //     "Bayas de enebro, coriandro, eucalipto, hinojo, petalos de aciano, alfa focus y menta.",
+          // },
+          // {
+          //   id: 2015,
+          //   title: "Blend de té | Assam aromatizado con bergamota.",
+          //   description: "Arándanos, rosa mosqueta, canela e hibiscus.",
+          // },
         ],
       },
       {
@@ -161,16 +161,16 @@ const categories = [
             description: "Fría | Caliente",
             price: 1300,
           },
-          {
-            id: 2027,
-            title: "Matcha",
-            price: 1200,
-          },
-          {
-            id: 2028,
-            title: "Matcha latte",
-            price: 1400,
-          },
+          // {
+          //   id: 2027,
+          //   title: "Matcha",
+          //   price: 1200,
+          // },
+          // {
+          //   id: 2028,
+          //   title: "Matcha latte",
+          //   price: 1400,
+          // },
         ],
       },
       {
@@ -194,12 +194,12 @@ const categories = [
             description: "Manzana verde, espinaca, apio, limón, pepino y kiwi.",
             price: 2000,
           },
-          {
-            id: 2032,
-            title: "Jugo rojo",
-            description: "Naranja, zanahoria, remolacha y arándanos.",
-            price: 2000,
-          },
+          // {
+          //   id: 2032,
+          //   title: "Jugo rojo",
+          //   description: "Naranja, zanahoria, remolacha y arándanos.",
+          //   price: 2000,
+          // },
           {
             id: 2033,
             title: "Jugo naranja",
@@ -238,9 +238,9 @@ const categories = [
           },
           {
             id: 2043,
-            title: "German breakfast",
+            title: "Desayuno alemán",
             description:
-              "Una infusión, huevos revueltos, tostada, salchicha alemana y frutas de estación.",
+              "Una infusión, huevos revueltos, tostada, panceta y frutas de estación.",
             price: 4100,
           },
           {
@@ -257,13 +257,13 @@ const categories = [
               "Limonada, bruschetta a elección y pastelería artesanal.",
             price: 5000,
           },
-          {
-            id: 2046,
-            title: "Sweet Breakfast",
-            description:
-              "Una infusión, waffle a elección y exprimido de naranja.",
-            price: 4100,
-          },
+          // {
+          //   id: 2046,
+          //   title: "Sweet Breakfast",
+          //   description:
+          //     "Una infusión, waffle a elección y exprimido de naranja.",
+          //   price: 4100,
+          // },
           {
             id: 2047,
             title: "Breakfast for friends",
@@ -289,11 +289,11 @@ const categories = [
             title: "Medialuna",
             price: 450,
           },
-          {
-            id: 2053,
-            title: "Facturas surtidas",
-            price: 450,
-          },
+          // {
+          //   id: 2053,
+          //   title: "Facturas surtidas",
+          //   price: 450,
+          // },
           {
             id: 2054,
             title: "Croissant",
@@ -311,11 +311,11 @@ const categories = [
             title: "Porción de tostadas",
             price: 1100,
           },
-          {
-            id: 2057,
-            title: "Porción de ricotta",
-            price: 1450,
-          },
+          // {
+          //   id: 2057,
+          //   title: "Porción de ricotta",
+          //   price: 1450,
+          // },
           {
             id: 2058,
             title: "Alfajor Le Belle",
@@ -329,46 +329,45 @@ const categories = [
             description: "Moka | Chocolate",
             price: 1100,
           },
-          {
-            id: 2060,
-            title: "Tarteletas",
-            description: "Arándanos | Pera y frutos secos",
-            price: 2000,
-          },
+          // {
+          //   id: 2060,
+          //   title: "Tarteletas",
+          //   description: "Arándanos | Pera y frutos secos",
+          //   price: 2000,
+          // },
           {
             id: 2061,
-            title: "Pastelería",
-            description:
-              "Brownie con merengue | Lemon pie | Lingote de pistachos y chocolate",
+            title: "Pastelería artesanal",
+            description: "Consultar por las opciones del día",
             price: 2000,
           },
         ],
       },
-      {
-        id: 206,
-        title: "Waffles",
-        type: "common",
-        products: [
-          {
-            id: 2071,
-            title: "Vegan",
-            description: "Banana, chocolate y avellanas.",
-            price: 1800,
-          },
-          {
-            id: 2072,
-            title: "Dulce",
-            description: "Salsa de dulce de leche, banana y frutillas.",
-            price: 1800,
-          },
-          {
-            id: 2073,
-            title: "Salado",
-            description: "Huevos revueltos y panceta.",
-            price: 1800,
-          },
-        ],
-      },
+      // {
+      //   id: 206,
+      //   title: "Waffles",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 2071,
+      //       title: "Vegan",
+      //       description: "Banana, chocolate y avellanas.",
+      //       price: 1800,
+      //     },
+      //     {
+      //       id: 2072,
+      //       title: "Dulce",
+      //       description: "Salsa de dulce de leche, banana y frutillas.",
+      //       price: 1800,
+      //     },
+      //     {
+      //       id: 2073,
+      //       title: "Salado",
+      //       description: "Huevos revueltos y panceta.",
+      //       price: 1800,
+      //     },
+      //   ],
+      // },
       {
         id: 207,
         title: "Brunch",
@@ -389,8 +388,8 @@ const categories = [
           },
           {
             id: 2083,
-            title: "Tostado peceto",
-            description: "En pan árabe con peceto y toné.",
+            title: "Tostado braseado",
+            description: "En pan árabe con carne braseada y toné.",
             price: 2800,
           },
           {
@@ -398,16 +397,16 @@ const categories = [
             title: "Croissant de jamón y queso.",
             price: 2500,
           },
-          {
-            id: 2085,
-            title: "Bruschetta italy",
-            description: "Higos, queso azul, radicheta y nuez.",
-            price: 3600,
-          },
+          // {
+          //   id: 2085,
+          //   title: "Bruschetta italy",
+          //   description: "Higos, queso azul, radicheta y nuez.",
+          //   price: 3600,
+          // },
           {
             id: 2086,
             title: "Bruschetta mediterránea",
-            description: "Boconccinos, tomates secos y jamón crudo.",
+            description: "Fontina, tomates secos y jamón crudo.",
             price: 3600,
           },
           {
@@ -419,16 +418,16 @@ const categories = [
           {
             id: 2088,
             title: "Avocado toast",
-            description: "Palta, huevo poché y tomate.",
+            description: "Palta, rúcula, huevo poché y tomate.",
             price: 3200,
           },
-          {
-            id: 2089,
-            title: "Tostada francesa",
-            description:
-              "Manzana caramelizada, frutas secas, salsa toffi y frutas frescas.",
-            price: 3000,
-          },
+          // {
+          //   id: 2089,
+          //   title: "Tostada francesa",
+          //   description:
+          //     "Manzana caramelizada, frutas secas, salsa toffi y frutas frescas.",
+          //   price: 3000,
+          // },
           {
             id: 2090,
             title: "Bagel",
@@ -437,6 +436,14 @@ const categories = [
             price: 3000,
           },
         ],
+      },
+      {
+        id: 207,
+        title: "",
+        description:
+          "¡Consultá por las distintas opciones disponibles sin tacc!",
+        type: "special",
+        products: [],
       },
     ],
   },
@@ -466,9 +473,8 @@ const categories = [
           },
           {
             id: 3003,
-            title: "Degustación de mar",
-            description:
-              "Langostinos, berberechos, vieiras, claamaretes acompañados de salsa golf, palmitos, manzana y apio.",
+            title: "Cazuela de mar",
+            description: "Langostinos, berberechos, vieiras, calamaretes.",
             price: 5100,
           },
         ],
@@ -531,14 +537,14 @@ const categories = [
             id: 3004,
             title: "Wok de vegetales",
             description:
-              "Zucchini, zanahoria, morrón, berenjena, cebolla, champignones, fideos de arroz, salsa de soja y brotes de soja.",
+              "Zucchini, zanahoria, morrón, berenjena, cebolla, champignones y salsa de soja.",
             price: 5100,
           },
           {
             id: 3005,
-            title: "Ensalada Le Belle",
+            title: "Armá tu ensalada",
             description:
-              "Quinoa, atún, huevo duro, hojas verdes, aceitunas negras y fontina.",
+              "Chaucha, huevo, tomate, lechuga, rúcula, zanahoria, cherry, champignones, fontina, pepino, cebolla y palta.",
             price: 4800,
           },
           {
@@ -557,13 +563,13 @@ const categories = [
           {
             id: 3201,
             title: "Agnolottis",
-            description: "De jamón y queso.",
+            description: "De jamón y queso. Con salsa.",
             price: 5800,
           },
           {
             id: 3202,
             title: "Sorrentinos",
-            description: "De espinaca y ricotta | De carne braseada",
+            description: "De espinaca y ricotta. Con salsa.",
             price: 5800,
           },
           {
@@ -613,20 +619,32 @@ const categories = [
               "Base de chocolate con crema de champagne y mousse de limón.",
             price: 3800,
           },
+          // {
+          //   id: 3503,
+          //   title: "Petit Pistache",
+          //   description:
+          //     "Mousse de coco, palette de frambuesa y biscuit de pistacho con macarons de coco.",
+          //   price: 4500,
+          // },
           {
-            id: 3503,
-            title: "Petit Pistache",
-            description:
-              "Mousse de coco, palette de frambuesa y biscuit de pistacho con macarons de coco.",
+            id: 3504,
+            title: "Flan de pistachos",
+            description: "Con drops de frutos del bosque y chantilly.",
             price: 4500,
           },
           {
             id: 3504,
-            title: "Aromas de hibiscus",
-            description:
-              "Mousse de yogur con palete de naranja e hibiscus y mashmallow con diplomata.",
+            title: "Copa de helado",
+            description: "Limón | Americana | Chocolate | Frutos rojos.",
             price: 4000,
           },
+          // {
+          //   id: 3504,
+          //   title: "Aromas de hibiscus",
+          //   description:
+          //     "Mousse de yogur con palete de naranja e hibiscus y mashmallow con diplomata.",
+          //   price: 4000,
+          // },
         ],
       },
     ],
@@ -646,52 +664,52 @@ const categories = [
             id: 4100,
             title: "Rabas",
             description: "Con salsa tártara.",
-            price: 6300,
+            price: 7300,
           },
           {
             id: 4101,
             title: "Papas españolas",
             description: "Con salsa de quesos y sweet chilli.",
-            price: 4300,
+            price: 5000,
           },
           {
             id: 4102,
             title: "Mariscos ahumados",
             description:
               "Calamares, callos de vieiras, mejillones, langostinos y espejo de hinojo.",
-            price: 6900,
+            price: 9000,
           },
           {
             id: 4103,
             title: "Provoleta sweetbreads",
             description:
               "Mollejas a la provoleta, escabeche de tomates y morrones asados.",
-            price: 6300,
+            price: 7000,
           },
-          {
-            id: 4104,
-            title: "Chicken fingers",
-            description: "Con dip de cheddar.",
-            price: 5000,
-          },
-          {
-            id: 4105,
-            title: "Mozzarellitas",
-            description: "Con dip de tomate.",
-            price: 5000,
-          },
+          // {
+          //   id: 4104,
+          //   title: "Chicken fingers",
+          //   description: "Con dip de cheddar.",
+          //   price: 5000,
+          // },
+          // {
+          //   id: 4105,
+          //   title: "Mozzarellitas",
+          //   description: "Con dip de tomate.",
+          //   price: 5000,
+          // },
           {
             id: 4106,
-            title: "Croquetas de espinaca",
+            title: "Buñuelos de espinaca",
             description: "Con dip de quesos.",
             price: 5000,
           },
-          {
-            id: 4107,
-            title: "Tacos crujientes",
-            description: "Carne | Vegetales.",
-            price: 6000,
-          },
+          // {
+          //   id: 4107,
+          //   title: "Tacos crujientes",
+          //   description: "Carne | Vegetales.",
+          //   price: 6000,
+          // },
         ],
       },
       {
@@ -704,20 +722,20 @@ const categories = [
             title: "Costillita braseada al pimiento",
             description:
               "Asado, papa, fondue de cabutia, salsa de pimientos y tomate asado.",
-            price: 9000,
+            price: 10500,
           },
           {
             id: 4202,
             title: "Vacío al malbec con matambre relleno",
             description:
               "Vacío al malbec, matambre relleno y papas noisette encebolladas.",
-            price: 9000,
+            price: 10500,
           },
           {
             id: 4203,
-            title: "Pechuga rellena",
-            description: "De espinaca y parmesano con finito de papas.",
-            price: 7500,
+            title: "Pechuga con salsa de cítricos",
+            description: "Y cuscús al azafrán.",
+            price: 7000,
           },
           {
             id: 4204,
@@ -726,18 +744,18 @@ const categories = [
               "Beef cowboy, cremoso de boniatos, emulsión de zanahoria, espárragos y cebolla crispy.",
             price: 9800,
           },
-          {
-            id: 4205,
-            title: "Entraña",
-            description: "Papas pay, vegetales asados y huevo a la plancha.",
-            price: 9900,
-          },
+          // {
+          //   id: 4205,
+          //   title: "Entraña",
+          //   description: "Papas pay, vegetales asados y huevo a la plancha.",
+          //   price: 9900,
+          // },
           {
             id: 4206,
             title: "Petit de lomo y langostinos",
             description:
               "Medallón de lomo, langostinos en crema de hinojo y papas fondant.",
-            price: 10900,
+            price: 11000,
           },
           {
             id: 4207,
@@ -751,14 +769,14 @@ const categories = [
             title: "Risotto de mar y tierra",
             description:
               "Arroz carnaroli, salmón rosado, ostras, berberechos y alcauciles.",
-            price: 7500,
+            price: 9000,
           },
-          {
-            id: 4209,
-            title: "Risotto veggie",
-            description: "Arroz carnaroli, espinaca, arvejas y brócoli.",
-            price: 6800,
-          },
+          // {
+          //   id: 4209,
+          //   title: "Risotto veggie",
+          //   description: "Arroz carnaroli, espinaca, arvejas y brócoli.",
+          //   price: 6800,
+          // },
           {
             id: 4208,
             title: "Ensalada Le Belle",
@@ -775,21 +793,21 @@ const categories = [
           {
             id: 4301,
             title: "Agnolottis",
-            description: "De jamón y queso.",
-            price: 6800,
+            description: "De jamón y queso. Con salsa.",
+            price: 6500,
           },
           {
             id: 4302,
             title: "Sorrentinos",
-            description: "De jamón y queso | De carne braseada",
-            price: 6800,
+            description: "De espinaca y ricotta. Con salsa.",
+            price: 6500,
           },
-          {
-            id: 4303,
-            title: "Ñoquis",
-            description: "Con salsa",
-            price: 6800,
-          },
+          // {
+          //   id: 4303,
+          //   title: "Ñoquis",
+          //   description: "Con salsa",
+          //   price: 6800,
+          // },
           {
             id: 4304,
             title: "Con salsa",
@@ -806,21 +824,21 @@ const categories = [
             title: "Nube de limón",
             description:
               "Base de chocolate con crema de champagne y mousse de limón con gel de menta.",
-            price: 4400,
+            price: 5000,
           },
           {
             id: 4402,
             title: "Creme brulée con aroma de lavanda",
             description:
               "Creme brulée de lavanda con salsa de arándanoz, macarons de lavanda y crema chantilly.",
-            price: 4900,
+            price: 5900,
           },
           {
             id: 4403,
             title: "Sensaciones del bosque",
             description:
               "Lingote de chocolate blanco, frambuesa, salsa de frutos rojos y crema chantilly.",
-            price: 4400,
+            price: 5000,
           },
           {
             id: 4404,
@@ -831,22 +849,23 @@ const categories = [
           },
           {
             id: 4405,
-            title: "Volcán de chocolate blanco",
-            description: "Con corazón de pistachos.",
+            title: "Volcán de dulce de leche",
+            description:
+              "Con salsa de chocolate, almendras tostadas y drops de salsa toffee.",
             price: 6000,
           },
-          {
-            id: 4406,
-            title: "Massini con reducción de maracuyá y naranjas",
-            description:
-              "Relleno de chantilly y merengue, cubierto de sambayón flambeado.",
-            price: 5500,
-          },
+          // {
+          //   id: 4406,
+          //   title: "Massini con reducción de maracuyá y naranjas",
+          //   description:
+          //     "Relleno de chantilly y merengue, cubierto de sambayón flambeado.",
+          //   price: 5500,
+          // },
           {
             id: 4407,
             title: "Copa de helado",
             description: "Limón | Americana | Chocolate | Frutos rojos",
-            price: 4000,
+            price: 3000,
           },
           {
             id: 4408,
@@ -1572,35 +1591,35 @@ const categories = [
           },
         ],
       },
-      {
-        id: 604,
-        title: "Fiesta Ochentosa",
-        description:
-          "Preparen sus mejores outfits y vengan listos para bailar toda la noche ¡Se viene la fiesta Retro!",
-        type: "special",
-        products: [
-          {
-            id: 6201,
-            title: "Fecha",
-            description: "No sabemos",
-          },
-          {
-            id: 6202,
-            title: "Menú",
-            description: "Tampoco sabemos",
-          },
-          {
-            id: 6202,
-            title: "Espacio",
-            description: "Eso sí lo sabemos: Éter",
-          },
-          {
-            id: 6202,
-            title: "Valor",
-            description: "¿Acaso creíste que íbamos a saberlo? ¡Claro que no!",
-          },
-        ],
-      },
+      // {
+      //   id: 604,
+      //   title: "Fiesta Ochentosa",
+      //   description:
+      //     "Preparen sus mejores outfits y vengan listos para bailar toda la noche ¡Se viene la fiesta Retro!",
+      //   type: "special",
+      //   products: [
+      //     {
+      //       id: 6201,
+      //       title: "Fecha",
+      //       description: "No sabemos",
+      //     },
+      //     {
+      //       id: 6202,
+      //       title: "Menú",
+      //       description: "Tampoco sabemos",
+      //     },
+      //     {
+      //       id: 6202,
+      //       title: "Espacio",
+      //       description: "Eso sí lo sabemos: Éter",
+      //     },
+      //     {
+      //       id: 6202,
+      //       title: "Valor",
+      //       description: "¿Acaso creíste que íbamos a saberlo? ¡Claro que no!",
+      //     },
+      //   ],
+      // },
     ],
   },
 ];

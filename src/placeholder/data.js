@@ -57,6 +57,11 @@ const categories = [
             price: 2200,
           },
           {
+            id: 2011,
+            title: "Cappuccino al chocolate",
+            price: 2600,
+          },
+          {
             id: 2010,
             title: "Submarino",
             price: 2000,
@@ -106,11 +111,6 @@ const categories = [
             id: 2011,
             title: "Café dolce",
             price: 2800,
-          },
-          {
-            id: 2011,
-            title: "Cappuccino al chocolate",
-            price: 2600,
           },
           {
             id: 2011,

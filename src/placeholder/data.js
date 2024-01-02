@@ -542,7 +542,7 @@ const categories = [
             title: "Ensalada de boconccinos",
             description:
               "Con tomates secos, pesto de mostaza, mix de hojas verdes y hongos salteados.",
-            price: 3800,
+            price: 8500,
           },
           {
             id: 3502,

@@ -49,7 +49,7 @@ const categories = [
           {
             id: 2008,
             title: "Capuccino",
-            price: 2100,
+            price: 2000,
           },
           {
             id: 2009,
@@ -88,6 +88,11 @@ const categories = [
           },
           {
             id: 2011,
+            title: "Latte dolce",
+            price: 2800,
+          },
+          {
+            id: 2011,
             title: "Café irlandés",
             price: 3300,
           },
@@ -110,11 +115,6 @@ const categories = [
           {
             id: 2011,
             title: "Café dolce",
-            price: 2800,
-          },
-          {
-            id: 2011,
-            title: "Latte dolce",
             price: 2800,
           },
         ],
@@ -169,11 +169,13 @@ const categories = [
           {
             id: 2021,
             title: "Tostadas de campo",
+            description: "Con dip de queso y mermelada natural.",
             price: 2700,
           },
           {
             id: 2022,
             title: "Tostadas multisemilladas",
+            description: "Con dip de queso y mermelada natural.",
             price: 2700,
           },
           {

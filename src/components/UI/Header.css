@@ -23,6 +23,7 @@
 .nav_bar {
   display: flex;
   align-items: center;
+  background-color: white;
 }
 
 .logo {

@@ -99,25 +99,21 @@ const categories = [
           {
             id: 2011,
             title: "Le Belle piu dolce",
-            description: "Descripcion",
             price: 3000,
           },
           {
             id: 2011,
             title: "Café dolce",
-            description: "Descripcion",
             price: 2800,
           },
           {
             id: 2011,
             title: "Cappuccino al chocolate",
-            description: "Descripcion",
             price: 2600,
           },
           {
             id: 2011,
             title: "Latte dolce",
-            description: "Descripcion",
             price: 2800,
           },
         ],
@@ -226,7 +222,6 @@ const categories = [
           {
             id: 2031,
             title: "Licuado frutal",
-            description: "Descripcion",
             price: 2800,
           },
         ],

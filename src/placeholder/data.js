@@ -170,13 +170,13 @@ const categories = [
             id: 2021,
             title: "Tostadas de campo",
             description: "Con dip de queso y mermelada natural.",
-            price: 2700,
+            price: 3000,
           },
           {
             id: 2022,
             title: "Tostadas multisemilladas",
             description: "Con dip de queso y mermelada natural.",
-            price: 2700,
+            price: 3000,
           },
           {
             id: 2023,

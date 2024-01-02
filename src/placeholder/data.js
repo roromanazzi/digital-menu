@@ -99,6 +99,7 @@ const categories = [
           {
             id: 2011,
             title: "Le Belle piu dolce",
+            description: "Café, dulce de leche, crema y chocolate negro",
             price: 3000,
           },
           {
@@ -126,31 +127,36 @@ const categories = [
           {
             id: 2016,
             title: "Desayuno clásico",
-            description: "Descripcion",
+            description: "Café con leche y dos medialunas",
             price: 2900,
           },
           {
             id: 2017,
             title: "Desayuno continental",
-            description: "Descripcion",
+            description: "Café con leche, dos medialunas y jugo de naranja",
+
             price: 3600,
           },
           {
             id: 2011,
             title: "Desayuno de campo",
-            description: "Descripcion",
+            description:
+              "Café con leche, porción de tostadas, dip de queso y mermelada natural y jugo de naranja.",
+
             price: 3300,
           },
           {
             id: 2012,
             title: "Desayuno de verano",
-            description: "Descripcion",
+            description:
+              "Café con leche, dos medialunas, medio tostado y jugo de naranja.",
             price: 4600,
           },
           {
             id: 2012,
             title: "Desayuno natural",
-            description: "Descripcion",
+            description:
+              "Café con leche, yogurt, fruta, granola, porción de tostadas negras, dip de queso y mermelada natural y jugo de naranja.",
             price: 5900,
           },
         ],

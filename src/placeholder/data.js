@@ -244,248 +244,259 @@ const categories = [
       },
     ],
   },
-  // {
-  //   id: 2,
-  //   title: "Almuerzo frente al mar",
-  //   pathName: "almuerzo-frente-al-mar",
-  //   description: "Miércoles a Domingos | 12 a 15 hs",
-  //   type: "gold",
-  //   sections: [
-  //     {
-  //       id: 301,
-  //       title: "Entrantes | Tapeo",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3001,
-  //           title: "Rabas",
-  //           description: "Con lactonesa de albahaca y limón.",
-  //           price: 4500,
-  //         },
-  //         {
-  //           id: 3002,
-  //           title: "Papas chafadas doble cocción con trío de salsa",
-  //           description: "Duxele de hongos, fondeau de quesos y salsa brava.",
-  //           price: 3900,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Picada de mar",
-  //           description:
-  //             "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-  //           price: 5100,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Falafel de pollo y pistachos",
-  //           price: 5100,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Cous-cous de coliflor",
-  //           description: "Al curry con leche de coco.",
-  //           price: 5100,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Pincho de langostinos empanados",
-  //           description: "En pistacho con salsa de maracuyá.",
-  //           price: 5100,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 302,
-  //       title: "Los clásicos de siempre",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3201,
-  //           title: "Lomito completo",
-  //           description: "Lechuga, tomate, jamón y queso.",
-  //           price: 2230,
-  //         },
-  //         {
-  //           id: 3201,
-  //           title: "Milanesa de ojo de bife",
-  //           price: 0,
-  //         },
-  //         {
-  //           id: 3201,
-  //           title: "Revuelto gramajo",
-  //           price: 0,
-  //         },
-  //         {
-  //           id: 3201,
-  //           title: "Pechuga grillada",
-  //           price: 0,
-  //         },
-  //         {
-  //           id: 3201,
-  //           title: "Merluza a la romana",
-  //           price: 0,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 303,
-  //       title: "Guarniciones",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3000,
-  //           title: "Puré de papas",
-  //           price: 6100,
-  //         },
-  //         {
-  //           id: 3001,
-  //           title: "Puré de calabaza",
-  //           price: 5600,
-  //         },
-  //         {
-  //           id: 3002,
-  //           title: "Papas fritas",
-  //           price: 5600,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 303,
-  //       title: "Menú infantil",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3201,
-  //           title: "Mozzarella rebosada con puré",
-  //           price: 5800,
-  //         },
-  //         {
-  //           id: 3202,
-  //           title: "Hamburguesa",
-  //           description: "Con papas fritas o puré.",
-  //           price: 5800,
-  //         },
-  //         {
-  //           id: 3203,
-  //           title: "Ñoquis",
-  //           price: 5800,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Spaguettis",
-  //           price: 5800,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 304,
-  //       title: "Principales",
-  //       type: "special",
-  //       products: [
-  //         {
-  //           id: 3201,
-  //           title: "Wok de ternera, pollo, langostinos o vegetales.",
-  //           price: 7000,
-  //         },
-  //         {
-  //           id: 3201,
-  //           title: "Pesca del día.",
-  //           description: "En manteca de hierbas y lmón con papas fondant",
-  //           price: 7000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 305,
-  //       title: "Sandwichs",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3501,
-  //           title: "Salmón gravlax",
-  //           description: "Con pasta de palta, rúcula y cebolla morada.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3502,
-  //           title: "Pollo",
-  //           description: "Con lechuga, escamas de parmesano y cebolla crispy.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Escarola",
-  //           description: "Con peras, palta, champignones y tomate confitado.",
-  //           price: 4500,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Lomo",
-  //           description: "Con rúcula, tomate confitado y queso feta frío.",
-  //           price: 4000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 305,
-  //       title: "Ensaladas",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3501,
-  //           title: "Ensalada 1",
-  //           description:
-  //             "Boconccinos, tomates secos, pesto de mostaza, mix de hojas verdes y hongos salteados.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3502,
-  //           title: "Ensalada 2",
-  //           description:
-  //             "Tibia, de lentejas rojas, rúcula, queso de cabra, cebolla morada y yogurt griego.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Caesar",
-  //           description: "Con pollo marinado en cítricos.",
-  //           price: 4500,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 305,
-  //       title: "Postres",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3501,
-  //           title: "Flan casero de tres leches",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3502,
-  //           title: "Ensalada de frutas",
-  //           description:
-  //             "Tibia, de lentejas rojas, rúcula, queso de cabra, cebolla morada y yogurt griego.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Crema helada",
-  //           description: "Con pollo marinado en cítricos.",
-  //           price: 4500,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Almendrado",
-  //           description: "Con charlotte.",
-  //           price: 4500,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    id: 2,
+    title: "Almuerzo frente al mar",
+    pathName: "almuerzo-frente-al-mar",
+    description: "Lunes a Domingos | 9 a 20 hs",
+    type: "gold",
+    sections: [
+      {
+        id: 301,
+        title: "Entrantes | Tapeo",
+        type: "common",
+        products: [
+          {
+            id: 3001,
+            title: "Rabas",
+            description: "Con lactonesa de albahaca y limón.",
+            price: 9000,
+          },
+          {
+            id: 3002,
+            title: "Papas chafadas doble cocción con trío de salsa",
+            description: "Duxele de hongos, fondeau de quesos y salsa brava.",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Picada de mar",
+            description:
+              "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Falafel de pollo y pistachos",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Cous-cous de coliflor",
+            description: "Al curry con leche de coco.",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Pincho de langostinos empanados",
+            description: "En pistacho con salsa de maracuyá.",
+            price: 9000,
+          },
+        ],
+      },
+      {
+        id: 302,
+        title: "Los clásicos de siempre",
+        type: "common",
+        products: [
+          {
+            id: 3201,
+            title: "Lomito completo",
+            description: "Lechuga, tomate, jamón y queso.",
+            price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Milanesa de ojo de bife",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Revuelto gramajo",
+            price: 7500,
+          },
+          {
+            id: 3201,
+            title: "Pechuga grillada",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Merluza a la romana",
+            price: 8500,
+          },
+        ],
+      },
+      {
+        id: 303,
+        title: "Guarniciones",
+        type: "common",
+        products: [
+          {
+            id: 3000,
+            title: "Puré de papas",
+            price: 5500,
+          },
+          {
+            id: 3001,
+            title: "Puré de calabaza",
+            price: 5500,
+          },
+          {
+            id: 3002,
+            title: "Papas fritas",
+            price: 5500,
+          },
+        ],
+      },
+      {
+        id: 303,
+        title: "Menú infantil",
+        type: "common",
+        products: [
+          {
+            id: 3201,
+            title: "Mozzarella rebosada con puré",
+            price: 4500,
+          },
+          {
+            id: 3202,
+            title: "Hamburguesa",
+            description: "Con papas fritas o puré.",
+            price: 4500,
+          },
+          {
+            id: 3203,
+            title: "Ñoquis",
+            price: 4500,
+          },
+          {
+            id: 3003,
+            title: "Spaguettis",
+            price: 4500,
+          },
+        ],
+      },
+      {
+        id: 304,
+        title: "Principales",
+        type: "special",
+        products: [
+          {
+            id: 3201,
+            title: "Pesca del día.",
+            description: "En manteca de hierbas y lmón con papas fondant",
+            price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Wok de ternera",
+            price: 7500,
+          },
+          {
+            id: 3201,
+            title: "Wok de pollo",
+            price: 7000,
+          },
+          {
+            id: 3201,
+            title: "Wok de langostinos",
+            price: 9000,
+          },
+          {
+            id: 3201,
+            title: "Wok de vegetales",
+            price: 4500,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Sandwichs",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Salmón gravlax",
+            description: "Con pasta de palta, rúcula y cebolla morada.",
+            price: 9500,
+          },
+          {
+            id: 3502,
+            title: "Pollo",
+            description: "Con lechuga, escamas de parmesano y cebolla crispy.",
+            price: 7500,
+          },
+          {
+            id: 3504,
+            title: "Escarola",
+            description: "Con peras, palta, champignones y tomate confitado.",
+            price: 7500,
+          },
+          {
+            id: 3504,
+            title: "Lomo",
+            description: "Con rúcula, tomate confitado y queso feta frío.",
+            price: 9500,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Ensaladas",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Ensalada de boconccinos",
+            description:
+              "Con tomates secos, pesto de mostaza, mix de hojas verdes y hongos salteados.",
+            price: 8500,
+          },
+          {
+            id: 3502,
+            title: "Ensalada de lentejas rojas",
+            description:
+              "Tibia, con rúcula, queso de cabra, cebolla morada y yogurt griego.",
+            price: 8500,
+          },
+          {
+            id: 3504,
+            title: "Caesar",
+            description: "Con pollo marinado en cítricos.",
+            price: 8500,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Postres",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Flan casero de tres leches",
+            price: 3500,
+          },
+          {
+            id: 3502,
+            title: "Macedonia de estación",
+            price: 3500,
+          },
+          {
+            id: 3504,
+            title: "Crema helada",
+            price: 3500,
+          },
+          {
+            id: 3504,
+            title: "Cuadrado de almendras",
+            price: 3500,
+          },
+        ],
+      },
+    ],
+  },
   // {
   //   id: 3,
   //   title: "Cena de Autor",
@@ -842,144 +853,150 @@ const categories = [
       //     },
       //   ],
       // },
-      // {
-      //   id: 103,
-      //   title: "Tragos clásicos",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 1021,
-      //       title: "Caipiroska",
-      //       description: "Vodka, lima y almíbar.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1022,
-      //       title: "Martini",
-      //       description: "Gin London Dry y Vermouth Dry.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1023,
-      //       title: "Espresso martini",
-      //       description: "Vodka, espresso, borghetti y almíbar.",
-      //       price: 3000,
-      //     },
-      //     {
-      //       id: 1024,
-      //       title: "Pisco sour",
-      //       description: "Pisco Capel, almíbar, limón y albúmina.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1025,
-      //       title: "Cosmopolitan",
-      //       description: "Vodka, cramberry, Hesperidina, limón y almíbar.",
-      //       price: 3200,
-      //     },
-      //     {
-      //       id: 1026,
-      //       title: "Manhattan",
-      //       description: "Jim Beam, Carpano rosso y bitter Angostura.",
-      //       price: 3000,
-      //     },
+      {
+        id: 103,
+        title: "Tragos clásicos",
+        type: "common",
+        products: [
+          {
+            id: 1021,
+            title: "Caipiroska",
+            description: "Vodka, lima y almíbar.",
+            price: 4000,
+          },
+          {
+            id: 1022,
+            title: "Martini",
+            description: "Gin London Dry y Vermouth Dry.",
+            price: 3500,
+          },
+          {
+            id: 1023,
+            title: "Espresso martini",
+            description: "Vodka, espresso, borghetti y almíbar.",
+            price: 4000,
+          },
+          {
+            id: 1024,
+            title: "Pisco sour",
+            description: "Pisco Capel, almíbar, limón y albúmina.",
+            price: 4000,
+          },
+          {
+            id: 1025,
+            title: "Cosmopolitan",
+            description: "Vodka, cramberry, Hesperidina, limón y almíbar.",
+            price: 4000,
+          },
+          {
+            id: 1026,
+            title: "Manhattan",
+            description: "Jim Beam, Carpano rosso y bitter Angostura.",
+            price: 5000,
+          },
 
-      //     {
-      //       id: 1027,
-      //       title: "Boulevardier",
-      //       description: "Jim Beam, Campari y Vermouth rosso.",
-      //       price: 3000,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Old fashioned",
-      //       description: "Jim Beam, bitter Angostura y azúcar.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Negroni",
-      //       description: "London dry, Campari y Vermouth rosso.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Tom Collins",
-      //       description: "Gin, almíbar, limón y soda.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Gimblet",
-      //       description: "Gin, almíbar y limón.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Americano",
-      //       description: "Campari, Vermouth rosso y soda.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Mojito",
-      //       description:
-      //         "Bacardí blanco, almíbar, limón, menta, soda y bitter Angostura.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Daiquiri cóctel",
-      //       description: "Bacardí blanco, almíbar y limón.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Aperol Spritz",
-      //       description: "Aperol, espumante y soda.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Margarita cóctel",
-      //       description: "Tequila, hesperidina, almíbar y limón.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Whisky Sour",
-      //       description: "Jim Beam, almíbar, limón y albúmina.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Cynar Julep",
-      //       description: "Cynar 70, jugo de pomelo, almíbar, limón y menta.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Gin tonic",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Fernet cola",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Campari tonic",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1028,
-      //       title: "Garibaldi",
-      //       description: "Campari y jugo de naranja.",
-      //       price: 3500,
-      //     },
-      //   ],
-      // },
+          {
+            id: 1027,
+            title: "Boulevardier",
+            description: "Jim Beam, Campari y Vermouth rosso.",
+            price: 5000,
+          },
+          {
+            id: 1028,
+            title: "Old fashioned",
+            description: "Jim Beam, bitter Angostura y azúcar.",
+            price: 5000,
+          },
+          {
+            id: 1028,
+            title: "Penicillin",
+            description: "Whisky, limón, miel y jengibre.",
+            price: 5000,
+          },
+          {
+            id: 1028,
+            title: "Negroni",
+            description: "London dry, Campari y Vermouth rosso.",
+            price: 4000,
+          },
+          {
+            id: 1028,
+            title: "Tom Collins",
+            description: "Gin, almíbar, limón y soda.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Gimblet",
+            description: "Gin, almíbar y limón.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Americano",
+            description: "Campari, Vermouth rosso y soda.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Mojito",
+            description:
+              "Bacardí blanco, almíbar, limón, menta, soda y bitter Angostura.",
+            price: 4000,
+          },
+          {
+            id: 1028,
+            title: "Daiquiri cóctel",
+            description: "Bacardí blanco, almíbar y limón.",
+            price: 4000,
+          },
+          {
+            id: 1028,
+            title: "Aperol Spritz",
+            description: "Aperol, espumante y soda.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Margarita cóctel",
+            description: "Tequila, hesperidina, almíbar y limón.",
+            price: 4000,
+          },
+          {
+            id: 1028,
+            title: "Whisky Sour",
+            description: "Jim Beam, almíbar, limón y albúmina.",
+            price: 5000,
+          },
+          {
+            id: 1028,
+            title: "Cynar Julep",
+            description: "Cynar 70, jugo de pomelo, almíbar, limón y menta.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Gin tonic",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Fernet cola",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Campari tonic",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Garibaldi",
+            description: "Campari y jugo de naranja.",
+            price: 3500,
+          },
+        ],
+      },
       // {
       //   id: 106,
       //   title: "Gin nacional",

@@ -47,11 +47,6 @@ const categories = [
             price: 2000,
           },
           {
-            id: 2008,
-            title: "Capuccino",
-            price: 2000,
-          },
-          {
             id: 2009,
             title: "Capuccino a la italiana",
             price: 2200,
@@ -194,6 +189,11 @@ const categories = [
             description: "Dulces o saladas",
             price: 700,
           },
+          {
+            id: 2025,
+            title: "Medialunas con jamón y queso",
+            price: 1800,
+          },
 
           {
             id: 2027,
@@ -302,12 +302,13 @@ const categories = [
           {
             id: 3201,
             title: "Lomito completo",
-            description: "Lechuga, tomate, jamón y queso.",
+            description: "Lechuga, tomate, jamón y queso. Con guarnición.",
             price: 9500,
           },
           {
             id: 3201,
             title: "Milanesa de ojo de bife",
+            description: "Con guarnición.",
             price: 8500,
           },
           {
@@ -318,11 +319,13 @@ const categories = [
           {
             id: 3201,
             title: "Pechuga grillada",
+            description: "Con guarnición",
             price: 8500,
           },
           {
             id: 3201,
             title: "Merluza a la romana",
+            description: "Con guarnición",
             price: 8500,
           },
         ],
@@ -443,7 +446,7 @@ const categories = [
       },
       {
         id: 305,
-        title: "Ensaladas",
+        title: "Ensaladas gourmet",
         type: "common",
         products: [
           {
@@ -497,222 +500,222 @@ const categories = [
       },
     ],
   },
-  // {
-  //   id: 3,
-  //   title: "Cena de Autor",
-  //   pathName: "cena-de-autor",
-  //   description: "Miércoles a Sábados | 20 a 02 am",
-  //   type: "gold",
-  //   sections: [
-  //     {
-  //       id: 4000,
-  //       title: "Nuestras picadas",
-  //       products: [
-  //         {
-  //           id: 3001,
-  //           title: "Rabas",
-  //           description: "Con lactonesa de albahaca y limón.",
-  //           price: 4500,
-  //         },
-  //         {
-  //           id: 3002,
-  //           title: "Papas chafadas doble cocción con trío de salsa",
-  //           description: "Duxele de hongos, fondeau de quesos y salsa brava.",
-  //           price: 3900,
-  //         },
-  //         {
-  //           id: 3003,
-  //           title: "Picada de mar",
-  //           description:
-  //             "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-  //           price: 5100,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 305,
-  //       title: "Ensaladas",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 3501,
-  //           title: "Ensalada 1",
-  //           description:
-  //             "Boconccinos, tomates secos, pesto de mostaza, mix de hojas verdes y hongos salteados.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3502,
-  //           title: "Ensalada 2",
-  //           description:
-  //             "Tibia, de lentejas rojas, rúcula, queso de cabra, cebolla morada y yogurt griego.",
-  //           price: 3800,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Caesar",
-  //           description: "Con pollo marinado en cítricos.",
-  //           price: 4500,
-  //         },
-  //         {
-  //           id: 3504,
-  //           title: "Ensalada a tu gusto",
-  //           description:
-  //             "Lechuga, tomate, zanahoria, rúcula, huevo, pamesano, champignon, lentejas y arroz.",
-  //           price: 4500,
-  //         },
-  //       ],
-  //     },
+  {
+    id: 3,
+    title: "Cena de Autor",
+    pathName: "cena-de-autor",
+    description: "Lunes a Domingos | 20 a 02 am",
+    type: "gold",
+    sections: [
+      {
+        id: 4000,
+        title: "Nuestras picadas",
+        products: [
+          {
+            id: 3001,
+            title: "Rabas",
+            description: "Con lactonesa de albahaca y limón.",
+            price: 9000,
+          },
+          {
+            id: 3002,
+            title: "Papas chafadas doble cocción con trío de salsa",
+            description: "Duxele de hongos, fondeau de quesos y salsa brava.",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Picada de mar",
+            description:
+              "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
+            price: 9000,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Ensaladas gourmet",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Ensalada de boconccinos",
+            description:
+              "Con tomates secos, pesto de mostaza, mix de hojas verdes y hongos salteados.",
+            price: 3800,
+          },
+          {
+            id: 3502,
+            title: "Ensalada de lentejas rojas",
+            description:
+              "Tibia, con rúcula, queso de cabra, cebolla morada y yogurt griego.",
+            price: 8500,
+          },
+          {
+            id: 3504,
+            title: "Caesar",
+            description: "Con pollo marinado en cítricos.",
+            price: 8500,
+          },
+          {
+            id: 3504,
+            title: "Ensalada a tu gusto",
+            description:
+              "Tres ingredientes | Lechuga, tomate, zanahoria, rúcula, huevo, pamesano, champignon, lentejas y arroz.",
+            price: 8500,
+          },
+        ],
+      },
 
-  //     {
-  //       id: 4003,
-  //       title: "Entrantes",
-  //       products: [
-  //         {
-  //           id: 4301,
-  //           title: "Asado braseado",
+      {
+        id: 4003,
+        title: "Entrantes",
+        products: [
+          {
+            id: 4301,
+            title: "Asado braseado",
 
-  //           description: "Sobre crema de boniato",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4302,
-  //           title: "Gazpacho",
-  //           description:
-  //             "De tomate, pepino y salsa de ostras con crocante de jamón cerrano.",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4304,
-  //           title: "Ceviche de hongos y mango",
-  //           description: "Con aceite de trufas.",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4304,
-  //           title: "Arroz crocante de sushi",
-  //           description: "Con feta de salmón gravlax y espuma de limón.",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4304,
-  //           title: "Crocante de queso de cabra",
-  //           description: "Con cebolla caramelizada y tomates confitados.",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4304,
-  //           title: "Tentáculo de pulpo",
-  //           description: "Sobre crema de papas.",
-  //           price: 6500,
-  //         },
-  //         {
-  //           id: 4304,
-  //           title: "Brochette de mollejas braseadas",
-  //           description: "En salsa dashi dulce.",
-  //           price: 6500,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 4004,
-  //       title: "Principales",
-  //       type: "special",
-  //       products: [
-  //         {
-  //           id: 4401,
-  //           title: "Risotto de té de matcha",
-  //           description: "Con atún rojo y espuma de lima.",
-  //           price: 5000,
-  //         },
-  //         {
-  //           id: 4402,
-  //           title: "Salmón del pacífico",
-  //           description:
-  //             "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
-  //           price: 5900,
-  //         },
-  //         {
-  //           id: 4403,
-  //           title: "Pez limón",
-  //           description:
-  //             "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
-  //           price: 5000,
-  //         },
-  //         {
-  //           id: 4404,
-  //           title: "Ojo de bife",
-  //           description:
-  //             "Con puré de hinojo y manzanas con chimichurri de algas y spirulina.",
-  //           price: 5800,
-  //         },
-  //         {
-  //           id: 4405,
-  //           title: "T-bone",
-  //           description:
-  //             "En reducción de cabernet y moras, kale marinada a la plancha y papas estrelladas.",
-  //           price: 6000,
-  //         },
-  //         {
-  //           id: 4405,
-  //           title: "Matambre de cerdo confitado",
-  //           description: "Sobre crujiente de papa y salsa holandesa.",
-  //           price: 6000,
-  //         },
-  //         {
-  //           id: 4405,
-  //           title: "Sorrento de autor",
-  //           description: "Con salsa del chef.",
-  //           price: 6000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 4004,
-  //       title: "Postres",
-  //       products: [
-  //         {
-  //           id: 4401,
-  //           title: "Cheesecake de mojito",
-  //           price: 5000,
-  //         },
-  //         {
-  //           id: 4402,
-  //           title: "Panna cotta de pistachos y sandía",
-  //           price: 5900,
-  //         },
-  //         {
-  //           id: 4403,
-  //           title: "Nube de limón",
-  //           description:
-  //             "Base de chocolate con crema de champagne y mousse de limón con gel de menta.",
-  //           price: 5000,
-  //         },
-  //         {
-  //           id: 4404,
-  //           title: "Creme brulee de lavanda",
-  //           description:
-  //             "Con salsa de arándanos, macarons de lavanda y crema de mascarpone",
-  //           price: 5800,
-  //         },
-  //         {
-  //           id: 4405,
-  //           title: "Sinfonía de trufas y bombones",
-  //           description:
-  //             "Bombón blande de whisky y naranja - Bombón relleno de chocolate y menta - Trufa de coco y pecan - Trufa de chocolate blanco y frambuesa bombón de fernet.",
-  //           price: 6000,
-  //         },
-  //         {
-  //           id: 4405,
-  //           title: "Degustación de postres Le Belle",
-  //           description:
-  //             "Cheesecake de mojito - Panna cotta de pistacho y sandía - Nube de limón - Creme brulee.",
-  //           price: 6000,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+            description: "Sobre crema de boniato",
+            price: 7000,
+          },
+          {
+            id: 4302,
+            title: "Gazpacho",
+            description:
+              "De tomate, pepino y salsa de ostras con crocante de jamón cerrano.",
+            price: 4500,
+          },
+          {
+            id: 4304,
+            title: "Ceviche de hongos y mango",
+            description: "Con aceite de trufas.",
+            price: 4500,
+          },
+          {
+            id: 4304,
+            title: "Arroz crocante de sushi",
+            description: "Con feta de salmón gravlax y espuma de limón.",
+            price: 5000,
+          },
+          {
+            id: 4304,
+            title: "Crocante de queso de cabra",
+            description: "Con cebolla caramelizada y tomates confitados.",
+            price: 4500,
+          },
+          {
+            id: 4304,
+            title: "Tentáculo de pulpo",
+            description: "Sobre crema de papas.",
+            price: 10500,
+          },
+          {
+            id: 4304,
+            title: "Brochette de mollejas braseadas",
+            description: "En salsa dashi dulce.",
+            price: 7000,
+          },
+        ],
+      },
+      {
+        id: 4004,
+        title: "Principales",
+        type: "special",
+        products: [
+          {
+            id: 4401,
+            title: "Risotto de té de matcha",
+            description: "Con atún rojo y espuma de lima.",
+            price: 9600,
+          },
+          {
+            id: 4402,
+            title: "Salmón del pacífico",
+            description:
+              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
+            price: 16500,
+          },
+          {
+            id: 4403,
+            title: "Pez limón",
+            description:
+              "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
+            price: 13500,
+          },
+          {
+            id: 4404,
+            title: "Ojo de bife",
+            description:
+              "Con puré de hinojo y manzanas con chimichurri de algas y spirulina.",
+            price: 13000,
+          },
+          {
+            id: 4405,
+            title: "T-bone",
+            description:
+              "En reducción de cabernet y moras, kale marinada a la plancha y papas estrelladas.",
+            price: 15000,
+          },
+          {
+            id: 4405,
+            title: "Matambre de cerdo confitado",
+            description: "Sobre crujiente de papa y salsa holandesa.",
+            price: 12000,
+          },
+          {
+            id: 4405,
+            title: "Sorrento de autor",
+            description: "Con salsa del chef.",
+            price: 13000,
+          },
+        ],
+      },
+      {
+        id: 4004,
+        title: "Postres",
+        products: [
+          {
+            id: 4401,
+            title: "Cheesecake de mojito",
+            price: 4500,
+          },
+          {
+            id: 4402,
+            title: "Panna cotta de pistachos y sandía",
+            price: 4500,
+          },
+          {
+            id: 4403,
+            title: "Nube de limón",
+            description:
+              "Base de chocolate con crema de champagne y mousse de limón con gel de menta.",
+            price: 4500,
+          },
+          {
+            id: 4404,
+            title: "Creme brulee de lavanda",
+            description:
+              "Con salsa de arándanos, macarons de lavanda y crema de mascarpone",
+            price: 4500,
+          },
+          {
+            id: 4405,
+            title: "Sinfonía de trufas y bombones",
+            description:
+              "Bombón blande de whisky y naranja - Bombón relleno de chocolate y menta - Trufa de coco y pecan - Trufa de chocolate blanco y frambuesa bombón de fernet.",
+            price: 6500,
+          },
+          {
+            id: 4405,
+            title: "Degustación de postres Le Belle",
+            description:
+              "Cheesecake de mojito - Panna cotta de pistacho y sandía - Nube de limón - Creme brulee.",
+            price: 6500,
+          },
+        ],
+      },
+    ],
+  },
   {
     id: 4,
     title: "Bebidas",
@@ -746,113 +749,113 @@ const categories = [
           },
         ],
       },
-      // {
-      //   id: 102,
-      //   title: "Tragos de Autor",
-      //   type: "special",
-      //   products: [
-      //     {
-      //       id: 1011,
-      //       title: "Marga 2.0",
-      //       description:
-      //         "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1012,
-      //       title: "Explorador",
-      //       description:
-      //         "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
-      //       price: 5000,
-      //     },
-      //     {
-      //       id: 1013,
-      //       title: "Ananashe",
-      //       description: "Ron appleton, borghetti, ananá y mix de cítricos.",
-      //       price: 5000,
-      //     },
-      //     {
-      //       id: 1014,
-      //       title: "Trufa",
-      //       description:
-      //         "Wild turkey fat washing fungi, syrup especiado y soja.",
-      //       price: 3000,
-      //     },
-      //     {
-      //       id: 1015,
-      //       title: "Fresco",
-      //       description: "Cognac, pelargonium, aperol, Chandon Extra Brut.",
-      //       price: 5800,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Floral S/A",
-      //       description:
-      //         "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Mentor",
-      //       description:
-      //         "Tanqueray London Dry, eucalipto, solución salina y solución mentolada.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Alquimia",
-      //       description: "Campari, yogurt vainilla, mix de cítricos y cedrón.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Argento",
-      //       description:
-      //         "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "This is Kaléndula?",
-      //       description:
-      //         "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Aromático",
-      //       description:
-      //         "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Bonanza",
-      //       description:
-      //         "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Kyomu S/A",
-      //       description: "Blend de té, frutilla, durazno, legumbres y tepache.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Botánica S/A",
-      //       description:
-      //         "Don mix, cordial de ruibardo, brotes y espuma de melón.",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1016,
-      //       title: "Not bloody",
-      //       description: "Black Label, frutilla, tomate, sriracha y especias.",
-      //       price: 4000,
-      //     },
-      //   ],
-      // },
+      {
+        id: 102,
+        title: "Tragos de Autor",
+        type: "special",
+        products: [
+          {
+            id: 1011,
+            title: "Marga 2.0",
+            description:
+              "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
+            price: 5000,
+          },
+          {
+            id: 1012,
+            title: "Explorador",
+            description:
+              "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
+            price: 4700,
+          },
+          {
+            id: 1013,
+            title: "Ananashe",
+            description: "Ron appleton, borghetti, ananá y mix de cítricos.",
+            price: 4700,
+          },
+          {
+            id: 1014,
+            title: "Trufa",
+            description:
+              "Wild turkey fat washing fungi, syrup especiado y soja.",
+            price: 5500,
+          },
+          {
+            id: 1015,
+            title: "Fresco",
+            description: "Cognac, pelargonium, aperol, Chandon Extra Brut.",
+            price: 6000,
+          },
+          {
+            id: 1016,
+            title: "Floral",
+            description:
+              "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
+            price: 4000,
+          },
+          {
+            id: 1016,
+            title: "Mentor",
+            description:
+              "Tanqueray London Dry, eucalipto, solución salina y solución mentolada.",
+            price: 4700,
+          },
+          {
+            id: 1016,
+            title: "Alquimia",
+            description: "Campari, yogurt vainilla, mix de cítricos y cedrón.",
+            price: 4700,
+          },
+          {
+            id: 1016,
+            title: "Argento",
+            description:
+              "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
+            price: 5000,
+          },
+          {
+            id: 1016,
+            title: "This is Kaléndula?",
+            description:
+              "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+            price: 5000,
+          },
+          {
+            id: 1016,
+            title: "Aromático",
+            description:
+              "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
+            price: 5000,
+          },
+          {
+            id: 1016,
+            title: "Bonanza",
+            description:
+              "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
+            price: 5500,
+          },
+          {
+            id: 1016,
+            title: "Kyomu",
+            description: "Blend de té, frutilla, durazno, legumbres y tepache.",
+            price: 4000,
+          },
+          {
+            id: 1016,
+            title: "Botánica",
+            description:
+              "Don mix, cordial de ruibardo, brotes y espuma de melón.",
+            price: 4000,
+          },
+          {
+            id: 1016,
+            title: "Not bloody",
+            description: "Black Label, frutilla, tomate, sriracha y especias.",
+            price: 5500,
+          },
+        ],
+      },
       {
         id: 103,
         title: "Tragos clásicos",
@@ -997,201 +1000,308 @@ const categories = [
           },
         ],
       },
-      // {
-      //   id: 106,
-      //   title: "Gin nacional",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 1051,
-      //       title: "Heráclito London Dry",
-      //       price: 2200,
-      //     },
-      //     {
-      //       id: 1052,
-      //       title: "Príncipe de los apóstoles",
-      //       price: 2200,
-      //     },
-      //     {
-      //       id: 1061,
-      //       title: "Kalmar",
-      //       description: "Yerba mate | Hibiscus",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1062,
-      //       title: "Oid mortales",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1063,
-      //       title: "Mar del Plata Gin",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1064,
-      //       title: "Dichosa",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1065,
-      //       title: "La Francesa",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1066,
-      //       title: "León Dormido",
-      //       price: 2800,
-      //     },
-      //     {
-      //       id: 1067,
-      //       title: "Malaria",
-      //       price: 3500,
-      //     },
-      //     {
-      //       id: 1068,
-      //       title: "Restinga",
-      //       price: 3000,
-      //     },
-      //     {
-      //       id: 1053,
-      //       title: "Bosque",
-      //       price: 3000,
-      //     },
-      //     {
-      //       id: 1054,
-      //       title: "Tanqueray",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1055,
-      //       title: "Tanqueray sevilla",
-      //       price: 4500,
-      //     },
-      //     {
-      //       id: 1056,
-      //       title: "Beefeater",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1057,
-      //       title: "Bombay",
-      //       price: 4500,
-      //     },
-      //     {
-      //       id: 1058,
-      //       title: "Bombay Bramble",
-      //       price: 4800,
-      //     },
-      //     {
-      //       id: 1059,
-      //       title: "Bulldog",
-      //       price: 4500,
-      //     },
-      //     {
-      //       id: 1060,
-      //       title: "Hendrick's",
-      //       price: 6000,
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 107,
-      //   title: "Whisky",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 1081,
-      //       title: "Jameson",
-      //       price: 3800,
-      //     },
-      //     {
-      //       id: 1082,
-      //       title: "Jim Beam",
-      //       price: 3800,
-      //     },
-      //     {
-      //       id: 1083,
-      //       title: "Johnny walker red label",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1084,
-      //       title: "Johnny Walker Black Label",
-      //       price: 4300,
-      //     },
-      //     {
-      //       id: 1084,
-      //       title: "Johnny Walker Blue Label",
-      //       price: 35000,
-      //     },
-      //     {
-      //       id: 1085,
-      //       title: "Chivas Regal 12 años",
-      //       price: 4700,
-      //     },
-      //     {
-      //       id: 1086,
-      //       title: "Chivas Regal 18 años",
-      //       price: 8500,
-      //     },
-      //     {
-      //       id: 1087,
-      //       title: "The Glenlivet Founders Reserve",
-      //       price: 5500,
-      //     },
-      //     {
-      //       id: 1088,
-      //       title: "The Glenlivet 12 años",
-      //       price: 6000,
-      //     },
-      //     {
-      //       id: 1089,
-      //       title: "The Glenlivet 15 años",
-      //       price: 8000,
-      //     },
-      //     {
-      //       id: 1090,
-      //       title: "Jack Daniel's",
-      //       price: 4000,
-      //     },
-      //     {
-      //       id: 1091,
-      //       title: "Jack Daniel's Honey",
-      //       price: 4500,
-      //     },
-      //     {
-      //       id: 1092,
-      //       title: "Jack Daniel's Gentleman",
-      //       price: 5500,
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 108,
-      //   title: "Cervezas",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 1091,
-      //       title: "Media pinta",
-      //       description: "Stella Artois | Patagonia Amber Ale | Patagonia 24.7",
-      //       price: 1000,
-      //     },
-      //     {
-      //       id: 1092,
-      //       title: "Pinta",
-      //       description: "Stella Artois | Patagonia Amber Ale | Patagonia 24.7",
-      //       price: 1500,
-      //     },
-      //     {
-      //       id: 1093,
-      //       title: "Porrón",
-      //       description: "Corona",
-      //       price: 1700,
-      //     },
-      //   ],
-      // },
+      {
+        id: 106,
+        title: "Gin",
+        type: "common",
+        products: [
+          {
+            id: 1052,
+            title: "Príncipe de los apóstoles",
+            price: 3500,
+          },
+          {
+            id: 1054,
+            title: "Tanqueray London Dry",
+            price: 4500,
+          },
+          {
+            id: 1055,
+            title: "Tanqueray Sevilla",
+            price: 5000,
+          },
+          {
+            id: 1056,
+            title: "Beefeater",
+            price: 4500,
+          },
+          {
+            id: 1057,
+            title: "Bombay Shaphire",
+            price: 6000,
+          },
+          {
+            id: 1058,
+            title: "Bombay Bramble",
+            price: 10000,
+          },
+          {
+            id: 1059,
+            title: "Bulldog",
+            price: 5000,
+          },
+          {
+            id: 1060,
+            title: "Hendrick's",
+            price: 8500,
+          },
+        ],
+      },
+      {
+        id: 107,
+        title: "Whisky",
+        type: "common",
+        products: [
+          {
+            id: 1081,
+            title: "Jameson",
+            description: "Irish",
+            price: 6000,
+          },
+          {
+            id: 1083,
+            title: "Johnny Walker Red Label",
+            description: "Scotch",
+            price: 7000,
+          },
+          {
+            id: 1084,
+            title: "Johnny Walker Black Label",
+            description: "Scotch",
+            price: 9000,
+          },
+          {
+            id: 1085,
+            title: "Chivas Regal 12 años",
+            description: "Scotch",
+            price: 9000,
+          },
+          {
+            id: 1086,
+            title: "Chivas Regal 18 años",
+            description: "Scotch",
+            price: 25000,
+          },
+          {
+            id: 1082,
+            title: "Jim Beam",
+            description: "Bourbon",
+            price: 6000,
+          },
+          {
+            id: 1082,
+            title: "Wild Turkey",
+            description: "Bourbon",
+            price: 8000,
+          },
+          {
+            id: 1082,
+            title: "Maker's Mark",
+            description: "Bourbon",
+            price: 20000,
+          },
+          {
+            id: 1087,
+            title: "The Singletton 18 años",
+            description: "Single malt",
+            price: 28000,
+          },
+          {
+            id: 1087,
+            title: "The Glenlivet Founders Reserve",
+            description: "Single malt",
+            price: 23000,
+          },
+          {
+            id: 1088,
+            title: "The Glenlivet 12 años",
+            description: "Single malt",
+            price: 6000,
+          },
+          {
+            id: 1089,
+            title: "The Glenlivet 15 años",
+            description: "Single malt",
+            price: 8000,
+          },
+          {
+            id: 1090,
+            title: "Jack Daniel's",
+            description: "Tennessee",
+            price: 4000,
+          },
+          {
+            id: 1091,
+            title: "Jack Daniel's Honey",
+            description: "Tennessee",
+            price: 4500,
+          },
+        ],
+      },
+      {
+        id: 107,
+        title: "Ron",
+        type: "common",
+        products: [
+          {
+            id: 1081,
+            title: "Havana 7 años",
+            price: 11000,
+          },
+        ],
+      },
+      {
+        id: 107,
+        title: "Vodka",
+        type: "common",
+        products: [
+          {
+            id: 1081,
+            title: "Grey Goose",
+            price: 27000,
+          },
+        ],
+      },
+      {
+        id: 108,
+        title: "Cervezas",
+        type: "common",
+        products: [
+          {
+            id: 1091,
+            title: "Corona",
+            price: 5700,
+          },
+          {
+            id: 1092,
+            title: "Quilmes Stout",
+            price: 3700,
+          },
+          {
+            id: 1093,
+            title: "Patagonia Amber",
+            description: "Pinta",
+            price: 3700,
+          },
+          {
+            id: 1093,
+            title: "Patagonia Amber",
+            description: "Media pinta",
+            price: 3700,
+          },
+          {
+            id: 1093,
+            title: "Patagonia 24.7",
+            description: "Pinta",
+            price: 6000,
+          },
+          {
+            id: 1093,
+            title: "Patagonia 24.7",
+            description: "Media pinta",
+            price: 4000,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Vinos y espumantes",
+    pathName: "vinos",
+    type: "gold",
+    sections: [
+      {
+        id: 601,
+        title: "Tintos",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Serie Q - Cabernet Sauvignon",
+            description: "Zuccardi",
+            price: 23000,
+          },
+          {
+            id: 6001,
+            title: "Serie Q - Cabernet Franc",
+            description: "Zuccardi",
+            price: 21000,
+          },
+          {
+            id: 6001,
+            title: "Rutini - Cabernet Malbec",
+            description: "Rutini wines",
+            price: 19000,
+          },
+          {
+            id: 6001,
+            title: "Rutini - Cabernet Franc",
+            description: "Rutini wines",
+            price: 18000,
+          },
+          {
+            id: 6001,
+            title: "Tumpeter - Cabernet Sauvignon",
+            description: "Rutini wines",
+            price: 9000,
+          },
+        ],
+      },
+      {
+        id: 602,
+        title: "Blancos",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Rutini - Chardonnay",
+            description: "Rutini wines",
+            price: 19000,
+          },
+          {
+            id: 6001,
+            title: "Rutini - Sauvignon Blanc",
+            description: "Rutini wines",
+            price: 19000,
+          },
+        ],
+      },
+      {
+        id: 603,
+        title: "Rosados",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Familia Gascón - Rosé",
+            description: "Escorihuela Gascón",
+            price: 19000,
+          },
+        ],
+      },
+      {
+        id: 603,
+        title: "Espumantes",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Nicasia - Nature",
+            price: 13000,
+          },
+          {
+            id: 6001,
+            title: "Álamos - Extra Brut",
+            price: 13000,
+          },
+          {
+            id: 6001,
+            title: "Baron B - Extra Brut",
+            price: 40000,
+          },
+        ],
+      },
     ],
   },
   // {

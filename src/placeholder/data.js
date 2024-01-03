@@ -273,7 +273,7 @@ const categories = [
             title: "Picada de mar",
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 9000,
+            price: 15000,
           },
           {
             id: 3003,
@@ -467,6 +467,13 @@ const categories = [
             id: 3504,
             title: "Caesar",
             description: "Con pollo marinado en cítricos.",
+            price: 8500,
+          },
+          {
+            id: 3504,
+            title: "Ensalada a tu gusto",
+            description:
+              "Tres ingredientes | Lechuga, tomate, zanahoria, rúcula, huevo, pamesano, champignon, lentejas y arroz.",
             price: 8500,
           },
         ],
@@ -1163,6 +1170,11 @@ const categories = [
         products: [
           {
             id: 1081,
+            title: "Absolut",
+            price: 27000,
+          },
+          {
+            id: 1081,
             title: "Grey Goose",
             price: 27000,
           },
@@ -1211,83 +1223,545 @@ const categories = [
       },
     ],
   },
+  // {
+  //   id: 5,
+  //   title: "Vinos y espumantes",
+  //   pathName: "vinos",
+  //   type: "gold",
+  //   sections: [
+  //     {
+  //       id: 601,
+  //       title: "Tintos",
+  //       type: "common",
+  //       products: [
+  //         {
+  //           id: 6001,
+  //           title: "Serie Q - Cabernet Sauvignon",
+  //           description: "Zuccardi",
+  //           price: 23000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Serie Q - Cabernet Franc",
+  //           description: "Zuccardi",
+  //           price: 21000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "DV Catena - Malbec Malbec",
+  //           description: "Catena Zapata",
+  //           price: 19800,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "DV Catena - Cabernet Cabernet",
+  //           description: "Catena Zapata",
+  //           price: 12600,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Rutini - Cabernet Malbec",
+  //           description: "Rutini wines",
+  //           price: 19000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Rutini - Cabernet Franc",
+  //           description: "Rutini wines",
+  //           price: 18000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Tumpeter - Cabernet Sauvignon",
+  //           description: "Rutini wines",
+  //           price: 9000,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 602,
+  //       title: "Blancos",
+  //       type: "common",
+  //       products: [
+  //         {
+  //           id: 6001,
+  //           title: "DV Catena - Chardonnay",
+  //           description: "Catena Zapata",
+  //           price: 21600,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Rutini - Chardonnay",
+  //           description: "Rutini wines",
+  //           price: 19000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Rutini - Sauvignon Blanc",
+  //           description: "Rutini wines",
+  //           price: 19000,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 603,
+  //       title: "Rosados",
+  //       type: "common",
+  //       products: [
+  //         {
+  //           id: 6001,
+  //           title: "Familia Gascón - Rosé",
+  //           description: "Escorihuela Gascón",
+  //           price: 19000,
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       id: 603,
+  //       title: "Espumantes",
+  //       type: "common",
+  //       products: [
+  //         {
+  //           id: 6001,
+  //           title: "Nicasia - Nature",
+  //           price: 13000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Álamos - Extra Brut",
+  //           price: 13000,
+  //         },
+  //         {
+  //           id: 6001,
+  //           title: "Baron B - Extra Brut",
+  //           price: 40000,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
   {
     id: 5,
-    title: "Vinos y espumantes",
+    title: "Vinos",
     pathName: "vinos",
     type: "gold",
     sections: [
+      // {
+      //   id: 601,
+      //   title: "Bodega Álamos",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6001,
+      //       title: "Álamos Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6002,
+      //       title: "Álamos Cabernet Sauvignon",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6003,
+      //       title: "Álamos Sauvignon Blanc",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6003,
+      //       title: "Álamos Dulce Natural",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6004,
+      //       title: "Álamos Reserva Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6005,
+      //       title: "Álamos Reserva Pinot Noir",
+      //       description: "Norton",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 602,
+      //   title: "Bodega y viñedos Catena",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6101,
+      //       title: "Nicasia Red Blend - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6102,
+      //       title: "Nicasia Red Blend - Cabernet Franc",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6103,
+      //       title: "Nicasia Red Blend - Blanc de Blancs",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6104,
+      //       title: "Saint Felicien - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6105,
+      //       title: "Saint Felicien - Cabernet Merlot",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6106,
+      //       title: "Saint Felicien - Pinot Noir",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6107,
+      //       title: "Saint Felicien - Chardonnay",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6108,
+      //       title: "DV Catena - Cabernet Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6108,
+      //       title: "DV Catena - Chardonnay Chardonnay",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
       {
-        id: 601,
-        title: "Tintos",
+        id: 603,
+        title: "Bodega Catena Zapata",
         type: "common",
         products: [
           {
-            id: 6001,
-            title: "Serie Q - Cabernet Sauvignon",
-            description: "Zuccardi",
-            price: 23000,
-          },
-          {
-            id: 6001,
-            title: "Serie Q - Cabernet Franc",
-            description: "Zuccardi",
-            price: 21000,
-          },
-          {
-            id: 6001,
+            id: 6201,
             title: "DV Catena - Malbec Malbec",
-            description: "Catena Zapata",
             price: 19800,
           },
           {
-            id: 6001,
+            id: 6201,
             title: "DV Catena - Cabernet Cabernet",
-            description: "Catena Zapata",
             price: 12600,
           },
           {
-            id: 6001,
-            title: "Rutini - Cabernet Malbec",
-            description: "Rutini wines",
-            price: 19000,
+            id: 6201,
+            title: "DV Catena - Chardonnay",
+            price: 21600,
           },
-          {
-            id: 6001,
-            title: "Rutini - Cabernet Franc",
-            description: "Rutini wines",
-            price: 18000,
-          },
-          {
-            id: 6001,
-            title: "Tumpeter - Cabernet Sauvignon",
-            description: "Rutini wines",
-            price: 9000,
-          },
+          // {
+          //   id: 6202,
+          //   title: "Angélica Zapata - Malbec Alta",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6202,
+          //   title: "Angélica Zapata - Cabernet Sauvignon Alta",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6202,
+          //   title: "Angélica Zapata - Chardonnay Alta",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6202,
+          //   title: "Malbec Argentino",
+          //   price: 6900,
+          // },
         ],
       },
+      // {
+      //   id: 604,
+      //   title: "Bodega Séptima",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6301,
+      //       title: "Séptima - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6302,
+      //       title: "Séptima - Cabernet Sauvignon",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6303,
+      //       title: "Séptima - Chardonnay",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6304,
+      //       title: "Séptima - Rosado de Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6304,
+      //       title: "Séptima Obra - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6304,
+      //       title: "Séptima Obra - Chardonnay",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6304,
+      //       title: "Séptima Gran Reserva - Blend",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6304,
+      //       title: "Séptima Gran Reserva 10 barricas - Malbec",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 605,
+      //   title: "Bodega Amalaya y Colome",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6401,
+      //       title: "Amalaya Gran Corte",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6402,
+      //       title: "Amalaya - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6403,
+      //       title: "Amalaya - Dulce Torrontés",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Amalaya - Torrontés",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6405,
+      //       title: "Amalaya - Rosado",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6406,
+      //       title: "Colome Estate - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6407,
+      //       title: "Colome Auténtico - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6408,
+      //       title: "Colome - Torrontés",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 605,
+      //   title: "Bodega Cavas Resell Boher",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6401,
+      //       title: "Casa Boher - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6402,
+      //       title: "Casa Boher - Merlot",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6403,
+      //       title: "Casa Boher - Sauvignon blanc",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Casa Boher Gran Reserva - Blend",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Casa Boher Gran Chardonnay",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
+      // {
+      //   id: 605,
+      //   title: "Bodega Humberto Canale",
+      //   type: "common",
+      //   products: [
+      //     {
+      //       id: 6401,
+      //       title: "Blush Rosado Finamente Dulce",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6402,
+      //       title: "Intimo - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6403,
+      //       title: "Intimo - Trivarietal",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Intimo - Sauvignon Semillón",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Estate - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Estate - Merlot",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Old Vineyard - Malbec",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Old Vineyard - Riesling",
+      //       price: 6900,
+      //     },
+      //     {
+      //       id: 6404,
+      //       title: "Humberto Canale Gran Reserva - Malbec",
+      //       price: 6900,
+      //     },
+      //   ],
+      // },
       {
-        id: 602,
-        title: "Blancos",
+        id: 605,
+        title: "Mercados regionales",
         type: "common",
         products: [
           {
-            id: 6001,
-            title: "DV Catena - Chardonnay",
-            description: "Catena Zapata",
-            price: 21600,
+            id: 6401,
+            title: "Monteagrelo - Malbec",
+            description: "Bressia",
+            price: 12400,
           },
           {
-            id: 6001,
-            title: "Rutini - Chardonnay",
-            description: "Rutini wines",
-            price: 19000,
+            id: 6402,
+            title: "Monteagrelo - Cabernet Franc",
+            description: "Bressia",
+            price: 12400,
           },
           {
-            id: 6001,
-            title: "Rutini - Sauvignon Blanc",
-            description: "Rutini wines",
-            price: 19000,
+            id: 6402,
+            title: "Profundo - Blend",
+            description: "Bressia",
+            price: 23400,
+          },
+          {
+            id: 6402,
+            title: "Piel negra - Pinot Noir",
+            description: "Bressia",
+            price: 27300,
+          },
+          {
+            id: 6402,
+            title: "Lágrima Canela Blanco - Blend",
+            description: "Bressia",
+            price: 23400,
+          },
+          {
+            id: 6402,
+            title: "Mendoza - Malbec",
+            description: "Achaval Ferrer",
+            price: 16200,
+          },
+          {
+            id: 6402,
+            title: "Mendoza - Cabernet Franc",
+            description: "Achaval Ferrer",
+            price: 16200,
+          },
+          {
+            id: 6402,
+            title: "Mendoza - Merlot",
+            description: "Achaval Ferrer",
+            price: 16200,
+          },
+          {
+            id: 6402,
+            title: "Durigutti - Malbec",
+            description: "Durigutti",
+            price: 12200,
+          },
+          {
+            id: 6402,
+            title: "Durigutti - Cabernet Franc",
+            description: "Durigutti",
+            price: 12000,
+          },
+          {
+            id: 6402,
+            title: "Durigutti - Reserva Malbec",
+            description: "Durigutti",
+            price: 15400,
+          },
+          {
+            id: 6402,
+            title: "Manos Negras - Malbec",
+            description: "Manos Negras",
+            price: 9000,
+          },
+          {
+            id: 6402,
+            title: "Manos Negras - Pinot Noir",
+            description: "Manos Negras",
+            price: 10500,
+          },
+          {
+            id: 6402,
+            title: "Manos Negras - Chardonnay",
+            description: "Manos Negras",
+            price: 7400,
+          },
+          {
+            id: 6402,
+            title: "Losance - Malbec",
+            description: "Losance",
+            price: 17000,
+          },
+          {
+            id: 6402,
+            title: "Losance - Chenin Seco",
+            description: "Losance",
+            price: 8600,
+          },
+          {
+            id: 6402,
+            title: "Losance - Semillón",
+            description: "Losance",
+            price: 8600,
           },
         ],
       },
@@ -1305,519 +1779,80 @@ const categories = [
         ],
       },
       {
-        id: 603,
+        id: 605,
         title: "Espumantes",
         type: "common",
         products: [
+          // {
+          //   id: 6401,
+          //   title: "María - Extra Brut",
+          //   description: "Séptima",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Maria Handcraft",
+          //   description: "Séptima",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Amalaya - Brut Nature",
+          //   description: "Amalaya",
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Álamos - Extra Brut",
+          //   description: "Catena",
+
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Nicasia - Bulle Doux",
+          //   description: "Catena",
+
+          //   price: 6900,
+          // },
           {
-            id: 6001,
-            title: "Nicasia - Nature",
-            price: 13000,
+            id: 6402,
+            title: "Losance - Extra Brut",
+            description: "Losance",
+
+            price: 25000,
           },
           {
-            id: 6001,
-            title: "Álamos - Extra Brut",
-            price: 13000,
+            id: 6402,
+            title: "Losance - Nature",
+            description: "Losance",
+
+            price: 25000,
           },
-          {
-            id: 6001,
-            title: "Baron B - Extra Brut",
-            price: 40000,
-          },
+          // {
+          //   id: 6402,
+          //   title: "Casa Boher - Extra Brut",
+          //   description: "Rosell",
+
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Rosell Boher - Brut",
+          //   description: "Rosell",
+
+          //   price: 6900,
+          // },
+          // {
+          //   id: 6402,
+          //   title: "Royale",
+          //   description: "Bressia",
+          //   price: 6900,
+          // },
         ],
       },
     ],
   },
-  // {
-  //   id: 5,
-  //   title: "Vinos",
-  //   pathName: "vinos",
-  //   type: "gold",
-  //   sections: [
-  //     {
-  //       id: 601,
-  //       title: "Bodega Álamos",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6001,
-  //           title: "Álamos Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6002,
-  //           title: "Álamos Cabernet Sauvignon",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6003,
-  //           title: "Álamos Sauvignon Blanc",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6003,
-  //           title: "Álamos Dulce Natural",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6004,
-  //           title: "Álamos Reserva Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6005,
-  //           title: "Álamos Reserva Pinot Noir",
-  //           description: "Norton",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 602,
-  //       title: "Bodega y viñedos Catena",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6101,
-  //           title: "Nicasia Red Blend - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6102,
-  //           title: "Nicasia Red Blend - Cabernet Franc",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6103,
-  //           title: "Nicasia Red Blend - Blanc de Blancs",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6104,
-  //           title: "Saint Felicien - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6105,
-  //           title: "Saint Felicien - Cabernet Merlot",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6106,
-  //           title: "Saint Felicien - Pinot Noir",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6107,
-  //           title: "Saint Felicien - Chardonnay",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6108,
-  //           title: "DV Catena - Cabernet Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6108,
-  //           title: "DV Catena - Chardonnay Chardonnay",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 603,
-  //       title: "Bodega Catena Zapata",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6201,
-  //           title: "DV Catena - Malbec Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6202,
-  //           title: "Angélica Zapata - Malbec Alta",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6202,
-  //           title: "Angélica Zapata - Cabernet Sauvignon Alta",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6202,
-  //           title: "Angélica Zapata - Chardonnay Alta",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6202,
-  //           title: "Malbec Argentino",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 604,
-  //       title: "Bodega Séptima",
-  //       type: "special",
-  //       products: [
-  //         {
-  //           id: 6301,
-  //           title: "Séptima - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6302,
-  //           title: "Séptima - Cabernet Sauvignon",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6303,
-  //           title: "Séptima - Chardonnay",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6304,
-  //           title: "Séptima - Rosado de Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6304,
-  //           title: "Séptima Obra - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6304,
-  //           title: "Séptima Obra - Chardonnay",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6304,
-  //           title: "Séptima Gran Reserva - Blend",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6304,
-  //           title: "Séptima Gran Reserva 10 barricas - Malbec",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 605,
-  //       title: "Bodega Amalaya y Colome",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6401,
-  //           title: "Amalaya Gran Corte",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Amalaya - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6403,
-  //           title: "Amalaya - Dulce Torrontés",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Amalaya - Torrontés",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6405,
-  //           title: "Amalaya - Rosado",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6406,
-  //           title: "Colome Estate - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6407,
-  //           title: "Colome Auténtico - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6408,
-  //           title: "Colome - Torrontés",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 605,
-  //       title: "Bodega Cavas Resell Boher",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6401,
-  //           title: "Casa Boher - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Casa Boher - Merlot",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6403,
-  //           title: "Casa Boher - Sauvignon blanc",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Casa Boher Gran Reserva - Blend",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Casa Boher Gran Chardonnay",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 605,
-  //       title: "Bodega Humberto Canale",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6401,
-  //           title: "Blush Rosado Finamente Dulce",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Intimo - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6403,
-  //           title: "Intimo - Trivarietal",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Intimo - Sauvignon Semillón",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Estate - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Estate - Merlot",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Old Vineyard - Malbec",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Old Vineyard - Riesling",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6404,
-  //           title: "Humberto Canale Gran Reserva - Malbec",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 605,
-  //       title: "Mercados regionales",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6401,
-  //           title: "Monteagrelo - Malbec",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Monteagrelo - Cabernet Franc",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Profundo - Blend",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Piel negra - Pinot Noir",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Lágrima Canela Blanco - Blend",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Mendoza - Malbec",
-  //           description: "Achaval Ferrer",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Mendoza - Cabernet Franc",
-  //           description: "Achaval Ferrer",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Mendoza - Merlot",
-  //           description: "Achaval Ferrer",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Durigutti - Malbec",
-  //           description: "Durigutti",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Durigutti - Cabernet Franc",
-  //           description: "Durigutti",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Durigutti - Reserva Malbec",
-  //           description: "Durigutti",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Manos Negras - Malbec",
-  //           description: "Manos Negras",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Manos Negras - Pinot Noir",
-  //           description: "Manos Negras",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Manos Negras - Chardonnay",
-  //           description: "Manos Negras",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Losance - Chenin Seco",
-  //           description: "Losance",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Losance - Semillón",
-  //           description: "Losance",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Losance - Malbec",
-  //           description: "Losance",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 605,
-  //       title: "Espumantes",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6401,
-  //           title: "María - Extra Brut",
-  //           description: "Séptima",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Maria Handcraft",
-  //           description: "Séptima",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Amalaya - Brut Nature",
-  //           description: "Amalaya",
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Álamos - Extra Brut",
-  //           description: "Catena",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Nicasia - Bulle Doux",
-  //           description: "Catena",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Losance - Extra Brut",
-  //           description: "Losance",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Losance - Nature",
-  //           description: "Losance",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Casa Boher - Extra Brut",
-  //           description: "Rosell",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Rosell Boher - Brut",
-  //           description: "Rosell",
-
-  //           price: 6900,
-  //         },
-  //         {
-  //           id: 6402,
-  //           title: "Royale",
-  //           description: "Bressia",
-  //           price: 6900,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
 ];
 
 export default categories;

@@ -1236,6 +1236,18 @@ const categories = [
           },
           {
             id: 6001,
+            title: "DV Catena - Malbec Malbec",
+            description: "Catena Zapata",
+            price: 19800,
+          },
+          {
+            id: 6001,
+            title: "DV Catena - Cabernet Cabernet",
+            description: "Catena Zapata",
+            price: 12600,
+          },
+          {
+            id: 6001,
             title: "Rutini - Cabernet Malbec",
             description: "Rutini wines",
             price: 19000,
@@ -1259,6 +1271,12 @@ const categories = [
         title: "Blancos",
         type: "common",
         products: [
+          {
+            id: 6001,
+            title: "DV Catena - Chardonnay",
+            description: "Catena Zapata",
+            price: 21600,
+          },
           {
             id: 6001,
             title: "Rutini - Chardonnay",

@@ -248,7 +248,7 @@ const categories = [
     id: 2,
     title: "Almuerzo frente al mar",
     pathName: "almuerzo-frente-al-mar",
-    description: "Lunes a Domingos | 9 a 20 hs",
+    description: "Lunes a Domingos | 12 a 20 hs",
     type: "gold",
     sections: [
       {
@@ -504,7 +504,7 @@ const categories = [
     id: 3,
     title: "Cena de Autor",
     pathName: "cena-de-autor",
-    description: "Lunes a Domingos | 20 a 02 am",
+    description: "Lunes a Domingos | 20 a 01:30 am",
     type: "gold",
     sections: [
       {
@@ -528,7 +528,7 @@ const categories = [
             title: "Picada de mar",
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 9000,
+            price: 15000,
           },
         ],
       },
@@ -1193,7 +1193,7 @@ const categories = [
             id: 1093,
             title: "Patagonia Amber",
             description: "Media pinta",
-            price: 3700,
+            price: 5800,
           },
           {
             id: 1093,

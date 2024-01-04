@@ -240,7 +240,38 @@ const categories = [
         description:
           "¡Consultá por las distintas opciones disponibles sin tacc!",
         type: "special",
-        products: [],
+        products: [
+          {
+            id: 2030,
+            title: "Alfajor de almendra y dulce de leche",
+            price: 1600,
+          },
+          {
+            id: 2030,
+            title: "Alfajor de maicena y dulce de leche",
+            price: 1600,
+          },
+          {
+            id: 2030,
+            title: "Alfajor de membrillo",
+            price: 1600,
+          },
+          {
+            id: 2030,
+            title: "Brownie",
+            price: 1600,
+          },
+          {
+            id: 2030,
+            title: "Cookie de chocolate",
+            price: 1600,
+          },
+          {
+            id: 2030,
+            title: "Porción de tostadas",
+            price: 1600,
+          },
+                  ],
       },
     ],
   },
@@ -1424,21 +1455,21 @@ const categories = [
             title: "Saint Felicien - Chardonnay",
             price: 11300,
           },
-          {
-            id: 6108,
-            title: "DV Catena - Malbec Malbec",
-            price: 23800,
-          },
-          {
-            id: 6108,
-            title: "DV Catena - Cabernet Malbec",
-            price: 13400,
-          },
-          {
-            id: 6108,
-            title: "DV Catena - Chardonnay Chardonnay",
-            price: 18700,
-          },
+          // {
+          //   id: 6108,
+          //   title: "DV Catena - Malbec Malbec",
+          //   price: 23800,
+          // },
+          // {
+          //   id: 6108,
+          //   title: "DV Catena - Cabernet Malbec",
+          //   price: 13400,
+          // },
+          // {
+          //   id: 6108,
+          //   title: "DV Catena - Chardonnay Chardonnay",
+          //   price: 18700,
+          // },
         ],
       },
       {

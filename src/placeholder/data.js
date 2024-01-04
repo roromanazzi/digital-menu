@@ -236,9 +236,7 @@ const categories = [
       },
       {
         id: 207,
-        title: "",
-        description:
-          "¡Consultá por las distintas opciones disponibles sin tacc!",
+        title: "Opciones sin Tacc",
         type: "special",
         products: [
           {

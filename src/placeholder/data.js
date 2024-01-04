@@ -151,7 +151,7 @@ const categories = [
             id: 2012,
             title: "Desayuno natural",
             description:
-              "Café con leche, yogurt, fruta, granola, porción de tostadas negras, dip de queso y mermelada natural y jugo de naranja.",
+              "Café con leche, yogurt, fruta de estación, granola, porción de tostadas negras, dip de queso y mermelada natural.",
             price: 5900,
           },
         ],
@@ -647,7 +647,7 @@ const categories = [
             title: "Pez limón",
             description:
               "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
-            price: 13500,
+            price: 16500,
           },
           {
             id: 4404,
@@ -1346,96 +1346,101 @@ const categories = [
     pathName: "vinos",
     type: "gold",
     sections: [
-      // {
-      //   id: 601,
-      //   title: "Bodega Álamos",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6001,
-      //       title: "Álamos Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6002,
-      //       title: "Álamos Cabernet Sauvignon",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6003,
-      //       title: "Álamos Sauvignon Blanc",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6003,
-      //       title: "Álamos Dulce Natural",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6004,
-      //       title: "Álamos Reserva Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6005,
-      //       title: "Álamos Reserva Pinot Noir",
-      //       description: "Norton",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 602,
-      //   title: "Bodega y viñedos Catena",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6101,
-      //       title: "Nicasia Red Blend - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6102,
-      //       title: "Nicasia Red Blend - Cabernet Franc",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6103,
-      //       title: "Nicasia Red Blend - Blanc de Blancs",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6104,
-      //       title: "Saint Felicien - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6105,
-      //       title: "Saint Felicien - Cabernet Merlot",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6106,
-      //       title: "Saint Felicien - Pinot Noir",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6107,
-      //       title: "Saint Felicien - Chardonnay",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6108,
-      //       title: "DV Catena - Cabernet Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6108,
-      //       title: "DV Catena - Chardonnay Chardonnay",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
+      {
+        id: 601,
+        title: "Bodega Álamos",
+        type: "common",
+        products: [
+          {
+            id: 6001,
+            title: "Álamos Malbec",
+            price: 8000,
+          },
+          {
+            id: 6002,
+            title: "Álamos Cabernet Sauvignon",
+            price: 8000,
+          },
+          {
+            id: 6003,
+            title: "Álamos Sauvignon Blanc",
+            price: 8000,
+          },
+          {
+            id: 6003,
+            title: "Álamos Dulce Natural",
+            price: 8000,
+          },
+          {
+            id: 6004,
+            title: "Álamos Reserva Malbec",
+            price: 9800,
+          },
+          {
+            id: 6005,
+            title: "Álamos Reserva Pinot Noir",
+            description: "Norton",
+            price: 8500,
+          },
+        ],
+      },
+      {
+        id: 602,
+        title: "Bodega y viñedos Catena",
+        type: "common",
+        products: [
+          {
+            id: 6101,
+            title: "Nicasia Red Blend - Malbec",
+            price: 9500,
+          },
+          {
+            id: 6102,
+            title: "Nicasia Red Blend - Cabernet Franc",
+            price: 9500,
+          },
+          {
+            id: 6103,
+            title: "Nicasia Red Blend - Blanc de Blancs",
+            price: 9500,
+          },
+          {
+            id: 6104,
+            title: "Saint Felicien - Malbec",
+            price: 11300,
+          },
+          {
+            id: 6105,
+            title: "Saint Felicien - Cabernet Merlot",
+            price: 11300,
+          },
+          {
+            id: 6106,
+            title: "Saint Felicien - Pinot Noir",
+            price: 11300,
+          },
+          {
+            id: 6107,
+            title: "Saint Felicien - Chardonnay",
+            price: 11300,
+          },
+          {
+            id: 6108,
+            title: "DV Catena - Malbec Malbec",
+            price: 23800,
+          },
+          {
+            id: 6108,
+            title: "DV Catena - Cabernet Malbec",
+            price: 13400,
+          },
+          {
+            id: 6108,
+            title: "DV Catena - Chardonnay Chardonnay",
+            price: 18700,
+          },
+        ],
+      },
       {
         id: 603,
         title: "Bodega Catena Zapata",
@@ -1456,21 +1461,21 @@ const categories = [
             title: "DV Catena - Chardonnay",
             price: 21600,
           },
-          // {
-          //   id: 6202,
-          //   title: "Angélica Zapata - Malbec Alta",
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6202,
-          //   title: "Angélica Zapata - Cabernet Sauvignon Alta",
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6202,
-          //   title: "Angélica Zapata - Chardonnay Alta",
-          //   price: 6900,
-          // },
+          {
+            id: 6202,
+            title: "Angélica Zapata - Malbec Alta",
+            price: 35800,
+          },
+          {
+            id: 6202,
+            title: "Angélica Zapata - Cabernet Sauvignon Alta",
+            price: 25000,
+          },
+          {
+            id: 6202,
+            title: "Angélica Zapata - Chardonnay Alta",
+            price: 27500,
+          },
           // {
           //   id: 6202,
           //   title: "Malbec Argentino",
@@ -1604,58 +1609,58 @@ const categories = [
       //     },
       //   ],
       // },
-      // {
-      //   id: 605,
-      //   title: "Bodega Humberto Canale",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6401,
-      //       title: "Blush Rosado Finamente Dulce",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6402,
-      //       title: "Intimo - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6403,
-      //       title: "Intimo - Trivarietal",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Intimo - Sauvignon Semillón",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Estate - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Estate - Merlot",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Old Vineyard - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Old Vineyard - Riesling",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Humberto Canale Gran Reserva - Malbec",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
+      {
+        id: 605,
+        title: "Bodega Humberto Canale",
+        type: "common",
+        products: [
+          {
+            id: 6401,
+            title: "Blush Rosado Finamente Dulce",
+            price: 6000,
+          },
+          {
+            id: 6402,
+            title: "Intimo - Malbec",
+            price: 5900,
+          },
+          {
+            id: 6403,
+            title: "Intimo - Trivarietal",
+            price: 5900,
+          },
+          {
+            id: 6404,
+            title: "Intimo - Sauvignon Semillón",
+            price: 5900,
+          },
+          {
+            id: 6404,
+            title: "Estate - Malbec",
+            price: 8400,
+          },
+          {
+            id: 6404,
+            title: "Estate - Merlot",
+            price: 8400,
+          },
+          {
+            id: 6404,
+            title: "Old Vineyard - Malbec",
+            price: 14700,
+          },
+          {
+            id: 6404,
+            title: "Old Vineyard - Riesling",
+            price: 14700,
+          },
+          {
+            id: 6404,
+            title: "Humberto Canale Gran Reserva - Malbec",
+            price: 20400,
+          },
+        ],
+      },
       {
         id: 605,
         title: "Mercados regionales",

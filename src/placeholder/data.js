@@ -14,103 +14,103 @@ const categories = [
           {
             id: 2001,
             title: "Espresso",
-            price: 1500,
+            price: 1650,
           },
           {
             id: 2002,
             title: "Café",
-            price: 1500,
+            price: 1650,
           },
           {
             id: 2003,
             title: "Cortado",
-            price: 1500,
+            price: 1700,
           },
           {
             id: 2004,
             title: "Lágrima",
-            price: 1500,
+            price: 1700,
           },
           {
             id: 2005,
             title: "Café con leche",
-            price: 2000,
+            price: 2200,
           },
           {
             id: 2006,
             title: "Café doble",
-            price: 2000,
+            price: 2200,
           },
           {
             id: 2007,
             title: "Flat white",
-            price: 2000,
+            price: 2200,
           },
           {
             id: 2009,
             title: "Capuccino a la italiana",
-            price: 2200,
+            price: 2400,
           },
           {
             id: 2011,
             title: "Cappuccino al chocolate",
-            price: 2600,
+            price: 2400,
           },
           {
             id: 2010,
             title: "Submarino",
-            price: 2000,
+            price: 2200,
           },
           {
             id: 2011,
             title: "Té",
-            price: 1500,
+            price: 1700,
           },
           {
             id: 2011,
             title: "Latte de vainilla",
-            price: 2600,
+            price: 2900,
           },
           {
             id: 2011,
             title: "Latte de caramelo",
-            price: 2600,
+            price: 2900,
           },
           {
             id: 2011,
             title: "Latte de avellanas",
-            price: 2600,
+            price: 2900,
           },
           {
             id: 2011,
             title: "Latte dolce",
-            price: 2800,
+            price: 3100,
           },
           {
             id: 2011,
             title: "Café irlandés",
-            price: 3300,
+            price: 3700,
           },
           {
             id: 2011,
             title: "Café calipso",
-            price: 3300,
+            price: 3700,
           },
           {
             id: 2011,
             title: "Café suizo",
-            price: 3300,
+            price: 3700,
           },
           {
             id: 2011,
             title: "Le Belle piu dolce",
             description: "Café, dulce de leche, crema y chocolate negro",
-            price: 3000,
+            price: 3300,
           },
           {
             id: 2011,
             title: "Café dolce",
-            price: 2800,
+            price: 3100,
           },
         ],
       },
@@ -123,14 +123,14 @@ const categories = [
             id: 2016,
             title: "Desayuno clásico",
             description: "Café con leche y dos medialunas",
-            price: 2900,
+            price: 3200,
           },
           {
             id: 2017,
             title: "Desayuno continental",
             description: "Café con leche, dos medialunas y jugo de naranja",
 
-            price: 3600,
+            price: 4000,
           },
           {
             id: 2011,
@@ -138,21 +138,21 @@ const categories = [
             description:
               "Café con leche, porción de tostadas, dip de queso y mermelada natural y jugo de naranja.",
 
-            price: 3300,
+            price: 3700,
           },
           {
             id: 2012,
             title: "Desayuno de verano",
             description:
               "Café con leche, dos medialunas, medio tostado y jugo de naranja.",
-            price: 4600,
+            price: 5100,
           },
           {
             id: 2012,
             title: "Desayuno natural",
             description:
               "Café con leche, yogurt, fruta de estación, granola, porción de tostadas negras, dip de queso y mermelada natural.",
-            price: 5900,
+            price: 6500,
           },
         ],
       },
@@ -165,50 +165,51 @@ const categories = [
             id: 2021,
             title: "Tostadas de campo",
             description: "Con dip de queso y mermelada natural.",
-            price: 3000,
+            price: 3300,
           },
           {
             id: 2022,
             title: "Tostadas multisemilladas",
             description: "Con dip de queso y mermelada natural.",
-            price: 3000,
+            price: 3300,
           },
           {
             id: 2023,
             title: "Tostado de campo",
-            price: 4400,
+            price: 4900,
           },
           {
             id: 2024,
             title: "Tostado árabe",
-            price: 4400,
+            price: 4900,
           },
           {
             id: 2025,
             title: "Medialunas",
             description: "Dulces o saladas",
-            price: 700,
+            price: 800,
           },
           {
             id: 2025,
             title: "Medialunas con jamón y queso",
-            price: 1800,
+            description: "Dos unidades",
+            price: 2000,
           },
 
           {
             id: 2027,
             title: "Brownie",
-            price: 1900,
+            price: 2100,
           },
           {
             id: 2028,
             title: "Porción de budín",
-            price: 1800,
+            price: 2000,
           },
           {
             id: 2028,
             title: "Cookie",
-            price: 1500,
+            price: 1700,
           },
         ],
       },
@@ -220,17 +221,17 @@ const categories = [
           {
             id: 2029,
             title: "Limonada de menta y jengibre",
-            price: 2500,
+            price: 2800,
           },
           {
             id: 2030,
             title: "Exprimido de naranja",
-            price: 2400,
+            price: 2700,
           },
           {
             id: 2031,
             title: "Licuado frutal",
-            price: 2800,
+            price: 3100,
           },
         ],
       },
@@ -242,32 +243,32 @@ const categories = [
           {
             id: 2030,
             title: "Alfajor de almendra y dulce de leche",
-            price: 1600,
+            price: 1800,
           },
           {
             id: 2030,
             title: "Alfajor de maicena y dulce de leche",
-            price: 1600,
+            price: 1800,
           },
           {
             id: 2030,
             title: "Alfajor de membrillo",
-            price: 1600,
+            price: 1800,
           },
           {
             id: 2030,
             title: "Brownie",
-            price: 1600,
+            price: 1800,
           },
           {
             id: 2030,
             title: "Cookie de chocolate",
-            price: 1600,
+            price: 1800,
           },
           {
             id: 2030,
             title: "Porción de tostadas",
-            price: 1600,
+            price: 1800,
           },
                   ],
       },
@@ -303,17 +304,6 @@ const categories = [
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
             price: 15000,
-          },
-          {
-            id: 3003,
-            title: "Falafel de pollo y pistachos",
-            price: 9000,
-          },
-          {
-            id: 3003,
-            title: "Cous-cous de coliflor",
-            description: "Al curry con leche de coco.",
-            price: 9000,
           },
           {
             id: 3003,
@@ -551,20 +541,20 @@ const categories = [
             id: 3001,
             title: "Rabas",
             description: "Con lactonesa de albahaca y limón.",
-            price: 9000,
+            price: 10500,
           },
           {
             id: 3002,
             title: "Papas chafadas doble cocción con trío de salsa",
             description: "Duxele de hongos, fondeau de quesos y salsa brava.",
-            price: 9000,
+            price: 9500,
           },
           {
             id: 3003,
             title: "Picada de mar",
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 15000,
+            price: 16500,
           },
         ],
       },
@@ -598,7 +588,7 @@ const categories = [
             title: "Ensalada a tu gusto",
             description:
               "Tres ingredientes | Lechuga, tomate, zanahoria, rúcula, huevo, pamesano, champignon, lentejas y arroz.",
-            price: 8500,
+            price: 3500,
           },
         ],
       },
@@ -608,48 +598,58 @@ const categories = [
         title: "Entrantes",
         products: [
           {
-            id: 4301,
-            title: "Asado braseado",
-
-            description: "Sobre crema de boniato",
-            price: 7000,
-          },
-          {
             id: 4302,
             title: "Gazpacho",
             description:
               "De tomate, pepino y salsa de ostras con crocante de jamón cerrano.",
-            price: 4500,
+            price: 5200,
           },
           {
             id: 4304,
             title: "Ceviche de hongos y mango",
             description: "Con aceite de trufas.",
-            price: 4500,
+            price: 5200,
           },
           {
             id: 4304,
             title: "Arroz crocante de sushi",
             description: "Con feta de salmón gravlax y espuma de limón.",
-            price: 5000,
-          },
-          {
-            id: 4304,
-            title: "Crocante de queso de cabra",
-            description: "Con cebolla caramelizada y tomates confitados.",
-            price: 4500,
+            price: 6500,
           },
           {
             id: 4304,
             title: "Tentáculo de pulpo",
             description: "Sobre crema de papas.",
-            price: 10500,
+            price: 12800,
+          },
+          {
+            id: 3003,
+            title: "Falafel de pollo y pistachos",
+            price: 9000,
+          },
+          {
+            id: 3003,
+            title: "Cous-cous de coliflor",
+            description: "Al curry con leche de coco.",
+            price: 9000,
+          },
+          {
+            id: 4304,
+            title: "Crocante de queso de cabra",
+            description: "Con cebolla caramelizada y tomates confitados.",
+            price: 6500,
           },
           {
             id: 4304,
             title: "Brochette de mollejas braseadas",
             description: "En salsa dashi dulce.",
-            price: 7000,
+            price: 9500,
+          },
+          {
+            id: 4301,
+            title: "Asado braseado",
+            description: "Sobre crema de boniato",
+            price: 8500,
           },
         ],
       },
@@ -662,47 +662,53 @@ const categories = [
             id: 4401,
             title: "Risotto de té de matcha",
             description: "Con atún rojo y espuma de lima.",
-            price: 9600,
-          },
-          {
-            id: 4402,
-            title: "Salmón del pacífico",
-            description:
-              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
-            price: 16500,
-          },
-          {
-            id: 4403,
-            title: "Pez limón",
-            description:
-              "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
-            price: 16500,
+            price: 10500,
           },
           {
             id: 4404,
             title: "Ojo de bife",
             description:
               "Con puré de hinojo y manzanas con chimichurri de algas y spirulina.",
-            price: 13000,
+            price: 14800,
           },
           {
             id: 4405,
-            title: "T-bone",
+            title: "Beef cowboy",
             description:
               "En reducción de cabernet y moras, kale marinada a la plancha y papas estrelladas.",
-            price: 15000,
+            price: 14800,
           },
           {
             id: 4405,
-            title: "Matambre de cerdo confitado",
+            title: "Corte de cerdo confitado",
             description: "Sobre crujiente de papa y salsa holandesa.",
-            price: 12000,
+            price: 12800,
+          },
+          {
+            id: 4403,
+            title: "Chernia",
+            description:
+              "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
+            price: 15500,
+          },
+          {
+            id: 4402,
+            title: "Salmón del pacífico",
+            description:
+              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
+            price: 18500,
           },
           {
             id: 4405,
             title: "Sorrento de autor",
             description: "Con salsa del chef.",
-            price: 13000,
+            price: 14200,
+          },
+          {
+            id: 4405,
+            title: "Papardelle",
+            description: "Con salsa de gambas y langostinos.",
+            price: 14200,
           },
         ],
       },
@@ -713,40 +719,40 @@ const categories = [
           {
             id: 4401,
             title: "Cheesecake de mojito",
-            price: 4500,
+            price: 5500,
           },
           {
             id: 4402,
             title: "Panna cotta de pistachos y sandía",
-            price: 4500,
+            price: 5500,
           },
           {
             id: 4403,
             title: "Nube de limón",
             description:
               "Base de chocolate con crema de champagne y mousse de limón con gel de menta.",
-            price: 4500,
+            price: 5500,
           },
           {
             id: 4404,
             title: "Creme brulee de lavanda",
             description:
               "Con salsa de arándanos, macarons de lavanda y crema de mascarpone",
-            price: 4500,
+            price: 5500,
           },
           {
             id: 4405,
             title: "Sinfonía de trufas y bombones",
             description:
               "Bombón blande de whisky y naranja - Bombón relleno de chocolate y menta - Trufa de coco y pecan - Trufa de chocolate blanco y frambuesa bombón de fernet.",
-            price: 6500,
+            price: 7500,
           },
           {
             id: 4405,
             title: "Degustación de postres Le Belle",
             description:
               "Cheesecake de mojito - Panna cotta de pistacho y sandía - Nube de limón - Creme brulee.",
-            price: 6500,
+            price: 7500,
           },
         ],
       },
@@ -790,46 +796,46 @@ const categories = [
         title: "Tragos de Autor",
         type: "special",
         products: [
-          {
-            id: 1011,
-            title: "Marga 2.0",
-            description:
-              "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
-            price: 5000,
-          },
-          {
-            id: 1012,
-            title: "Explorador",
-            description:
-              "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
-            price: 4700,
-          },
+          // {
+          //   id: 1011,
+          //   title: "Marga 2.0",
+          //   description:
+          //     "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
+          //   price: 5000,
+          // },
+          // {
+          //   id: 1012,
+          //   title: "Explorador",
+          //   description:
+          //     "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
+          //   price: 4700,
+          // },
           {
             id: 1013,
             title: "Ananashe",
             description: "Ron appleton, borghetti, ananá y mix de cítricos.",
             price: 4700,
           },
-          {
-            id: 1014,
-            title: "Trufa",
-            description:
-              "Wild turkey fat washing fungi, syrup especiado y soja.",
-            price: 5500,
-          },
+          // {
+          //   id: 1014,
+          //   title: "Trufa",
+          //   description:
+          //     "Wild turkey fat washing fungi, syrup especiado y soja.",
+          //   price: 5500,
+          // },
           {
             id: 1015,
             title: "Fresco",
             description: "Cognac, pelargonium, aperol, Chandon Extra Brut.",
             price: 6000,
           },
-          {
-            id: 1016,
-            title: "Floral",
-            description:
-              "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
-            price: 4000,
-          },
+          // {
+          //   id: 1016,
+          //   title: "Floral",
+          //   description:
+          //     "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
+          //   price: 4000,
+          // },
           {
             id: 1016,
             title: "Mentor",
@@ -843,27 +849,27 @@ const categories = [
             description: "Campari, yogurt vainilla, mix de cítricos y cedrón.",
             price: 4700,
           },
-          {
-            id: 1016,
-            title: "Argento",
-            description:
-              "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
-            price: 5000,
-          },
-          {
-            id: 1016,
-            title: "This is Kaléndula?",
-            description:
-              "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-            price: 5000,
-          },
-          {
-            id: 1016,
-            title: "Aromático",
-            description:
-              "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
-            price: 5000,
-          },
+          // {
+          //   id: 1016,
+          //   title: "Argento",
+          //   description:
+          //     "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
+          //   price: 5000,
+          // },
+          // {
+          //   id: 1016,
+          //   title: "This is Kaléndula?",
+          //   description:
+          //     "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+          //   price: 5000,
+          // },
+          // {
+          //   id: 1016,
+          //   title: "Aromático",
+          //   description:
+          //     "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
+          //   price: 5000,
+          // },
           {
             id: 1016,
             title: "Bonanza",
@@ -871,25 +877,25 @@ const categories = [
               "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
             price: 5500,
           },
-          {
-            id: 1016,
-            title: "Kyomu",
-            description: "Blend de té, frutilla, durazno, legumbres y tepache.",
-            price: 4000,
-          },
-          {
-            id: 1016,
-            title: "Botánica",
-            description:
-              "Don mix, cordial de ruibardo, brotes y espuma de melón.",
-            price: 4000,
-          },
-          {
-            id: 1016,
-            title: "Not bloody",
-            description: "Black Label, frutilla, tomate, sriracha y especias.",
-            price: 5500,
-          },
+          // {
+          //   id: 1016,
+          //   title: "Kyomu",
+          //   description: "Blend de té, frutilla, durazno, legumbres y tepache.",
+          //   price: 4000,
+          // },
+          // {
+          //   id: 1016,
+          //   title: "Botánica",
+          //   description:
+          //     "Don mix, cordial de ruibardo, brotes y espuma de melón.",
+          //   price: 4000,
+          // },
+          // {
+          //   id: 1016,
+          //   title: "Not bloody",
+          //   description: "Black Label, frutilla, tomate, sriracha y especias.",
+          //   price: 5500,
+          // },
         ],
       },
       {
@@ -1252,124 +1258,7 @@ const categories = [
       },
     ],
   },
-  // {
-  //   id: 5,
-  //   title: "Vinos y espumantes",
-  //   pathName: "vinos",
-  //   type: "gold",
-  //   sections: [
-  //     {
-  //       id: 601,
-  //       title: "Tintos",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6001,
-  //           title: "Serie Q - Cabernet Sauvignon",
-  //           description: "Zuccardi",
-  //           price: 23000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Serie Q - Cabernet Franc",
-  //           description: "Zuccardi",
-  //           price: 21000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "DV Catena - Malbec Malbec",
-  //           description: "Catena Zapata",
-  //           price: 19800,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "DV Catena - Cabernet Cabernet",
-  //           description: "Catena Zapata",
-  //           price: 12600,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Rutini - Cabernet Malbec",
-  //           description: "Rutini wines",
-  //           price: 19000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Rutini - Cabernet Franc",
-  //           description: "Rutini wines",
-  //           price: 18000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Tumpeter - Cabernet Sauvignon",
-  //           description: "Rutini wines",
-  //           price: 9000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 602,
-  //       title: "Blancos",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6001,
-  //           title: "DV Catena - Chardonnay",
-  //           description: "Catena Zapata",
-  //           price: 21600,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Rutini - Chardonnay",
-  //           description: "Rutini wines",
-  //           price: 19000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Rutini - Sauvignon Blanc",
-  //           description: "Rutini wines",
-  //           price: 19000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 603,
-  //       title: "Rosados",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6001,
-  //           title: "Familia Gascón - Rosé",
-  //           description: "Escorihuela Gascón",
-  //           price: 19000,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       id: 603,
-  //       title: "Espumantes",
-  //       type: "common",
-  //       products: [
-  //         {
-  //           id: 6001,
-  //           title: "Nicasia - Nature",
-  //           price: 13000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Álamos - Extra Brut",
-  //           price: 13000,
-  //         },
-  //         {
-  //           id: 6001,
-  //           title: "Baron B - Extra Brut",
-  //           price: 40000,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
-  {
+   {
     id: 5,
     title: "Vinos",
     pathName: "vinos",
@@ -1383,33 +1272,32 @@ const categories = [
           {
             id: 6001,
             title: "Álamos Malbec",
-            price: 8000,
+            price: 9900,
           },
           {
             id: 6002,
             title: "Álamos Cabernet Sauvignon",
-            price: 8000,
+            price: 9900,
           },
           {
             id: 6003,
             title: "Álamos Sauvignon Blanc",
-            price: 8000,
+            price: 9900,
           },
           {
             id: 6003,
             title: "Álamos Dulce Natural",
-            price: 8000,
+            price: 9900,
           },
           {
             id: 6004,
             title: "Álamos Reserva Malbec",
-            price: 9800,
+            price: 12000,
           },
           {
             id: 6005,
             title: "Álamos Reserva Pinot Noir",
-            description: "Norton",
-            price: 8500,
+            price: 10500,
           },
         ],
       },
@@ -1421,53 +1309,39 @@ const categories = [
           {
             id: 6101,
             title: "Nicasia Red Blend - Malbec",
-            price: 9500,
+            price: 11700,
           },
           {
             id: 6102,
             title: "Nicasia Red Blend - Cabernet Franc",
-            price: 9500,
+            price: 11700,
           },
           {
             id: 6103,
             title: "Nicasia Red Blend - Blanc de Blancs",
-            price: 9500,
+            price: 11700,
           },
           {
             id: 6104,
             title: "Saint Felicien - Malbec",
-            price: 11300,
+            price: 16400,
           },
           {
             id: 6105,
             title: "Saint Felicien - Cabernet Merlot",
-            price: 11300,
+            price: 16400,
           },
           {
             id: 6106,
             title: "Saint Felicien - Pinot Noir",
-            price: 11300,
+            price: 16400,
           },
           {
             id: 6107,
             title: "Saint Felicien - Chardonnay",
-            price: 11300,
+            price: 16400,
           },
-          // {
-          //   id: 6108,
-          //   title: "DV Catena - Malbec Malbec",
-          //   price: 23800,
-          // },
-          // {
-          //   id: 6108,
-          //   title: "DV Catena - Cabernet Malbec",
-          //   price: 13400,
-          // },
-          // {
-          //   id: 6108,
-          //   title: "DV Catena - Chardonnay Chardonnay",
-          //   price: 18700,
-          // },
+        
         ],
       },
       {
@@ -1478,32 +1352,32 @@ const categories = [
           {
             id: 6201,
             title: "DV Catena - Malbec Malbec",
-            price: 19800,
+            price: 24400,
           },
           {
             id: 6201,
             title: "DV Catena - Cabernet Cabernet",
-            price: 12600,
+            price: 15500,
           },
           {
             id: 6201,
             title: "DV Catena - Chardonnay",
-            price: 21600,
+            price: 26600,
           },
           {
             id: 6202,
             title: "Angélica Zapata - Malbec Alta",
-            price: 35800,
+            price: 44000,
           },
           {
             id: 6202,
             title: "Angélica Zapata - Cabernet Sauvignon Alta",
-            price: 25000,
+            price: 30800,
           },
           {
             id: 6202,
             title: "Angélica Zapata - Chardonnay Alta",
-            price: 27500,
+            price: 33900,
           },
           // {
           //   id: 6202,
@@ -1646,47 +1520,47 @@ const categories = [
           {
             id: 6401,
             title: "Blush Rosado Finamente Dulce",
-            price: 6000,
+            price: 7400,
           },
           {
             id: 6402,
             title: "Intimo - Malbec",
-            price: 5900,
+            price: 7300,
           },
           {
             id: 6403,
             title: "Intimo - Trivarietal",
-            price: 5900,
+            price: 7300,
           },
           {
             id: 6404,
             title: "Intimo - Sauvignon Semillón",
-            price: 5900,
+            price: 7300,
           },
           {
             id: 6404,
             title: "Estate - Malbec",
-            price: 8400,
+            price: 10400,
           },
           {
             id: 6404,
             title: "Estate - Merlot",
-            price: 8400,
+            price: 10400,
           },
           {
             id: 6404,
             title: "Old Vineyard - Malbec",
-            price: 14700,
+            price: 18000,
           },
           {
             id: 6404,
             title: "Old Vineyard - Riesling",
-            price: 14700,
+            price: 18000,
           },
           {
             id: 6404,
             title: "Humberto Canale Gran Reserva - Malbec",
-            price: 20400,
+            price: 25000,
           },
         ],
       },
@@ -1699,103 +1573,103 @@ const categories = [
             id: 6401,
             title: "Monteagrelo - Malbec",
             description: "Bressia",
-            price: 12400,
+            price: 15300,
           },
           {
             id: 6402,
             title: "Monteagrelo - Cabernet Franc",
             description: "Bressia",
-            price: 12400,
+            price: 15300,
           },
           {
             id: 6402,
             title: "Profundo - Blend",
             description: "Bressia",
-            price: 23400,
+            price: 28800,
           },
           {
             id: 6402,
             title: "Piel negra - Pinot Noir",
             description: "Bressia",
-            price: 27300,
+            price: 33600,
           },
           {
             id: 6402,
             title: "Lágrima Canela Blanco - Blend",
             description: "Bressia",
-            price: 23400,
+            price: 28800,
           },
           {
             id: 6402,
             title: "Mendoza - Malbec",
             description: "Achaval Ferrer",
-            price: 16200,
+            price: 20000,
           },
           {
             id: 6402,
             title: "Mendoza - Cabernet Franc",
             description: "Achaval Ferrer",
-            price: 16200,
+            price: 20000,
           },
           {
             id: 6402,
             title: "Mendoza - Merlot",
             description: "Achaval Ferrer",
-            price: 16200,
+            price: 20000,
           },
           {
             id: 6402,
             title: "Durigutti - Malbec",
             description: "Durigutti",
-            price: 12200,
+            price: 15000,
           },
           {
             id: 6402,
             title: "Durigutti - Cabernet Franc",
             description: "Durigutti",
-            price: 12000,
+            price: 15000,
           },
           {
             id: 6402,
             title: "Durigutti - Reserva Malbec",
             description: "Durigutti",
-            price: 15400,
+            price: 19000,
           },
           {
             id: 6402,
             title: "Manos Negras - Malbec",
             description: "Manos Negras",
-            price: 9000,
+            price: 11000,
           },
           {
             id: 6402,
             title: "Manos Negras - Pinot Noir",
             description: "Manos Negras",
-            price: 10500,
+            price: 13000,
           },
           {
             id: 6402,
             title: "Manos Negras - Chardonnay",
             description: "Manos Negras",
-            price: 7400,
+            price: 13000,
           },
           {
             id: 6402,
             title: "Losance - Malbec",
             description: "Losance",
-            price: 17000,
+            price: 21000,
           },
           {
             id: 6402,
             title: "Losance - Chenin Seco",
             description: "Losance",
-            price: 8600,
+            price: 10600,
           },
           {
             id: 6402,
             title: "Losance - Semillón",
             description: "Losance",
-            price: 8600,
+            price: 10600,
           },
         ],
       },
@@ -1808,7 +1682,7 @@ const categories = [
             id: 6001,
             title: "Familia Gascón - Rosé",
             description: "Escorihuela Gascón",
-            price: 19000,
+            price: 23400,
           },
         ],
       },
@@ -1854,14 +1728,14 @@ const categories = [
             title: "Losance - Extra Brut",
             description: "Losance",
 
-            price: 25000,
+            price: 20000,
           },
           {
             id: 6402,
             title: "Losance - Nature",
             description: "Losance",
 
-            price: 25000,
+            price: 20000,
           },
           // {
           //   id: 6402,

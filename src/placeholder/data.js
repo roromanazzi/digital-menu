@@ -894,26 +894,26 @@ const categories = [
             description: "Ron appleton, borghetti, ananá y mix de cítricos.",
             price: 4700,
           },
-          // {
-          //   id: 1014,
-          //   title: "Trufa",
-          //   description:
-          //     "Wild turkey fat washing fungi, syrup especiado y soja.",
-          //   price: 5500,
-          // },
+           {
+            id: 1014,
+            title: "Trufa",
+            description:
+              "Wild turkey fat washing fungi, syrup especiado y soja.",
+            price: 5500,
+          },
           {
             id: 1015,
             title: "Fresco",
             description: "Cognac, pelargonium, aperol, Chandon Extra Brut.",
             price: 6000,
           },
-          // {
-          //   id: 1016,
-          //   title: "Floral",
-          //   description:
-          //     "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
-          //   price: 4000,
-          // },
+          {
+            id: 1016,
+           title: "Floral",
+            description:
+            "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
+            price: 4000,
+           },
           {
             id: 1016,
             title: "Mentor",
@@ -927,13 +927,13 @@ const categories = [
             description: "Campari, yogurt vainilla, mix de cítricos y cedrón.",
             price: 4700,
           },
-          // {
-          //   id: 1016,
-          //   title: "Argento",
-          //   description:
-          //     "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
-          //   price: 5000,
-          // },
+          {
+             id: 1016,
+            title: "Argento",
+           description:
+              "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
+             price: 5000,
+           },
           // {
           //   id: 1016,
           //   title: "This is Kaléndula?",
@@ -941,13 +941,13 @@ const categories = [
           //     "Red Label, cynar 70 clarificado, kale y bitter aromático.",
           //   price: 5000,
           // },
-          // {
-          //   id: 1016,
-          //   title: "Aromático",
-          //   description:
-          //     "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
-          //   price: 5000,
-          // },
+           {
+             id: 1016,
+           title: "Aromático",
+            description:
+              "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
+            price: 5000,
+           },
           {
             id: 1016,
             title: "Bonanza",
@@ -961,13 +961,13 @@ const categories = [
           //   description: "Blend de té, frutilla, durazno, legumbres y tepache.",
           //   price: 4000,
           // },
-          // {
-          //   id: 1016,
-          //   title: "Botánica",
-          //   description:
-          //     "Don mix, cordial de ruibardo, brotes y espuma de melón.",
-          //   price: 4000,
-          // },
+          {
+            id: 1016,
+            title: "Botánica",
+           description:
+             "Don mix, cordial de ruibardo, brotes y espuma de melón.",
+            price: 4000,
+          },
           // {
           //   id: 1016,
           //   title: "Not bloody",

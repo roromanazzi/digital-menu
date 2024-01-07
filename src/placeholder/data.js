@@ -405,12 +405,12 @@ const categories = [
         title: "Principales",
         type: "special",
         products: [
-          // {
-          //   id: 3201,
-          //   title: "Pesca del día.",
-          //   description: "En manteca de hierbas y lmón con papas fondant",
-          //   price: 9500,
-          // },
+          {
+            id: 3201,
+            title: "Pesca del día.",
+            description: "En manteca de hierbas y lmón con papas fondant",
+            price: 9500,
+          },
           {
             id: 3201,
             title: "Wok de vegetales",
@@ -657,6 +657,18 @@ const categories = [
             title: "Arroz crocante de sushi",
             description: "Con feta de salmón gravlax y espuma de limón.",
             price: 6500,
+          },
+          {
+            id: 4304,
+            title: "Tartar de salmón y palta",
+            description: "Con infusión de flores.",
+            price: 9500,
+          },
+          {
+            id: 4304,
+            title: "Abadejo en chile dulce",
+            description: "Con careta de cerdo.",
+            price: 7500,
           },
           {
             id: 4304,

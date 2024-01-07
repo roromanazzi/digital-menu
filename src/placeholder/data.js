@@ -292,12 +292,12 @@ const categories = [
             description: "Con lactonesa de albahaca y limón.",
             price: 10500,
           },
-          // {
-          //   id: 3002,
-          //   title: "Papas chafadas doble cocción con trío de salsa",
-          //   description: "Duxele de hongos, fondeau de quesos y salsa brava.",
-          //   price: 9000,
-          // },
+          {
+           id: 3002,
+           title: "Papas chafadas doble cocción con trío de salsa",
+            description: "Duxele de hongos, fondeau de quesos y salsa brava.",
+            price: 9000,
+           },
           {
             id: 3003,
             title: "Picada de mar",

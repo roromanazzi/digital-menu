@@ -311,6 +311,30 @@ const categories = [
             description: "En pistacho con salsa de maracuyá.",
             price: 9500,
           },
+{
+            id: 4304,
+            title: "Ceviche de hongos y mango",
+            description: "Con aceite de trufas.",
+            price: 5200,
+          },
+{
+            id: 4304,
+            title: "Brochette de mollejas braseadas",
+            description: "En salsa dashi dulce.",
+            price: 9500,
+          },
+          {
+            id: 4301,
+            title: "Asado braseado",
+            description: "Sobre crema de boniato",
+            price: 8500,
+          },
+{
+            id: 4304,
+            title: "Tentáculo de pulpo",
+            description: "Sobre crema de papas.",
+            price: 12800,
+          },
         ],
       },
       {
@@ -1260,7 +1284,7 @@ const categories = [
           {
             id: 1081,
             title: "Absolut",
-            price: 27000,
+            price: 5500,
           },
           {
             id: 1081,
@@ -1288,13 +1312,13 @@ const categories = [
             id: 1093,
             title: "Patagonia Amber",
             description: "Pinta",
-            price: 3700,
+            price: 5800,
           },
           {
             id: 1093,
             title: "Patagonia Amber",
             description: "Media pinta",
-            price: 5800,
+            price: 3700,
           },
           {
             id: 1093,

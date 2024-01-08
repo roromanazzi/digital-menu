@@ -312,7 +312,7 @@ const categories = [
             id: 4304,
             title: "Brochette de mollejas braseadas",
             description: "En salsa dashi dulce.",
-            price: 9500,
+            price: 7500,
           },
           {
             id: 3001,
@@ -720,7 +720,7 @@ const categories = [
             id: 4304,
             title: "Brochette de mollejas braseadas",
             description: "En salsa dashi dulce.",
-            price: 9500,
+            price: 7500,
           },
           {
             id: 4304,
@@ -1463,132 +1463,132 @@ const categories = [
           // },
         ],
       },
-      // {
-      //   id: 604,
-      //   title: "Bodega Séptima",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6301,
-      //       title: "Séptima - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6302,
-      //       title: "Séptima - Cabernet Sauvignon",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6303,
-      //       title: "Séptima - Chardonnay",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6304,
-      //       title: "Séptima - Rosado de Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6304,
-      //       title: "Séptima Obra - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6304,
-      //       title: "Séptima Obra - Chardonnay",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6304,
-      //       title: "Séptima Gran Reserva - Blend",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6304,
-      //       title: "Séptima Gran Reserva 10 barricas - Malbec",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 605,
-      //   title: "Bodega Amalaya y Colome",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6401,
-      //       title: "Amalaya Gran Corte",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6402,
-      //       title: "Amalaya - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6403,
-      //       title: "Amalaya - Dulce Torrontés",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Amalaya - Torrontés",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6405,
-      //       title: "Amalaya - Rosado",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6406,
-      //       title: "Colome Estate - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6407,
-      //       title: "Colome Auténtico - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6408,
-      //       title: "Colome - Torrontés",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
-      // {
-      //   id: 605,
-      //   title: "Bodega Cavas Resell Boher",
-      //   type: "common",
-      //   products: [
-      //     {
-      //       id: 6401,
-      //       title: "Casa Boher - Malbec",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6402,
-      //       title: "Casa Boher - Merlot",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6403,
-      //       title: "Casa Boher - Sauvignon blanc",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Casa Boher Gran Reserva - Blend",
-      //       price: 6900,
-      //     },
-      //     {
-      //       id: 6404,
-      //       title: "Casa Boher Gran Chardonnay",
-      //       price: 6900,
-      //     },
-      //   ],
-      // },
+       {
+         id: 604,
+         title: "Bodega Séptima",
+         type: "common",
+         products: [
+           {
+             id: 6301,
+             title: "Séptima - Malbec",
+             price: 8600,
+           },
+           {
+             id: 6302,
+             title: "Séptima - Cabernet Sauvignon",
+             price: 8600,
+           },
+           {
+             id: 6303,
+             title: "Séptima - Chardonnay",
+            price: 8600,
+          },
+          {
+            id: 6304,
+            title: "Séptima - Rosado de Malbec",
+            price: 8600,
+          },
+          {
+            id: 6304,
+            title: "Séptima Obra - Malbec",
+            price: 11000,
+          },
+          {
+            id: 6304,
+            title: "Séptima Obra - Chardonnay",
+            price: 11000,
+          },
+          {
+            id: 6304,
+            title: "Séptima Gran Reserva - Blend",
+            price: 23400,
+          },
+          {
+            id: 6304,
+            title: "Séptima Gran Reserva 10 barricas - Malbec",
+            price: 35500,
+          },
+        ],
+      },
+      {
+        id: 605,
+        title: "Bodega Amalaya y Colome",
+        type: "common",
+        products: [
+          {
+            id: 6401,
+            title: "Amalaya Gran Corte",
+            price: 11700,
+          },
+          {
+            id: 6402,
+            title: "Amalaya - Malbec",
+            price: 7800,
+          },
+          {
+            id: 6403,
+            title: "Amalaya - Dulce Torrontés",
+            price: 7800,
+          },
+          {
+            id: 6404,
+            title: "Amalaya - Torrontés",
+            price: 7800,
+          },
+          {
+            id: 6405,
+            title: "Amalaya - Rosado",
+            price: 7800,
+          },
+          {
+            id: 6406,
+            title: "Colome Estate - Malbec",
+            price: 13200,
+          },
+          {
+            id: 6407,
+            title: "Colome Auténtico - Malbec",
+            price: 17000,
+          },
+          {
+            id: 6408,
+            title: "Colome - Torrontés",
+            price: 13200,
+          },
+        ],
+      },
+      {
+        id: 605,
+        title: "Bodega Cavas Resell Boher",
+        type: "common",
+        products: [
+          {
+            id: 6401,
+            title: "Casa Boher - Malbec",
+            price: 13200,
+          },
+          {
+            id: 6402,
+            title: "Casa Boher - Merlot",
+            price: 13200,
+          },
+          {
+            id: 6403,
+            title: "Casa Boher - Sauvignon blanc",
+            price: 13200,
+          },
+          {
+            id: 6404,
+            title: "Casa Boher Gran Reserva - Blend",
+            price: 39100,
+          },
+          {
+            id: 6404,
+            title: "Casa Boher Gran Chardonnay",
+            price: 38000,
+          },
+        ],
+      },
       {
         id: 605,
         title: "Bodega Humberto Canale",
@@ -1768,38 +1768,38 @@ const categories = [
         title: "Espumantes",
         type: "common",
         products: [
-          // {
-          //   id: 6401,
-          //   title: "María - Extra Brut",
-          //   description: "Séptima",
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Maria Handcraft",
-          //   description: "Séptima",
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Amalaya - Brut Nature",
-          //   description: "Amalaya",
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Álamos - Extra Brut",
-          //   description: "Catena",
+          {
+            id: 6401,
+            title: "María - Extra Brut",
+            description: "Séptima",
+            price: 8600,
+          },
+          {
+            id: 6402,
+            title: "Maria Handcraft",
+            description: "Séptima",
+            price: 8600,
+          },
+          {
+            id: 6402,
+            title: "Amalaya - Brut Nature",
+            description: "Amalaya",
+            price: 10600,
+          },
+          {
+            id: 6402,
+            title: "Álamos - Extra Brut",
+            description: "Catena Zapata",
 
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Nicasia - Bulle Doux",
-          //   description: "Catena",
+            price: 12300,
+          },
+          {
+            id: 6402,
+            title: "Nicasia - Bulle Doux",
+            description: "Catena Zapata",
 
-          //   price: 6900,
-          // },
+            price: 13500,
+          },
           {
             id: 6402,
             title: "Losance - Extra Brut",
@@ -1814,26 +1814,26 @@ const categories = [
 
             price: 20000,
           },
-          // {
-          //   id: 6402,
-          //   title: "Casa Boher - Extra Brut",
-          //   description: "Rosell",
+          {
+            id: 6402,
+            title: "Casa Boher - Extra Brut",
+            description: "Rosell",
 
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Rosell Boher - Brut",
-          //   description: "Rosell",
+            price: 23600,
+          },
+          {
+            id: 6402,
+            title: "Rosell Boher - Brut",
+            description: "Rosell",
 
-          //   price: 6900,
-          // },
-          // {
-          //   id: 6402,
-          //   title: "Royale",
-          //   description: "Bressia",
-          //   price: 6900,
-          // },
+            price: 30600,
+          },
+          {
+            id: 6402,
+            title: "Royale",
+            description: "Bressia",
+            price: 6900,
+          },
         ],
       },
     ],

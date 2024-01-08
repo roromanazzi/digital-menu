@@ -129,7 +129,6 @@ const categories = [
             id: 2017,
             title: "Desayuno continental",
             description: "Café con leche, dos medialunas y jugo de naranja",
-
             price: 4000,
           },
           {
@@ -137,7 +136,6 @@ const categories = [
             title: "Desayuno de campo",
             description:
               "Café con leche, porción de tostadas, dip de queso y mermelada natural y jugo de naranja.",
-
             price: 3700,
           },
           {
@@ -270,7 +268,7 @@ const categories = [
             title: "Porción de tostadas",
             price: 1800,
           },
-                  ],
+        ],
       },
     ],
   },
@@ -287,10 +285,16 @@ const categories = [
         type: "common",
         products: [
           {
-            id: 3001,
-            title: "Rabas",
-            description: "Con lactonesa de albahaca y limón.",
-            price: 10500,
+            id: 4304,
+            title: "Ceviche de hongos y mango",
+            description: "Con aceite de trufas.",
+            price: 5200,
+          },
+          {
+            id: 4301,
+            title: "Asado braseado",
+            description: "Sobre crema de boniato",
+            price: 8500,
           },
           {
            id: 3002,
@@ -300,40 +304,34 @@ const categories = [
            },
           {
             id: 3003,
-            title: "Picada de mar",
-            description:
-              "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 16500,
-          },
-          {
-            id: 3003,
             title: "Pincho de langostinos empanados",
             description: "En pistacho con salsa de maracuyá.",
             price: 9500,
           },
-{
-            id: 4304,
-            title: "Ceviche de hongos y mango",
-            description: "Con aceite de trufas.",
-            price: 5200,
-          },
-{
+          {
             id: 4304,
             title: "Brochette de mollejas braseadas",
             description: "En salsa dashi dulce.",
             price: 9500,
           },
           {
-            id: 4301,
-            title: "Asado braseado",
-            description: "Sobre crema de boniato",
-            price: 8500,
+            id: 3001,
+            title: "Rabas",
+            description: "Con lactonesa de albahaca y limón.",
+            price: 10500,
           },
 {
             id: 4304,
             title: "Tentáculo de pulpo",
             description: "Sobre crema de papas.",
             price: 12800,
+          },
+          {
+            id: 3003,
+            title: "Picada de mar",
+            description:
+              "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
+            price: 16500,
           },
         ],
       },
@@ -345,20 +343,9 @@ const categories = [
         products: [
           {
             id: 3201,
-            title: "Lomito completo",
-            description: "Lechuga, tomate, jamón y queso. Con guarnición.",
-            price: 12500,
-          },
-          {
-            id: 3201,
             title: "Milanesa de ojo de bife",
             description: "Con guarnición.",
             price: 8500,
-          },
-          {
-            id: 3201,
-            title: "Revuelto gramajo",
-            price: 9500,
           },
           {
             id: 3201,
@@ -368,9 +355,21 @@ const categories = [
           },
           {
             id: 3201,
+            title: "Revuelto gramajo",
+            description: "Para compartir",
+            price: 9500,
+          },
+          {
+            id: 3201,
             title: "Merluza a la romana",
             description: "Con guarnición",
             price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Lomito completo",
+            description: "Lechuga, tomate, jamón y queso. Con guarnición.",
+            price: 12500,
           },
         ],
       },
@@ -431,12 +430,6 @@ const categories = [
         products: [
           {
             id: 3201,
-            title: "Pesca del día.",
-            description: "En manteca de hierbas y lmón con papas fondant",
-            price: 9500,
-          },
-          {
-            id: 3201,
             title: "Wok de vegetales",
             price: 7500,
           },
@@ -456,11 +449,10 @@ const categories = [
             price: 9500,
           },
           {
-            id: 4402,
-            title: "Salmón del pacífico",
-            description:
-              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
-            price: 18500,
+            id: 3201,
+            title: "Pesca del día.",
+            description: "En manteca de hierbas y lmón con papas fondant",
+            price: 9500,
           },
           {
             id: 4404,
@@ -480,6 +472,13 @@ const categories = [
             title: "Papardelle",
             description: "Con salsa de gambas y langostinos.",
             price: 14200,
+          },
+          {
+            id: 4402,
+            title: "Salmón del pacífico",
+            description:
+              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
+            price: 18500,
           },
         ],
       },
@@ -504,12 +503,6 @@ const categories = [
             price: 6500,
           },
           {
-            id: 3501,
-            title: "Salmón gravlax",
-            description: "Con pasta de palta, rúcula y cebolla morada.",
-            price: 12500,
-          },
-          {
             id: 3502,
             title: "Pollo",
             description: "Con lechuga, escamas de parmesano y cebolla crispy.",
@@ -520,6 +513,12 @@ const categories = [
             title: "Escarola",
             description: "Con peras, palta, champignones y tomate confitado.",
             price: 8500,
+          },
+          {
+            id: 3501,
+            title: "Salmón gravlax",
+            description: "Con pasta de palta, rúcula y cebolla morada.",
+            price: 12500,
           },
           // {
           //   id: 3504,
@@ -604,16 +603,16 @@ const categories = [
         title: "Nuestras picadas",
         products: [
           {
-            id: 3001,
-            title: "Rabas",
-            description: "Con lactonesa de albahaca y limón.",
-            price: 10500,
-          },
-          {
             id: 3002,
             title: "Papas chafadas doble cocción con trío de salsa",
             description: "Duxele de hongos, fondeau de quesos y salsa brava.",
             price: 9500,
+          },
+          {
+            id: 3001,
+            title: "Rabas",
+            description: "Con lactonesa de albahaca y limón.",
+            price: 10500,
           },
           {
             id: 3003,
@@ -684,9 +683,9 @@ const categories = [
           },
           {
             id: 4304,
-            title: "Tartar de salmón y palta",
-            description: "Con infusión de flores.",
-            price: 9500,
+            title: "Crocante de queso de cabra",
+            description: "Con cebolla caramelizada y tomates confitados.",
+            price: 6500,
           },
           {
             id: 4304,
@@ -695,10 +694,10 @@ const categories = [
             price: 7500,
           },
           {
-            id: 4304,
-            title: "Tentáculo de pulpo",
-            description: "Sobre crema de papas.",
-            price: 12800,
+            id: 4301,
+            title: "Asado braseado",
+            description: "Sobre crema de boniato",
+            price: 8500,
           },
           {
             id: 3003,
@@ -713,9 +712,9 @@ const categories = [
           },
           {
             id: 4304,
-            title: "Crocante de queso de cabra",
-            description: "Con cebolla caramelizada y tomates confitados.",
-            price: 6500,
+            title: "Tartar de salmón y palta",
+            description: "Con infusión de flores.",
+            price: 9500,
           },
           {
             id: 4304,
@@ -724,10 +723,10 @@ const categories = [
             price: 9500,
           },
           {
-            id: 4301,
-            title: "Asado braseado",
-            description: "Sobre crema de boniato",
-            price: 8500,
+            id: 4304,
+            title: "Tentáculo de pulpo",
+            description: "Sobre crema de papas.",
+            price: 12800,
           },
         ],
       },
@@ -741,6 +740,12 @@ const categories = [
             title: "Risotto de té de matcha",
             description: "Con atún rojo y espuma de lima.",
             price: 10500,
+          },
+          {
+            id: 4405,
+            title: "Corte de cerdo confitado",
+            description: "Sobre crujiente de papa y salsa holandesa.",
+            price: 12800,
           },
           {
             id: 4404,
@@ -758,9 +763,15 @@ const categories = [
           },
           {
             id: 4405,
-            title: "Corte de cerdo confitado",
-            description: "Sobre crujiente de papa y salsa holandesa.",
-            price: 12800,
+            title: "Sorrento de autor",
+            description: "Con salsa del chef.",
+            price: 14200,
+          },
+          {
+            id: 4405,
+            title: "Papardelle",
+            description: "Con salsa de gambas y langostinos.",
+            price: 14200,
           },
           {
             id: 4403,
@@ -775,18 +786,6 @@ const categories = [
             description:
               "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
             price: 18500,
-          },
-          {
-            id: 4405,
-            title: "Sorrento de autor",
-            description: "Con salsa del chef.",
-            price: 14200,
-          },
-          {
-            id: 4405,
-            title: "Papardelle",
-            description: "Con salsa de gambas y langostinos.",
-            price: 14200,
           },
         ],
       },

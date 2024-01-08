@@ -1819,20 +1819,20 @@ const categories = [
             title: "Casa Boher - Extra Brut",
             description: "Rosell",
 
-            price: 23600,
+            price: 24600,
           },
           {
             id: 6402,
             title: "Rosell Boher - Brut",
             description: "Rosell",
 
-            price: 30600,
+            price: 23800,
           },
           {
             id: 6402,
             title: "Royale",
             description: "Bressia",
-            price: 6900,
+            price: 30600,
           },
         ],
       },

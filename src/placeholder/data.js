@@ -663,7 +663,7 @@ const categories = [
         id: 4003,
         title: "Entrantes",
         products: [
-          {
+                    {
             id: 4302,
             title: "Gazpacho",
             description:
@@ -694,6 +694,7 @@ const categories = [
             description: "Con careta de cerdo.",
             price: 7500,
           },
+          
           {
             id: 4301,
             title: "Asado braseado",
@@ -710,6 +711,12 @@ const categories = [
             title: "Cous-cous de coliflor",
             description: "Al curry con leche de coco.",
             price: 9000,
+          },
+            {
+            id: 3003,
+            title: "Pincho de langostinos empanados",
+            description: "En pistacho con salsa de maracuyá.",
+            price: 9500,
           },
           {
             id: 4304,
@@ -736,6 +743,32 @@ const categories = [
         title: "Principales",
         type: "special",
         products: [
+           {
+            id: 3201,
+            title: "Wok de vegetales",
+            price: 7500,
+          },
+          {
+            id: 3201,
+            title: "Wok de ternera",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Wok de pollo",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Wok de langostinos",
+            price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Pesca del día.",
+            description: "En manteca de hierbas y lmón con papas fondant",
+            price: 9500,
+          },
           {
             id: 4401,
             title: "Risotto de té de matcha",
@@ -790,10 +823,164 @@ const categories = [
           },
         ],
       },
+       {
+        id: 302,
+        title: "Los clásicos de siempre",
+        description: "Disfrutalos con guarnición o en sandwich",
+        type: "common",
+        products: [
+          {
+            id: 3201,
+            title: "Milanesa de ojo de bife",
+            description: "Con guarnición.",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Pechuga grillada",
+            description: "Con guarnición",
+            price: 8500,
+          },
+          {
+            id: 3201,
+            title: "Revuelto gramajo",
+            description: "Para compartir",
+            price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Merluza a la romana",
+            description: "Con guarnición",
+            price: 9500,
+          },
+          {
+            id: 3201,
+            title: "Lomito completo",
+            description: "Lechuga, tomate, jamón y queso. Con guarnición.",
+            price: 12500,
+          },
+        ],
+      },
+      {
+        id: 305,
+        title: "Nuestros sandwichs",
+        type: "common",
+        products: [
+          {
+            id: 3501,
+            title: "Jamón natural y queso",
+            price: 4500,
+          },
+          {
+            id: 3501,
+            title: "Jamón crudo, rúcula y tomate",
+            price: 6500,
+          },
+          {
+            id: 3501,
+            title: "Vegetales salteados, berenjenas y queso",
+            price: 6500,
+          },
+          {
+            id: 3502,
+            title: "Pollo",
+            description: "Con lechuga, escamas de parmesano y cebolla crispy.",
+            price: 8500,
+          },
+          {
+            id: 3504,
+            title: "Escarola",
+            description: "Con peras, palta, champignones y tomate confitado.",
+            price: 8500,
+          },
+          {
+            id: 3501,
+            title: "Salmón gravlax",
+            description: "Con pasta de palta, rúcula y cebolla morada.",
+            price: 12500,
+          },
+          // {
+          //   id: 3504,
+          //   title: "Lomo",
+          //   description: "Con rúcula, tomate confitado y queso feta frío.",
+          //   price: 9500,
+          // },
+        ],
+      },
+      {
+        id: 303,
+        title: "Guarniciones",
+        type: "common",
+        products: [
+          {
+            id: 3000,
+            title: "Puré de papas",
+            price: 5500,
+          },
+          {
+            id: 3001,
+            title: "Puré de calabaza",
+            price: 5500,
+          },
+          {
+            id: 3002,
+            title: "Papas fritas",
+            price: 5500,
+          },
+        ],
+      },
+      {
+        id: 303,
+        title: "Menú infantil",
+        type: "common",
+        products: [
+          {
+            id: 3201,
+            title: "Mozzarella rebosada con puré",
+            price: 5500,
+          },
+          {
+            id: 3202,
+            title: "Hamburguesa",
+            description: "Con papas fritas o puré.",
+            price: 5500,
+          },
+          {
+            id: 3203,
+            title: "Ñoquis",
+            price: 5500,
+          },
+          {
+            id: 3003,
+            title: "Spaguettis",
+            price: 5500,
+          },
+        ],
+      },
       {
         id: 4004,
         title: "Postres",
         products: [
+          {
+            id: 3501,
+            title: "Flan casero de tres leches",
+            price: 4500,
+          },
+          {
+            id: 3502,
+            title: "Macedonia de estación",
+            price: 4500,
+          },
+          {
+            id: 3504,
+            title: "Crema helada",
+            price: 4500,
+          },
+          {
+            id: 3504,
+            title: "Cuadrado de almendras",
+            price: 4500,
+          },
           {
             id: 4401,
             title: "Cheesecake de mojito",

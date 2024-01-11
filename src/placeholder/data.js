@@ -103,14 +103,15 @@ const categories = [
           },
           {
             id: 2011,
-            title: "Le Belle piu dolce",
+            title: "Café dolce",
             description: "Café, dulce de leche, crema y chocolate negro",
-            price: 3300,
+            price: 3100,
           },
           {
             id: 2011,
-            title: "Café dolce",
-            price: 3100,
+            title: "Le Belle piu dolce",
+            description: "Café, leche condensada, chocolate blanco y almendras picadas.",
+            price: 3300,
           },
         ],
       },
@@ -467,12 +468,12 @@ const categories = [
             description: "Con salsa del chef.",
             price: 14200,
           },
-           {
-            id: 4405,
-            title: "Papardelle",
-            description: "Con salsa de gambas y langostinos.",
-            price: 14200,
-          },
+        //   {
+        //    id: 4405,
+         //   title: "Papardelle",
+       //  description: "Con salsa de gambas y langostinos.",
+          //  price: 14200,
+       //   },
           {
             id: 4402,
             title: "Salmón del pacífico",
@@ -767,12 +768,12 @@ const categories = [
             description: "Con salsa del chef.",
             price: 14200,
           },
-          {
-            id: 4405,
-            title: "Papardelle",
-            description: "Con salsa de gambas y langostinos.",
-            price: 14200,
-          },
+        //  {
+      //      id: 4405,
+       //     title: "Papardelle",
+    //      description: "Con salsa de gambas y langostinos.",
+     //       price: 14200,
+    //      },
           {
             id: 4403,
             title: "Chernia",
@@ -863,7 +864,7 @@ const categories = [
           {
             id: 1005,
             title: "Limonada",
-            description: "Limón, almíbar, menta, jengibre y agua.",
+            description: "Limón, almíbar, menta, jengibre y soda.",
             price: 2500,
           },
         ],

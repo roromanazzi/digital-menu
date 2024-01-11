@@ -1747,7 +1747,7 @@ const categories = [
       },
       {
         id: 605,
-        title: "Bodega Cavas Resell Boher",
+        title: "Bodega Cavas Rosell Boher",
         type: "common",
         products: [
           {

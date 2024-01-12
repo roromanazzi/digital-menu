@@ -1606,7 +1606,16 @@ const categories = [
             title: "Saint Felicien - Chardonnay",
             price: 16400,
           },
-        
+          {
+            id: 6201,
+            title: "DV Catena - Cabernet Malbec",
+            price: 15500,
+          },
+          {
+            id: 6201,
+            title: "DV Catena - Chardonnay Chardonnay",
+            price: 26600,
+          },
         ],
       },
       {
@@ -1618,16 +1627,6 @@ const categories = [
             id: 6201,
             title: "DV Catena - Malbec Malbec",
             price: 24400,
-          },
-          {
-            id: 6201,
-            title: "DV Catena - Cabernet Cabernet",
-            price: 15500,
-          },
-          {
-            id: 6201,
-            title: "DV Catena - Chardonnay",
-            price: 26600,
           },
           {
             id: 6202,
@@ -1644,11 +1643,11 @@ const categories = [
             title: "Angélica Zapata - Chardonnay Alta",
             price: 33900,
           },
-          // {
-          //   id: 6202,
-          //   title: "Malbec Argentino",
-          //   price: 6900,
-          // },
+          {
+            id: 6202,
+            title: "Malbec Argentino",
+            price: 6900,
+          },
         ],
       },
        {

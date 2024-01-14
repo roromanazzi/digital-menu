@@ -1061,20 +1061,21 @@ const categories = [
         title: "Tragos de Autor",
         type: "special",
         products: [
-          // {
-          //   id: 1011,
-          //   title: "Marga 2.0",
-          //   description:
-          //     "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
-          //   price: 5000,
-          // },
-          // {
-          //   id: 1012,
-          //   title: "Explorador",
-          //   description:
-          //     "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
-          //   price: 4700,
-          // },
+          {
+             id: 1011,
+             title: "Marga 2.0",
+            description:
+             "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
+          
+   price: 5000,
+           },
+           {
+             id: 1012,
+            title: "Explorador",
+            description:
+              "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
+            price: 4700,
+           },
           {
             id: 1013,
             title: "Ananashe",
@@ -1121,13 +1122,13 @@ const categories = [
               "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
              price: 5000,
            },
-          // {
-          //   id: 1016,
-          //   title: "This is Kaléndula?",
-          //   description:
-          //     "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-          //   price: 5000,
-          // },
+           {
+             id: 1016,
+            title: "This is Kaléndula?",
+            description:
+              "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+            price: 5000,
+           },
            {
              id: 1016,
            title: "Aromático",
@@ -1142,12 +1143,12 @@ const categories = [
               "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
             price: 5500,
           },
-          // {
-          //   id: 1016,
-          //   title: "Kyomu",
-          //   description: "Blend de té, frutilla, durazno, legumbres y tepache.",
-          //   price: 4000,
-          // },
+           {
+            id: 1016,
+           title: "Kyomu",
+          description: "Blend de té, frutilla, durazno, legumbres y tepache.",
+             price: 4000,
+           },
           {
             id: 1016,
             title: "Botánica",
@@ -1155,12 +1156,12 @@ const categories = [
              "Don mix, cordial de ruibardo, brotes y espuma de melón.",
             price: 4000,
           },
-          // {
-          //   id: 1016,
-          //   title: "Not bloody",
-          //   description: "Black Label, frutilla, tomate, sriracha y especias.",
-          //   price: 5500,
-          // },
+           {
+             id: 1016,
+             title: "Not bloody",
+            description: "Black Label, frutilla, tomate, sriracha y especias.",
+             price: 5500,
+           },
         ],
       },
       {

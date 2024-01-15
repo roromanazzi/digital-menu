@@ -1122,13 +1122,13 @@ const categories = [
               "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
              price: 5000,
            },
-           {
-             id: 1016,
-            title: "This is Kaléndula?",
-            description:
-              "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-            price: 5000,
-           },
+         //  {
+       //      id: 1016,
+        //    title: "This is Kaléndula?",
+        //  description:
+       //       "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+      //      price: 5000,
+       //    },
            {
              id: 1016,
            title: "Aromático",
@@ -1143,12 +1143,12 @@ const categories = [
               "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
             price: 5500,
           },
-           {
-            id: 1016,
-           title: "Kyomu",
-          description: "Blend de té, frutilla, durazno, legumbres y tepache.",
-             price: 4000,
-           },
+      //     {
+      //      id: 1016,
+       //    title: "Kyomu",
+      //    description: "Blend de té, frutilla, durazno, legumbres y tepache.",
+    //         price: 4000,
+     //      },
           {
             id: 1016,
             title: "Botánica",

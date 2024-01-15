@@ -220,7 +220,7 @@ const categories = [
           {
             id: 2029,
             title: "Limonada de menta y jengibre",
-            price: 2800,
+            price: 2500,
           },
           {
             id: 2030,
@@ -1122,13 +1122,13 @@ const categories = [
               "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
              price: 5000,
            },
-         //  {
-       //      id: 1016,
-        //    title: "This is Kaléndula?",
-        //  description:
-       //       "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-      //      price: 5000,
-       //    },
+         {
+            id: 1016,
+           title: "This is Kaléndula?",
+         description:
+          "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+        price: 5000,
+           },
            {
              id: 1016,
            title: "Aromático",
@@ -1647,7 +1647,7 @@ const categories = [
           {
             id: 6202,
             title: "Malbec Argentino",
-            price: 6900,
+            price: 78500,
           },
         ],
       },

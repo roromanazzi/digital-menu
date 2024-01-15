@@ -179,7 +179,8 @@ const categories = [
           },
           {
             id: 2024,
-            title: "Tostado árabe",
+            title: "Panini",
+            description: "De jamón y queso.",
             price: 4900,
           },
           {
@@ -1149,13 +1150,13 @@ const categories = [
       //    description: "Blend de té, frutilla, durazno, legumbres y tepache.",
     //         price: 4000,
      //      },
-          {
-            id: 1016,
-            title: "Botánica",
-           description:
-             "Don mix, cordial de ruibardo, brotes y espuma de melón.",
-            price: 4000,
-          },
+       //   {
+         //   id: 1016,
+       //     title: "Botánica",
+        //   description:
+          //   "Don mix, cordial de ruibarbo, brotes y espuma de melón.",
+        //    price: 4000,
+         // },
            {
              id: 1016,
              title: "Not bloody",

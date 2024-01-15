@@ -88,6 +88,12 @@ const categories = [
           },
           {
             id: 2011,
+            title: "Café dolce",
+            description: "Café, dulce de leche, crema y chocolate negro",
+            price: 3100,
+          },
+          {
+            id: 2011,
             title: "Café irlandés",
             price: 3700,
           },
@@ -100,12 +106,6 @@ const categories = [
             id: 2011,
             title: "Café suizo",
             price: 3700,
-          },
-          {
-            id: 2011,
-            title: "Café dolce",
-            description: "Café, dulce de leche, crema y chocolate negro",
-            price: 3100,
           },
           {
             id: 2011,
@@ -161,6 +161,33 @@ const categories = [
         type: "common",
         products: [
           {
+            id: 2025,
+            title: "Medialunas",
+            description: "Dulces o saladas",
+            price: 800,
+          },
+          {
+            id: 2028,
+            title: "Cookie",
+            price: 1700,
+          },
+          {
+            id: 2025,
+            title: "Medialunas con jamón y queso",
+            description: "Dos unidades",
+            price: 2000,
+          },
+          {
+            id: 2028,
+            title: "Porción de budín",
+            price: 2000,
+          },
+          {
+            id: 2027,
+            title: "Brownie",
+            price: 2100,
+          },
+          {
             id: 2021,
             title: "Tostadas de campo",
             description: "Con dip de queso y mermelada natural.",
@@ -184,32 +211,10 @@ const categories = [
             price: 4900,
           },
           {
-            id: 2025,
-            title: "Medialunas",
-            description: "Dulces o saladas",
-            price: 800,
-          },
-          {
-            id: 2025,
-            title: "Medialunas con jamón y queso",
-            description: "Dos unidades",
-            price: 2000,
-          },
-
-          {
-            id: 2027,
-            title: "Brownie",
-            price: 2100,
-          },
-          {
-            id: 2028,
-            title: "Porción de budín",
-            price: 2000,
-          },
-          {
-            id: 2028,
-            title: "Cookie",
-            price: 1700,
+            id: 2024,
+            title: "Tostón Le Belle",
+            description: "Dos tostadas con huevos revueltos, palta y panceta.",
+            price: 7900,
           },
         ],
       },
@@ -232,6 +237,12 @@ const categories = [
             id: 2031,
             title: "Licuado frutal",
             price: 3100,
+          },
+          {
+            id: 2031,
+            title: "Yogurt natural",
+            description: "Con granola y frutas.",
+            price: 4800,
           },
         ],
       },

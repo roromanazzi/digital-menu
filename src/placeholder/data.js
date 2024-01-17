@@ -110,7 +110,8 @@ const categories = [
           {
             id: 2011,
             title: "Le Belle piu dolce",
-            description: "Café, leche condensada, chocolate blanco y almendras picadas.",
+            description:
+              "Café, leche condensada, chocolate blanco y almendras picadas.",
             price: 3300,
           },
         ],
@@ -310,11 +311,11 @@ const categories = [
             price: 8500,
           },
           {
-           id: 3002,
-           title: "Papas chafadas doble cocción con trío de salsa",
+            id: 3002,
+            title: "Papas chafadas doble cocción con trío de salsa",
             description: "Duxele de hongos, fondeau de quesos y salsa brava.",
             price: 9000,
-           },
+          },
           {
             id: 3003,
             title: "Pincho de langostinos empanados",
@@ -333,7 +334,7 @@ const categories = [
             description: "Con lactonesa de albahaca y limón.",
             price: 10500,
           },
-{
+          {
             id: 4304,
             title: "Tentáculo de pulpo",
             description: "Sobre crema de papas.",
@@ -480,12 +481,12 @@ const categories = [
             description: "Con salsa del chef.",
             price: 14200,
           },
-        //   {
-        //    id: 4405,
-         //   title: "Papardelle",
-       //  description: "Con salsa de gambas y langostinos.",
+          //   {
+          //    id: 4405,
+          //   title: "Papardelle",
+          //  description: "Con salsa de gambas y langostinos.",
           //  price: 14200,
-       //   },
+          //   },
           {
             id: 4402,
             title: "Salmón del pacífico",
@@ -675,7 +676,7 @@ const categories = [
         id: 4003,
         title: "Entrantes",
         products: [
-                    {
+          {
             id: 4302,
             title: "Gazpacho",
             description:
@@ -706,7 +707,7 @@ const categories = [
             description: "Con careta de cerdo.",
             price: 7500,
           },
-          
+
           {
             id: 4301,
             title: "Asado braseado",
@@ -724,7 +725,7 @@ const categories = [
             description: "Al curry con leche de coco.",
             price: 9000,
           },
-            {
+          {
             id: 3003,
             title: "Pincho de langostinos empanados",
             description: "En pistacho con salsa de maracuyá.",
@@ -755,7 +756,7 @@ const categories = [
         title: "Principales",
         type: "special",
         products: [
-           {
+          {
             id: 3201,
             title: "Wok de vegetales",
             price: 7500,
@@ -813,12 +814,12 @@ const categories = [
             description: "Con salsa del chef.",
             price: 14200,
           },
-        //  {
-      //      id: 4405,
-       //     title: "Papardelle",
-    //      description: "Con salsa de gambas y langostinos.",
-     //       price: 14200,
-    //      },
+          //  {
+          //      id: 4405,
+          //     title: "Papardelle",
+          //      description: "Con salsa de gambas y langostinos.",
+          //       price: 14200,
+          //      },
           {
             id: 4403,
             title: "Chernia",
@@ -835,7 +836,7 @@ const categories = [
           },
         ],
       },
-       {
+      {
         id: 302,
         title: "Los clásicos de siempre",
         description: "Disfrutalos con guarnición o en sandwich",
@@ -1077,23 +1078,23 @@ const categories = [
             id: 1011,
             title: "Marga 2.0",
             description:
-             "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
+              "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
             price: 5000,
-           },
-           {
+          },
+          {
             id: 1012,
             title: "Explorador",
             description:
               "Fernet Branca clarificado, cordial simple, soda de cúrcuma y manzanilla.",
             price: 4700,
-           },
+          },
           {
             id: 1013,
             title: "Ananashe",
             description: "Ron jamaiquino, Borghetti, ananá y mix de cítricos.",
             price: 4700,
           },
-           {
+          {
             id: 1014,
             title: "Trufa",
             description:
@@ -1108,11 +1109,11 @@ const categories = [
           },
           {
             id: 1016,
-           title: "Floral",
+            title: "Floral",
             description:
-            "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
+              "Shrub de pera y especias, néctar de sauco, don mix y ginger ale.",
             price: 4000,
-           },
+          },
           {
             id: 1016,
             title: "Mentor",
@@ -1127,26 +1128,26 @@ const categories = [
             price: 4700,
           },
           {
-             id: 1016,
-            title: "Argento",
-           description:
-              "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
-             price: 5000,
-           },
-         {
             id: 1016,
-           title: "This is Kaléndula?",
-         description:
-          "Red Label, cynar 70 clarificado, kale y bitter aromático.",
-        price: 5000,
-           },
-           {
-             id: 1016,
-           title: "Aromático",
+            title: "Argento",
+            description:
+              "Sernova fat washing chimichurri, carpano de aceitunas y aceto balsámico.",
+            price: 5000,
+          },
+          {
+            id: 1016,
+            title: "This is Kaléndula?",
+            description:
+              "Red Label, cynar 70 clarificado, kale y bitter aromático.",
+            price: 5000,
+          },
+          {
+            id: 1016,
+            title: "Aromático",
             description:
               "Branca Menta intervenido con pino, falernum, sour mix y jerez.",
             price: 5000,
-           },
+          },
           {
             id: 1016,
             title: "Bonanza",
@@ -1154,25 +1155,25 @@ const categories = [
               "Ballantines 7 años, Ramazzotti, espresso, Borghetti y almendras.",
             price: 5500,
           },
-      //     {
-      //      id: 1016,
-       //    title: "Kyomu",
-      //    description: "Blend de té, frutilla, durazno, legumbres y tepache.",
-    //         price: 4000,
-     //      },
-       //   {
-             id: 1016,
+          //     {
+          //      id: 1016,
+          //    title: "Kyomu",
+          //    description: "Blend de té, frutilla, durazno, legumbres y tepache.",
+          //         price: 4000,
+          //      },
+          {
+            id: 1016,
             title: "Botánica",
-          description:
-          "Don mix, cordial de ruibarbo, brotes y espuma de melón.",
-          price: 4000,
-        },
-           {
-             id: 1016,
-             title: "Not bloody",
+            description:
+              "Don mix, cordial de ruibarbo, brotes y espuma de melón.",
+            price: 4000,
+          },
+          {
+            id: 1016,
+            title: "Not bloody",
             description: "Black Label, frutilla, tomate, sriracha y especias.",
-             price: 5500,
-           },
+            price: 5500,
+          },
         ],
       },
       {
@@ -1213,7 +1214,8 @@ const categories = [
           {
             id: 1025,
             title: "Cosmopolitan",
-            description: "Servona Vodka, cramberry, Hesperidina, limón y almíbar.",
+            description:
+              "Servona Vodka, cramberry, Hesperidina, limón y almíbar.",
             price: 4000,
           },
           {
@@ -1561,7 +1563,7 @@ const categories = [
       },
     ],
   },
-   {
+  {
     id: 5,
     title: "Vinos",
     pathName: "vinos",
@@ -1688,24 +1690,24 @@ const categories = [
           },
         ],
       },
-       {
-         id: 604,
-         title: "Bodega Séptima",
-         type: "common",
-         products: [
-           {
-             id: 6301,
-             title: "Séptima - Malbec",
-             price: 8600,
-           },
-           {
-             id: 6302,
-             title: "Séptima - Cabernet Sauvignon",
-             price: 8600,
-           },
-           {
-             id: 6303,
-             title: "Séptima - Chardonnay",
+      {
+        id: 604,
+        title: "Bodega Séptima",
+        type: "common",
+        products: [
+          {
+            id: 6301,
+            title: "Séptima - Malbec",
+            price: 8600,
+          },
+          {
+            id: 6302,
+            title: "Séptima - Cabernet Sauvignon",
+            price: 8600,
+          },
+          {
+            id: 6303,
+            title: "Séptima - Chardonnay",
             price: 8600,
           },
           {

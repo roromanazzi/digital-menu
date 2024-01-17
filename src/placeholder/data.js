@@ -1074,24 +1074,23 @@ const categories = [
         type: "special",
         products: [
           {
-             id: 1011,
-             title: "Marga 2.0",
+            id: 1011,
+            title: "Marga 2.0",
             description:
              "Tequila infusionado, vermouth de mostaza y coriandro, néctar de sauco y solución salina.",
-          
-   price: 5000,
+            price: 5000,
            },
            {
-             id: 1012,
+            id: 1012,
             title: "Explorador",
             description:
-              "Fernet clarificado, cordial simple, soda de cúrcuma y manzanilla.",
+              "Fernet Branca clarificado, cordial simple, soda de cúrcuma y manzanilla.",
             price: 4700,
            },
           {
             id: 1013,
             title: "Ananashe",
-            description: "Ron appleton, borghetti, ananá y mix de cítricos.",
+            description: "Ron jamaiquino, Borghetti, ananá y mix de cítricos.",
             price: 4700,
           },
            {
@@ -1104,7 +1103,7 @@ const categories = [
           {
             id: 1015,
             title: "Fresco",
-            description: "Cognac, pelargonium, aperol, Chandon Extra Brut.",
+            description: "Cognac, pelargonium, Aperol, Chandon Extra Brut.",
             price: 6000,
           },
           {
@@ -1118,7 +1117,7 @@ const categories = [
             id: 1016,
             title: "Mentor",
             description:
-              "Tanqueray London Dry, eucalipto, solución salina y solución mentolada.",
+              "Gin London Dry, eucalipto, solución salina y solución mentolada.",
             price: 4700,
           },
           {
@@ -1162,12 +1161,12 @@ const categories = [
     //         price: 4000,
      //      },
        //   {
-         //   id: 1016,
-       //     title: "Botánica",
-        //   description:
-          //   "Don mix, cordial de ruibarbo, brotes y espuma de melón.",
-        //    price: 4000,
-         // },
+             id: 1016,
+            title: "Botánica",
+          description:
+          "Don mix, cordial de ruibarbo, brotes y espuma de melón.",
+          price: 4000,
+        },
            {
              id: 1016,
              title: "Not bloody",
@@ -1184,93 +1183,99 @@ const categories = [
           {
             id: 1021,
             title: "Caipiroska",
-            description: "Vodka, lima y almíbar.",
+            description: "Sernova Vodka, lima y almíbar.",
+            price: 4000,
+          },
+          {
+            id: 1021,
+            title: "Blu Basil",
+            description: "Spirito Blu, albahaca, limón y almíbar.",
             price: 4000,
           },
           {
             id: 1022,
             title: "Martini",
-            description: "Gin London Dry y Vermouth Dry.",
+            description: "Spirito Blu y Vermouth Dry.",
             price: 3500,
           },
           {
             id: 1023,
             title: "Espresso martini",
-            description: "Vodka, espresso, borghetti y almíbar.",
+            description: "Sernova Vodka, espresso, Borghetti y almíbar.",
             price: 4000,
           },
           {
             id: 1024,
             title: "Pisco sour",
-            description: "Pisco Capel, almíbar, limón y albúmina.",
+            description: "Pisco, almíbar, limón y albúmina.",
             price: 4000,
           },
           {
             id: 1025,
             title: "Cosmopolitan",
-            description: "Vodka, cramberry, Hesperidina, limón y almíbar.",
+            description: "Servona Vodka, cramberry, Hesperidina, limón y almíbar.",
             price: 4000,
           },
           {
             id: 1026,
             title: "Manhattan",
-            description: "Jim Beam, Carpano rosso y bitter Angostura.",
+            description: "Bourbon, Carpano rosso y bitter Angostura.",
             price: 5000,
           },
 
           {
             id: 1027,
             title: "Boulevardier",
-            description: "Jim Beam, Campari y Vermouth rosso.",
+            description: "Bourbon, Campari y Carpano rosso.",
             price: 5000,
           },
           {
             id: 1028,
             title: "Old fashioned",
-            description: "Jim Beam, bitter Angostura y azúcar.",
+            description: "Bourbon, bitter Angostura y azúcar.",
             price: 5000,
           },
           {
             id: 1028,
             title: "Penicillin",
-            description: "Whisky, limón, miel y jengibre.",
+            description: "Whisky escocés, limón, miel y jengibre.",
             price: 5000,
           },
           {
             id: 1028,
             title: "Negroni",
-            description: "London dry, Campari y Vermouth rosso.",
+            description: "Spirito Blu, Campari y Carpano rosso.",
             price: 4000,
           },
           {
             id: 1028,
             title: "Tom Collins",
-            description: "Gin, almíbar, limón y soda.",
+            description: "Spirito Blu, almíbar, limón y soda.",
             price: 3500,
           },
           {
             id: 1028,
             title: "Gimblet",
-            description: "Gin, almíbar y limón.",
+            description: "Spirito Blu, almíbar y limón.",
             price: 3500,
           },
           {
             id: 1028,
             title: "Americano",
-            description: "Campari, Vermouth rosso y soda.",
+            description: "Campari, Carpano rosso y soda.",
             price: 3500,
           },
           {
             id: 1028,
             title: "Mojito",
             description:
-              "Bacardí blanco, almíbar, limón, menta, soda y bitter Angostura.",
+              "Ron blanco, almíbar, limón, menta, soda y bitter Angostura.",
             price: 4000,
           },
           {
             id: 1028,
             title: "Daiquiri cóctel",
-            description: "Bacardí blanco, almíbar y limón.",
+            description: "Ron blanco, almíbar y limón.",
             price: 4000,
           },
           {
@@ -1282,13 +1287,13 @@ const categories = [
           {
             id: 1028,
             title: "Margarita cóctel",
-            description: "Tequila, hesperidina, almíbar y limón.",
+            description: "Tequila, Hesperidina, almíbar y limón.",
             price: 4000,
           },
           {
             id: 1028,
             title: "Whisky Sour",
-            description: "Jim Beam, almíbar, limón y albúmina.",
+            description: "Bourbon, almíbar, limón y albúmina.",
             price: 5000,
           },
           {
@@ -1299,12 +1304,22 @@ const categories = [
           },
           {
             id: 1028,
-            title: "Gin tonic",
+            title: "Spirito Blu tonic",
             price: 3500,
           },
           {
             id: 1028,
             title: "Fernet cola",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Carpano Originale",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Carpano Orange",
             price: 3500,
           },
           {
@@ -1316,6 +1331,16 @@ const categories = [
             id: 1028,
             title: "Garibaldi",
             description: "Campari y jugo de naranja.",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Pem tonic",
+            price: 3500,
+          },
+          {
+            id: 1028,
+            title: "Mint tonic",
             price: 3500,
           },
         ],

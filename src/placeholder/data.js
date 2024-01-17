@@ -1117,7 +1117,7 @@ const categories = [
             id: 1016,
             title: "Mentor",
             description:
-              "Gin London Dry, eucalipto, solución salina y solución mentolada.",
+              "Spirito Blu, eucalipto, solución salina y solución mentolada.",
             price: 4700,
           },
           {

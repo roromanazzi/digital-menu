@@ -1354,10 +1354,10 @@ const categories = [
         products: [
           {
             id: 1052,
-            title: "Príncipe de los apóstoles",
+            title: "Blu Spirito",
             price: 3500,
           },
-          {
+            {
             id: 1054,
             title: "Tanqueray London Dry",
             price: 4500,

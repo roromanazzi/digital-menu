@@ -1118,7 +1118,7 @@ const categories = [
             id: 1016,
             title: "Mentor",
             description:
-              "Spirito Blu, eucalipto, solución salina y solución mentolada.",
+              "Spirito Blu Gin, eucalipto, solución salina y solución mentolada.",
             price: 4700,
           },
           {
@@ -1190,13 +1190,13 @@ const categories = [
           {
             id: 1021,
             title: "Blu Basil",
-            description: "Spirito Blu, albahaca, limón y almíbar.",
+            description: "Spirito Blu Gin, albahaca, limón y almíbar.",
             price: 4000,
           },
           {
             id: 1022,
             title: "Martini",
-            description: "Spirito Blu y Vermouth Dry.",
+            description: "Spirito Blu Gin y Vermouth Dry.",
             price: 3500,
           },
           {
@@ -1246,19 +1246,19 @@ const categories = [
           {
             id: 1028,
             title: "Negroni",
-            description: "Spirito Blu, Campari y Carpano rosso.",
+            description: "Spirito Blu Gin, Campari y Carpano rosso.",
             price: 4000,
           },
           {
             id: 1028,
             title: "Tom Collins",
-            description: "Spirito Blu, almíbar, limón y soda.",
+            description: "Spirito Blu Gin, almíbar, limón y soda.",
             price: 3500,
           },
           {
             id: 1028,
             title: "Gimblet",
-            description: "Spirito Blu, almíbar y limón.",
+            description: "Spirito Blu Gin, almíbar y limón.",
             price: 3500,
           },
           {
@@ -1354,7 +1354,7 @@ const categories = [
         products: [
           {
             id: 1052,
-            title: "Blu Spirito",
+            title: "Spirito Blu",
             price: 3500,
           },
             {

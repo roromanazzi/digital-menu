@@ -1510,6 +1510,11 @@ const categories = [
         products: [
           {
             id: 1081,
+            title: "Sernova",
+            price: 3500,
+          },
+          {
+            id: 1081,
             title: "Absolut",
             price: 5500,
           },

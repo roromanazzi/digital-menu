@@ -303,7 +303,7 @@ price: 3000
           {
             id: 4304,
             title: "Ceviche de hongos y mango",
-            description: "Con aceite de trufas.",
+           
             price: 5800,
           },
           {
@@ -418,13 +418,13 @@ price: 3000
         products: [
           {
             id: 3201,
-            title: "Mozzarella rebosada con puré",
+            title: "Mozzarella rebosada con papas noisette.",
             price: 6000,
           },
           {
             id: 3202,
             title: "Hamburguesa",
-            description: "Con papas fritas o puré.",
+            description: "Con lechuga, tomate, jamón y queso. Con papas fritas o puré.",
             price: 6000,
           },
           {
@@ -493,7 +493,7 @@ price: 3000
             id: 4402,
             title: "Salmón del pacífico",
             description:
-              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
+              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles grillados.",
             price: 20000,
           },
         ],
@@ -505,17 +505,18 @@ price: 3000
         products: [
           {
             id: 3501,
-            title: "Jamón natural y queso",
+            title: "Jamón natural y queso.",
+            description: "También opción sin TACC",
             price: 5000,
           },
           {
             id: 3501,
-            title: "Jamón crudo, rúcula y tomate",
+            title: "Jamón crudo, rúcula y tomate.",
             price: 7000,
           },
           {
             id: 3501,
-            title: "Vegetales salteados, berenjenas y queso",
+            title: "Vegetales salteados, berenjenas y queso.",
             price: 7000,
           },
           {
@@ -683,13 +684,13 @@ price: 3000
             id: 4302,
             title: "Gazpacho",
             description:
-              "De tomate, pepino y salsa de ostras con crocante de jamón cerrano.",
+              "De tomate, pepino y salsa de ostras con crocante de jamón serrano.",
             price: 5800,
           },
           {
             id: 4304,
             title: "Ceviche de hongos y mango",
-            description: "Con aceite de trufas.",
+            // description: "Con aceite de trufas.",
             price: 5800,
           },
           {
@@ -782,7 +783,7 @@ price: 3000
           {
             id: 3201,
             title: "Pesca del día.",
-            description: "En manteca de hierbas y lmón con papas fondant",
+            description: "En manteca de hierbas y limón con papas fondant",
             price: 10500,
           },
           {
@@ -827,14 +828,14 @@ price: 3000
             id: 4403,
             title: "Chernia",
             description:
-              "Cocido en manteca de sidra con puré de coliflor mangos grillas y falso caviar de menta y limón.",
+              "Cocido en manteca de sidra con puré de coliflor mangos grillados y falso caviar de menta y limón.",
             price: 16000,
           },
           {
             id: 4402,
             title: "Salmón del pacífico",
             description:
-              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles confitados.",
+              "Con salsa teriyaki, café negro y cítricos con puerros asados y alcauciles grillados.",
             price: 20000,
           },
         ],
@@ -952,13 +953,13 @@ price: 3000
         products: [
           {
             id: 3201,
-            title: "Mozzarella rebosada con puré",
+            title: "Mozzarella rebosada con papas noisette.",
             price: 6000,
           },
           {
             id: 3202,
             title: "Hamburguesa",
-            description: "Con papas fritas o puré.",
+            description: "Lechuga, tomate, jamón y queso. Con papas fritas o puré.",
             price: 6000,
           },
           {
@@ -1018,14 +1019,14 @@ price: 3000
             id: 4404,
             title: "Creme brulee de lavanda",
             description:
-              "Con salsa de arándanos, macarons de lavanda y crema de mascarpone",
+              "Con salsa de arándanos y flores.",
             price: 6000,
           },
           {
             id: 4405,
             title: "Sinfonía de trufas y bombones",
             description:
-              "Bombón blande de whisky y naranja - Bombón relleno de chocolate y menta - Trufa de coco y pecan - Trufa de chocolate blanco y frambuesa bombón de fernet.",
+              "Bombón blando de whisky y naranja - Bombón relleno de chocolate y menta - Trufa de coco y pecan - Trufa de chocolate blanco y frambuesa - Bombón de fernet.",
             price: 8000,
           },
           {

@@ -751,7 +751,7 @@ price: 3000
             id: 4304,
             title: "Tentáculo de pulpo",
             description: "Sobre crema de papas.",
-            price: 14000,
+            
           },
         ],
       },

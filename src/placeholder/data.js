@@ -347,7 +347,7 @@ price: 3000
             title: "Picada de mar",
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 18000,
+            price: 24000,
           },
         ],
       },
@@ -636,7 +636,7 @@ price: 3000
             title: "Picada de mar",
             description:
               "Rabas, calamarettis fritos, langostinos apanados en panko y polenta, mejillones a la provenzal, callos de vieyras salteados en pesto rojo y berberechos al ajillo.",
-            price: 18000,
+            price: 24000,
           },
         ],
       },
